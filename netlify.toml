@@ -1,0 +1,17 @@
+[build]
+    publish = "public"
+    command = """
+    purgecss --css assets/tailwind.min.css --content template --out static/
+    zola build
+    """
+
+[build.environment]
+    ZOLA_VERSION = "0.9.0"
+
+[context.deploy-preview]
+    # The magic for deploying previews of branches
+    # We need to override the base url with whatever url Netlify assigns to our
+    # preview site.  We do this using the Netlify environment variable
+    # `$DEPLOY_PRIME_URL`.
+    command = "zola build --base-url $DEPLOY_PRIME_URL"
+

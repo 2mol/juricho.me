@@ -1,0 +1,8 @@
+{
+  "name": "juricho.me",
+  "version": "1.0.0",
+  "dependencies": {
+    "purgecss": "^1.4.1"
+  }
+}
+
