@@ -1,7 +1,8 @@
 [build]
     publish = "public"
     command = """
-    purgecss --css assets/tailwind.min.css --content templates/**/*.html --out static/
+    mkdir -p static
+    purgecss --css assets/tailwind.min.css --content templates/**/*.html --out static
     zola build
     """
 
