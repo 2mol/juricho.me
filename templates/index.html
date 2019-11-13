@@ -1,18 +1,47 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0" />
-  <title></title>
+  <title>
+    {% block title %}Juri Chomé{% endblock test %}
+  </title>
   <meta name="description" content="">
   <link rel="stylesheet" href="/tailwind.min.css" />
   <link rel="stylesheet" href="/markdown.css" />
 
 </head>
 
-<body>
-  <h1 class="text-red-600">Juri Chomé</h1>
+<body class="text-gray-900 bg-white">
+  <div class="flex flex-col items-center min-h-screen">
+    <div class="bg-white max-w-2xl w-full md:border-l md:border-r md:border-purple-300 min-h-screen">
+      <div class="py-2 px-4 bg-purple-300" style="transform: skew(0deg, -5deg);">
+        <div class="font-bold text-4xl">
+          <a href="/">Juri Chomé</a>
+        </div>
+      </div>
+      <div class="py-4 px-10">
+
+        <div class="text-right mb-6 font-medium">
+          <a href="#">about</a>
+          /
+          <a href="#">projects</a>
+          /
+          <a href="https://github.com/2mol">github</a>
+          /
+          <a href="https://twitter.com/jurichome">twitter</a>
+        </div>
+
+        <div class="markdown">
+          {% block content %}
+          {{ section.content | safe }}
+          {% endblock content %}
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 </body>
 
