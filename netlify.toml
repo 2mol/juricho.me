@@ -2,7 +2,7 @@
     publish = "public"
     command = """
     mkdir -p static
-    purgecss --css assets/tailwind.min.css --content templates/**/*.html --out static
+    cp assets/tailwind.min.css static/tailwind.min.css
     zola build
     """
 
