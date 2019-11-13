@@ -1,11 +1,11 @@
 +++
 +++
 
-Hi there! I'm Juri, I like to make things, so here is some of that.
+Hi there!
 
-Currently I'm enjoying playing with [data](https://d-one.ai), woodworking, and making webapps.
+I'm Juri, I like to make things, so here are some of them. Currently I'm enjoying playing with [data](https://d-one.ai), woodworking, and making webapps.
 
-## Projects and experiments
+## projects and experiments
 
 Here are some thing's I've made in the past:
 
