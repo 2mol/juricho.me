@@ -3,7 +3,7 @@
 
 Hi there, welcome to my personal site!
 
-I'm Juri, I like to make things, so here are some of them. Currently I'm enjoying playing with [data](https://d-one.ai), woodworking, and making webapps.
+I'm Juri, I like to make things, so here are some of them. Currently I enjoy playing with [data](https://d-one.ai), woodworking, and making webapps.
 
 ## projects and experiments
 
