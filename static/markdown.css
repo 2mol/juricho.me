@@ -1,10 +1,13 @@
 
-.markdown h1, h2, h3, h4 {
-  font-weight: 700;
-}
-.markdown h1, h2, h3, h4, h5 {
-  margin-bottom: 1rem;
+.markdown h1, h2 {
+  font-weight: 800;
   margin-top:2rem;
+  margin-bottom: 1rem;
+}
+.markdown h3, h4 {
+  font-weight: 600;
+  margin-top:2rem;
+  margin-bottom: 1rem;
 }
 .markdown p {
   margin-bottom: 1rem;
@@ -15,11 +18,19 @@
 .markdown h2 {
   font-size: 1.5rem;
 }
+.markdown h3 {
+  font-size: 1.25rem;
+}
 .markdown a:link {
-  color:#4078f1
+  color:#567ed6;
+  text-decoration: underline;
 }
 .markdown a:visited {
-  color:#b8b8b8
+  color:#567ed6;
+  text-decoration: underline;
+}
+.markdown a:hover {
+  text-decoration: none;
 }
 .markdown ul {
   list-style-type: disc;
