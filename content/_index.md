@@ -9,20 +9,26 @@ I'm Juri, I like to make things, so here are some of them. Currently I'm enjoyin
 
 Lately I've been interested in how to build minimalist and clean UIs that make complex workflows seem easy and intuitive.
 
-### [gulliver](https://gllvr.com)
+### gulliver
 
 A trip planner with a focus on simplicity.
 
+→ [website](https://gllvr.com)
 
-### [paperboy](https://github.com/2mol/pboy)
+
+### paperboy
 
 A commandline utility to help with your pdf hoarding.
 
+→ [github](https://github.com/2mol/pboy)
 
-### [Unterhaltsrechner](https://2mol.gitlab.io/urechner)
+
+### Unterhaltsrechner
 
 A divorce rate calculator.
 
 Built as a prototype to show how complex legal rules can be translated into a tool with a clear user interface. It's in German, and only applicable to Swiss law, so don't go around using it for any of your divorces.
 
 Also, don't get divorced, turns out it's really expensive and messy.
+
+→ [demo](https://2mol.gitlab.io/urechner)
