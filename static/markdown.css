@@ -1,6 +1,6 @@
 
 .markdown h1, h2 {
-  font-weight: 800;
+  font-weight: 700;
   margin-top:2rem;
   margin-bottom: 1rem;
 }
@@ -16,17 +16,17 @@
   font-size: 2.25rem;
 }
 .markdown h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 .markdown h3 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 .markdown a:link {
-  color:#567ed6;
+  color:#4166b6;
   text-decoration: underline;
 }
 .markdown a:visited {
-  color:#567ed6;
+  color:#4166b6;
   text-decoration: underline;
 }
 .markdown a:hover {

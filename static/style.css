@@ -1,0 +1,18 @@
+/* some custom styles that are not possible to do in tailwind
+*/
+
+::selection {
+  background: #ffe96c; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffe96c; /* Gecko Browsers */
+}
+
+.slanted-header {
+  transform: skew(0deg, -3deg) translate(-1rem, 0);
+}
+
+.slanted-top {
+  transform: skew(0deg, -3deg);
+  margin-top: 2px;
+}

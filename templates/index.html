@@ -10,32 +10,33 @@
   <meta name="description" content="">
   <link rel="stylesheet" href="/tailwind.min.css" />
   <link rel="stylesheet" href="/markdown.css" />
+  <link rel="stylesheet" href="/style.css" />
 
 </head>
 
-<body class="text-gray-900 bg-white">
+<body class="text-gray-900">
   <div class="flex flex-col items-center min-h-screen">
-    <div class="bg-white max-w-2xl w-full">
-      <div class="py-2 px-4 bg-white md:border border-b border-gray-400 ml-4 -mr-4 md:mx-0" style="transform: skew(0deg, -3deg) translate(-1rem, 0); margin-bottom: -1px;">
+    <div class="max-w-2xl w-full">
+      <div class="slanted-header py-2 px-4 md:border border-b border-gray-400 ml-4 -mr-4 md:mx-0">
         <div class="font-bold text-4xl">
           <a class="ml-4" href="/">Juri Chomé</a>
         </div>
       </div>
-      <div class="border-gray-400 border-t md:border-l md:border-r -mb-6 pt-2" style="transform: skew(0deg, -3deg); margin-top: 2px;"></div>
+      <div class="slanted-top border-gray-400 border-t md:border-l md:border-r -mb-6 pt-2"></div>
 
-      <div class=" md:border-r md:border-b md:border-gray-400">
+      <div class=" md:border-r md:border-b md:border-gray-400 mb-6">
 
-        <div class="text-right font-medium pt-6 pr-6 ">
-          <a class ="underline" href="#">about</a>
+        <div class="text-right font-medium pt-6 pr-6">
+          <a class ="underline hover:no-underline" href="#">about</a>
           /
-          <a class ="underline" href="#">projects</a>
+          <a class ="underline hover:no-underline" href="#">projects</a>
           /
-          <a class ="underline" href="https://github.com/2mol">github</a>
+          <a class ="underline hover:no-underline" href="https://github.com/2mol">github</a>
           /
-          <a class ="underline" href="https://twitter.com/jurichome">twitter</a>
+          <a class ="underline hover:no-underline" href="https://twitter.com/jurichome">twitter</a>
         </div>
 
-        <div class="md:border-l border-gray-400 -mt-2 pt-8 md:pb-12 px-8 md:px-16">
+        <div class="md:border-l border-gray-400 -mt-2 pt-8 pb-4 md:pb-8 px-8 md:px-16">
           <div class="markdown">
             {% block content %}
             {{ section.content | safe }}
