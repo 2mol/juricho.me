@@ -1,6 +1,7 @@
 +++
-title = "Haskell REPL in your browser"
+title = "Write Haskell in your browser"
 date = 2019-02-13
+template = "posts.html"
 +++
 
 ## tl;dr
@@ -35,7 +36,7 @@ That last one is what this post is about. Repl.it is great for many reasons, not
 
 Unfortunately it's not clear which packages apart from `base` are built in. Random guessing quickly shows that at least `containers` and `text` are available, but I couldn't find a complete list anywhere. Of course we won't let that stop us. After a bit of fiddling and exploring:
 
-~~`:! ls -l /opt/ghc/8.6.3/lib/ghc-8.6.3/`~~
+<s>`:! ls -l /opt/ghc/8.6.3/lib/ghc-8.6.3/`</s>
 
 `:! ghc-pkg list`[^6]
 
@@ -82,17 +83,17 @@ We can see that we have access to the following[^8] libraries:
 
 FUN. I don't know about you, but at this point I get pretty excited, since this means that we can write a lot more serious stuff than I had initially realized.
 
-For example, we can write entire interactive command-line programs that repl.it will automatically serve up at `https://[replname].[username].repl.run`. [Here](https://haskeline-example.2mol.repl.run/) you can play with an example I simply copy-pasted from the [`haskeline`](https://hackage.haskell.org/package/haskeline) documentation.
+For example, we can write entire interactive command-line programs that repl.it will automatically serve up at `https://[replname].[username].repl.run`. [Here](https://haskeline-example.2mol.repl.run/) you can play with an example I simply copy-pasted from the [haskeline](https://hackage.haskell.org/package/haskeline) documentation.
 
 If you're not familiar with the libraries above, here's an (incomplete) overview:
 
-- The great [`containers`](https://hackage.haskell.org/package/containers) lets you use `Set`, `Map`, `Graph`, and `Tree`. The first two are especially nice if you're used to dictionaries and sets from other languages.
-- The low-level [`array`](https://hackage.haskell.org/package/array) gives you a structure that is faster than list for accessing elements at an arbitrary index.
-- [`parsec`](https://hackage.haskell.org/package/parsec) is your entry ticket into the world of ~~parser-combinators~~ INDUSTRIAL-STRENGTH PARSER COMBINATORS.
-- [`text`](https://hackage.haskell.org/package/text) and [`bytestring`](https://hackage.haskell.org/package/bytestring) replace `String` as the proper way to do either user-readable strings or binary data respectively.
-- [`mtl`](https://hackage.haskell.org/package/mtl) is how [people cooler than me](https://www.parsonsmatt.org/2018/03/22/three_layer_haskell_cake.html) structure big-boy programs.
-- [`template-haskell`](https://hackage.haskell.org/package/template-haskell) is how you write Haskell that ~~writes Haskell~~ creates [splices](https://en.wikipedia.org/wiki/Splice_(film)), which is metaprogramming and probably nice.
-- [`filepath`](https://hackage.haskell.org/package/filepath) and [`directory`](https://hackage.haskell.org/package/directory) let you interact with the file system, which repl.it _totally lets you do_!
+- The great [containers](https://hackage.haskell.org/package/containers) lets you use `Set`, `Map`, `Graph`, and `Tree`. The first two are especially nice if you're used to dictionaries and sets from other languages.
+- The low-level [array](https://hackage.haskell.org/package/array) gives you a structure that is faster than list for accessing elements at an arbitrary index.
+- [parsec](https://hackage.haskell.org/package/parsec) is your entry ticket into the world of <s>parser-combinators</s> INDUSTRIAL-STRENGTH PARSER COMBINATORS.
+- [text](https://hackage.haskell.org/package/text) and [bytestring](https://hackage.haskell.org/package/bytestring) replace `String` as the proper way to do either user-readable strings or binary data respectively.
+- [mtl](https://hackage.haskell.org/package/mtl) is how [people cooler than me](https://www.parsonsmatt.org/2018/03/22/three_layer_haskell_cake.html) structure big-boy programs.
+- [template-haskell](https://hackage.haskell.org/package/template-haskell) is how you write Haskell that <s>writes Haskell</s> creates [splices](https://en.wikipedia.org/wiki/Splice_(film)), which is metaprogramming and probably nice.
+- [filepath](https://hackage.haskell.org/package/filepath) and [directory](https://hackage.haskell.org/package/directory) let you interact with the file system, which repl.it _totally lets you do_!
 
 That's it for now, figure out the other libraries yourself. It would obviously be great to have more. For example to have [`wreq`](https://hackage.haskell.org/package/wreq) to make network requests, or some graphics package to create images or draw on the DOM.
 
@@ -102,7 +103,7 @@ With enough interest repl.it might be persuaded to include more packages. Before
 
 Now that you have no more excuses, I guess you just have to go and build stuff. If you're a newbie, then work through the exercises from [Haskell Programming from first principles](http://haskellbook.com/) (paid, but very worth it), or [Learn You a Haskell](http://learnyouahaskell.com/) (free and utterly charming).
 
-Use [`haskeline`](https://hackage.haskell.org/package/haskeline) and go write a clone of [Zork](https://en.wikipedia.org/wiki/Zork). Do whatever! Share what you make on [r/haskell](https://old.reddit.com/r/haskell/), and come ask questions in the #haskell channel on the [functional programming discord](https://discord.me/fp).
+Use [haskeline](https://hackage.haskell.org/package/haskeline) and go write a clone of [Zork](https://en.wikipedia.org/wiki/Zork). Do whatever! Share what you make on [r/haskell](https://old.reddit.com/r/haskell/), and come ask questions in the #haskell channel on the [functional programming discord](https://discord.me/fp).
 
 Here is a code snippet so that you don't get bored in the meantime. Save it into a new file in repl.it, hit run and load up the module with something like `:l Entropy.hs`.
 
@@ -140,21 +141,23 @@ entropy xs =
     -sum [p * logBase 2 p | p <- proportions xs]
 ```
 
-[^1]: Your `main` function will be run in a little pseudo-terminal, so all your ~~dumb~~ adorable little `putStrLn` and `getLine` will print text or wait for user input. You can't pass arguments or flags to your program tough, since you don't control stdin. It has to be interactive with something like `getLine`.
+---
+
+[^1]: Your `main` function will be run in a little pseudo-terminal, so all your `putStrLn` and `getLine` will print text or wait for user input. You can't pass arguments or flags to your program tough, since you don't control stdin.
+
+[^4]: I was skeptical of online programming environments at first, since the idea sounds a bit gimmicky. I changed my mind[^7] after seeing how many children build really impressive things in them, and how joyful it feels to use one for quick demos and experiments. It's really easy to send somebody a code snippet that just executes, zero friction. Beginners can still install stack or cabal afterwards, no rush.
 
 [^2]: We also have our very own [Haskell Kernel](https://github.com/gibiansky/IHaskell) currently maintained by total champion [Vaibhav Sagar](https://github.com/vaibhavsagar). It's all there, but more help is needed to remove some frictions for beginners, like a noob-friendly install experience and more cool [tutorials](https://www.youtube.com/watch?v=gR8LdlrEFnM). EDIT: I'm being informed on reddit that you can actually [use IHaskell online](https://mybinder.org/v2/gh/gibiansky/IHaskell/master).
 
 [^3]: Get it? JuPytR!
 
-[^4]: I was skeptical of online programming environments at first, since the idea sounds a bit gimmicky. I changed my mind[^7] after seeing how many children build really impressive things in them, and how joyful it feels to use one for quick demos and experiments. It's really easy to send somebody a code snippet that just executes, zero friction. Beginners can still install stack or cabal afterwards, no rush.
-
-[^7]: _meta-footnote_: Come to think of it, it was actually [https://tryhaskell.org/](https://tryhaskell.org/) that first exposed me to Haskell and made me so excited about it.
+[^6]: I didn't know about `ghc-pkg list`, but my friend [Nicolas](https://github.com/nmattia/) did.
 
 [^5]: I came across this in a [list of all ghci commands](https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/ghci-commands.html), hoping for one that lists all importable modules for a specific ghci session.
 
-[^6]: I didn't know about `ghc-pkg list`, but my friend [Nicolas](https://github.com/nmattia/) did.
-
 [^8]: Why precisely those? Turns out they are probably just the [core packages](https://ghc.haskell.org/trac/ghc/wiki/Commentary/Libraries/VersionHistory) that GHC ships with. Again, thanks Nicolas!
+
+[^7]: _meta-footnote_: Come to think of it, it was actually [https://tryhaskell.org/](https://tryhaskell.org/) that got me all fired up about Haskell for the very first time.
 
 [torus]: https://beta.observablehq.com/@renatoppl/torus-knots
 [sounds]: https://beta.observablehq.com/@freedmand/sounds
