@@ -104,7 +104,7 @@ With enough interest repl.it might be persuaded to include more packages. Before
 
 Now that you have no more excuses, I guess you just have to go and build stuff. If you're a newbie, then work through the exercises from [Haskell Programming from first principles](http://haskellbook.com/) (paid, but very worth it), or [Learn You a Haskell](http://learnyouahaskell.com/) (free and utterly charming).
 
-Use [haskeline](https://hackage.haskell.org/package/haskeline) and go write a clone of [Zork](https://en.wikipedia.org/wiki/Zork). Do whatever! Share what you make on [r/haskell](https://old.reddit.com/r/haskell/), and come ask questions in the #haskell channel on the [functional programming discord](https://discord.me/fp).
+Use [haskeline](https://hackage.haskell.org/package/haskeline) and go write a clone of [Zork](https://en.wikipedia.org/wiki/Zork). Do whatever! Share what you make on [r/haskell](https://old.reddit.com/r/haskell/), and come ask questions in the #haskell channel on the [functional programming discord](https://discordapp.com/channels/280033776820813825).
 
 Here is a code snippet so that you don't get bored in the meantime. Save it into a new file in repl.it, hit run and load up the module with something like `:l Entropy.hs`.
 
