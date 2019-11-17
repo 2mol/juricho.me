@@ -1,4 +1,5 @@
 +++
+title = "Juri Chomé"
 +++
 
 Hi there, welcome to my personal site!
