@@ -24,7 +24,11 @@ span.back-arrow {
 .back-arrow > a {
   font-size: 3rem;
   text-decoration: none;
-  color:#444;
+  color:rgb(197, 199, 206);
+}
+
+.back-arrow > a:visited {
+  color:rgb(197, 199, 206);
 }
 
 blockquote {
