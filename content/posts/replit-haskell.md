@@ -95,7 +95,7 @@ If you're not familiar with the libraries above, here's an (incomplete) overview
 - [template-haskell](https://hackage.haskell.org/package/template-haskell) is how you write Haskell that <s>writes Haskell</s> creates [splices](https://en.wikipedia.org/wiki/Splice_(film)), which is metaprogramming and probably nice.
 - [filepath](https://hackage.haskell.org/package/filepath) and [directory](https://hackage.haskell.org/package/directory) let you interact with the file system, which repl.it _totally lets you do_!
 
-That's it for now, figure out the other libraries yourself. It would obviously be great to have more. For example to have [`wreq`](https://hackage.haskell.org/package/wreq) to make network requests, or some graphics package to create images or draw on the DOM.
+That's it for now, figure out the other libraries yourself. It would obviously be great to have more. For example to have [wreq](https://hackage.haskell.org/package/wreq) to make network requests, or some graphics package to create images or draw on the DOM.
 
 With enough interest repl.it might be persuaded to include more packages. Before discovering all this, I messaged them on their [twitter](https://twitter.com/replit) to ask if they could update GHC from 8.0.x to 8.6.3 in the coming year, and they literally did it within an afternoon. Amazing.
 

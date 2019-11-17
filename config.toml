@@ -4,4 +4,4 @@ title = "Juri Chomé"
 default_language = "en"
 
 [extra]
-githubEditURL = "https://github.com/2mol/site/edit/master/content/"
+github_edit_url = "https://github.com/2mol/juricho.me/edit/master/content/"
