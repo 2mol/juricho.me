@@ -16,7 +16,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134695331-3"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-134695331-3');
   </script>
@@ -37,7 +37,7 @@
         <div class="text-right font-medium pt-6 pr-6">
           <a class="underline hover:no-underline" href="/about">about</a>
           /
-          <a class="underline hover:no-underline" href="#projects">projects</a>
+          <a class="underline hover:no-underline" href="/#projects">projects</a>
           /
           <a class="underline hover:no-underline" href="https://github.com/2mol">github</a>
           /
@@ -45,20 +45,37 @@
         </div>
 
         <div class="md:border-l border-gray-400 -mt-2 pt-8 pb-4 md:pb-8 px-8 md:px-16">
+
           <div class="markdown">
+            <!-- <h2 class="font-bold text-3xl">
+              posts
+            </h2>
+            <table class="mb-6">
+              {% set posts_section = get_section(path="posts/_index.md") %}
+              {% for page in posts_section.pages | sort(attribute="date") | reverse %}
+              {% if not page.draft %}
+              <tr>
+                <td class="text-right">{{ page.date | date(format="%d. %b %Y") }}</td>
+                <td class="px-2">―</td>
+                <td><a href="{{ page.permalink }}">{{ page.title }}</a></td>
+              </tr>
+              {% else %}
+              {% endif %}
+              {% endfor %}
+            </table>
+
+            <hr> -->
+
             {% block content %}
             {{ section.content | safe }}
             {% endblock content %}
+
           </div>
         </div>
 
       </div>
     </div>
   </div>
-  <!-- {% set posts_section = get_section(path="posts/_index.md") %}
-  {% for post in posts_section.pages %}
-  {{ post.title }}
-  {% endfor %} -->
 
 </body>
 
