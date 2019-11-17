@@ -44,7 +44,7 @@ Explanation: `:!` is a ghci command[^5] that lets you execute whatever you want 
 
 We can see that we have access to the following[^8] libraries:
 
-```shell
+```plaintext
 /opt/ghc/8.6.3/lib/ghc-8.6.3/package.conf.d
     Cabal-2.4.0.1
     array-0.5.3.0
