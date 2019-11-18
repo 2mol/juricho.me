@@ -14,7 +14,7 @@ I'm unsure if it should be considered the jazz, the dadaism, or the tourette syn
 
 ## showcase
 
-Now that you have been appropriately warned, here is a top selection of tracks that give me pure joy:
+Now that you have been appropriately warned, here is a top selection of tracks that give me pure joy. Consider this my version of a mixtape:
 
 - [Aaron Spectre - Look Out Fi Liar](https://youtu.be/NE6Q6tivtXs)
 - [Acrnym - Knife](https://www.youtube.com/watch?v=8IEUzEpaQtQ)
@@ -22,11 +22,13 @@ Now that you have been appropriately warned, here is a top selection of tracks t
 - [Epsilon - No Try](https://youtu.be/DBx87DWSr5Y)
 - [F000L - Happy Little Clouds](https://youtu.be/EWjG4fQameY)
 - [Frog Pocket - Come on Primate](https://soundcloud.com/frogpocket/come-on-primate)
+- [Ghost - Yōkai](https://youtu.be/eiuPlmJAw2c)
 - [Hitori Tori - norspct](https://soundcloud.com/hitori-tori/hitori-tori-norspct)
 - [Ruby My Dear - Karoshi](https://youtu.be/ygkPhYCMrxQ)
 - [Ruby My Dear - 7CO](https://youtu.be/sPhfv-GRo6s)
 - [Ruby My Dear - Dreaming Tree](https://www.youtube.com/watch?v=4ZY_xXcG9Ww)
 - [Synthamesk - Zone](https://www.youtube.com/watch?t=119&v=sa5HBewx0oA)
+- [The Flashbulb – Kirlian Choices](http://youtu.be/y2WX0Mt7n7M)
 - [TechDiff - Setup.exe](https://youtu.be/qaEV3vn1Dks)
 - [Techdiff - Vat Grown Top Knot](https://www.youtube.com/watch?v=id8XLsJk8ZA)
 - [Venetian Snares - Integraation](https://youtu.be/OfWVLiQfyPY)
@@ -35,7 +37,7 @@ Now that you have been appropriately warned, here is a top selection of tracks t
 - [Wisp - Beadumægen](https://youtu.be/OTBlCpstHTg)
 - [Wisp - Hall of Kings](https://youtu.be/aZP4cbWp7Ok)
 
-Here's one gem that isn't even a full song:
+Here's one piece that isn't even a full song, but encompasses everything that makes breakcore/raggacore wonderful:
 
 [Cu-cumba (jungle raggacore remix)](https://youtu.be/NHk2MVM2dWg)
 
@@ -82,14 +84,18 @@ And some random bonus songs. Who knows if all of these count as breakcore, half 
 - [Ruby My Dear - Croque Monsieur A Disneyland](https://youtu.be/MLX_aWlQBtU)
 - [sqrlcore - Streetrat](https://youtu.be/BqjBh4YptVo)
 - [sqrlcore - ceramic](https://www.youtube.com/watch?v=VcHTwVwvncY)
+- [Tarmvred - 6](https://youtu.be/pR_tKmyWbRU)
 - [Techdiff - Eat Drink Fuck](https://youtu.be/p8rRuN79Sr0)
-- [The ghost of 3.13 - Forgotten](https://youtu.be/kLPzVn9I_mM)
+- [The Flashbulb - Binedump](https://youtu.be/nkDhImhGiEc)
+- [The Flashbulb - Lucid Bass III](https://youtu.be/s0ybWnm_bXQ)
+- [The Flashbulb - Passage D](https://youtu.be/pioCDAQ1Kuc)
+- [The Ghost Of 3.13 - Forgotten](https://youtu.be/kLPzVn9I_mM)
 - [Venetian Snares - My Half](https://youtu.be/8QyysmlTPlw)
 - [Venetian Snares - Chordate](https://youtu.be/dqbB_WSNKhQ)
 - [Venetian Snares - Beverly's Potato Orchestra](https://youtu.be/OTaqFCr-KL4)
 - [Venetian Snares - Dear Poet](https://youtu.be/VRcj_ThVkjw)
 
-I could keep going.
+I could keep going. In fact, I will probably update this over time.
 
 
 ## drum covers
@@ -118,4 +124,4 @@ Ok fine, here's also a [greentext](/img/i-listen-to-everything2.jpg).
 
 ## finally
 
-Despite being such a weird niche genre, there is still an absurd amount of musicians to check out. Don't give me grief for not including Aphex Twin, Squarepusher, Enduser, Bong Ra, Sabrepulse, Dev/Null, Xanopticon, Goreshit, Nasenbluten, Hecate, Datach'i, cpxn, Stazma the Junglechrist, DJ Donna Summer, The Teknoist, Spongebob Squarewave, Rotator, or anyone else you're super into.
+Despite being such a weird niche genre, there is still an absurd amount of musicians to check out. Don't give me grief for not including Aphex Twin, Squarepusher, Enduser, Bong Ra, Sabrepulse, Dev/Null, Xanopticon, Goreshit, Nasenbluten, Hecate, Datach'i, cpxn, Stazma the Junglechrist, DJ Donna Summer, The Teknoist, Spongebob Squarewave, Rotator, Kettel, or anyone else you're super into.
