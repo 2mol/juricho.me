@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="/tailwind.min.css">
   <link rel="stylesheet" href="/markdown.css">
   <link rel="stylesheet" href="/style.css">
-  <title>{% block title %}{{ page.title }} | config.base_url{% endblock title %}</title>
+  <title>{% block title %}{{ page.title }} | {{ config.base_url }}{% endblock title %}</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134695331-3"></script>
   <script>
@@ -22,8 +22,8 @@
 
 <body class="text-gray-900 text-sm">
   <div class="flex flex-col items-center min-h-screen">
-    <div class="slanted-header w-full -mr-8 bg-yellow-400">
-      <div class="font-bold text-4xl text-center">
+    <div class="w-full bg-yellow-400" style="transform: skew(0deg, -3deg)">
+      <div class="font-bold text-4xl text-center" style="transform: skew(0deg, 3deg)">
         {{ page.title }}
       </div>
     </div>

@@ -1,5 +1,5 @@
 +++
-title = "Love Letter to Breakcore"
+title = "Love letter to Breakcore"
 template = "plain-page.html"
 +++
 
@@ -32,7 +32,7 @@ Here's one gem that isn't even a full song:
 
 ## documentary
 
-There is a half-hour documentary from 2006 called [Notes On Breakcore](https://www.youtube.com/watch?v=40FJhPerCHo) which I find utterly adorable.
+There is an adorable half-hour documentary from 2006 called [Notes On Breakcore](https://www.youtube.com/watch?v=40FJhPerCHo).
 
 -> link to [archive.org](https://web.archive.org/web/20131012061844/http://notes.breakcore.net/) if you can still manage to run flashplayer videos.
 
