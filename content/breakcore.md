@@ -1,20 +1,23 @@
 +++
-title = "Love letter to Breakcore"
+title = "Breakcore"
 template = "plain-page.html"
 +++
 
 
-My friends sooner or later get to find out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore). Often much to their dismay and confusion, especially when I inform them that this is the stuff that shall be played at my funeral.
+My friends, sooner or later, have the pleasure of finding out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore). This usually leads to some questions:
 
-I'm unsure if it should be considered the jazz, the dadaism, or the tourette syndrome of electronic music. As far as genres go, it's immature, hyperactive, often weird, ugly, grating, much too fast, and absolutely my favourite thing ever.
+- what the fuck is breakcore?
+- why are you listening to this
+- ok, can you turn it off now please
+
+I'm unsure if it should be considered the jazz, the dadaism, or the tourette syndrome of electronic music. As far as genres go, it's immature, hyperactive, often weird, ugly, grating, much too fast, and absolutely one of my favourite things ever.
 
 ## showcase
 
-Now that you have been warned, here is a selection of tracks that give me pure joy:
+Now that you have been appropriately warned, here is a top selection of tracks that give me pure joy:
 
 - [Aaron Spectre - Look Out Fi Liar](https://youtu.be/NE6Q6tivtXs)
 - [Acrnym - Knife](https://www.youtube.com/watch?v=8IEUzEpaQtQ)
-- [df0:Bad - Fevered](https://soundcloud.com/cock-rock-disco-label/2-fevered)
 - [Emptone - Blanc foncé](https://www.youtube.com/watch?v=07PfzaY-sRM)
 - [Epsilon - No Try](https://youtu.be/DBx87DWSr5Y)
 - [F000L - Happy Little Clouds](https://youtu.be/EWjG4fQameY)
@@ -41,53 +44,77 @@ You can even get the history of the amen break explained to you _while_ listenin
 [Maladroit - Amen Motherfucker](https://www.youtube.com/watch?v=S219XUm18LA)
 
 
-## more
+## where can I get more?
 
 Very adorable documentary from 2006: [Notes On Breakcore](https://www.youtube.com/watch?v=40FJhPerCHo). ([archive.org link](https://web.archive.org/web/20131012061844/http://notes.breakcore.net/))
 
 
 Insomniac Magazine: [How to Talk to Your Kids About Breakcore](https://www.insomniac.com/magazine/how-to-talk-to-your-kids-about-breakcore/)
 
-Good new and old tracks often pop up on the [breakcore subreddit](https://old.reddit.com/r/breakcore/). Don't ruin it, you and 5 friends could probably outvote the entire community.
+Good new and old tracks often pop up on the [breakcore subreddit](https://old.reddit.com/r/breakcore/). But don't go and ruin it, you and 5 friends could probably outvote the entire community.
 
 
-## but MORE MUSIC
+## I meant MORE MUSIC
 
-It's hard to refrain from recommending 60% of all of venetian snares and 80% of all of ruby my dear. Here are some full albums:
+I tried to keep the initial list balanced, but it's hard to refrain from recommending 60% of all of Venetian Snares and 80% of all that Ruby My Dear has ever created. Here are some of the most legendary full albums:
 
-- [Ruby My Dear - Form](https://youtu.be/vG-cOMJsL9g)
 - [Igorrr & Ruby My Dear - Maigre (EP)](https://youtu.be/oHG9WbyHKmg)
-- Xanopticon - Liminal Space
+- [Ruby My Dear - Form](https://youtu.be/vG-cOMJsL9g)
+- [Ruby My Dear - Remains Of Shapes To Come](https://youtu.be/fm-8sdLwCh4)
+- [Venetian Snares - Detrimentalist](https://www.youtube.com/watch?v=FQmDmCclfMc&list=PLlJE0DQlU35YcP9asDcS-mBn8rIT1ZoW_)
+- [Xanopticon - Liminal Space](https://youtu.be/qIu2nAnOKZw)
 
-And random bonus tracks:
+You should also find the album "Rossz Csillag Alatt Született" by Venetian Snares. It contains what's arguably the Stairway to Heaven of breakcore:
 
-- Eraserhead - Corvus (Song of the Birds) https://youtu.be/f9gwFbpmhiM
-- https://www.youtube.com/watch?v=VnJY5u6cC7A
-- Venetian Snares - My Half
-- https://youtu.be/BqjBh4YptVo
-- Techdiff - Eat Drink Fuck
-- The ghost of 3.13 - Forgotten https://youtu.be/kLPzVn9I_mM
-- sqrlcore - ceramic https://www.youtube.com/watch?v=VcHTwVwvncY
+[Venetian Snares - Hajnal](https://youtu.be/FbJ63spk48s)
 
-## maybe or maybe not breakcore
+And some random bonus songs. Who knows if all of these count as breakcore, half the point of the genre is to be experimental after all. Categorize these as drum & bass, glitch, noise, who cares. Their main merit is to be creative and interesting as hell.
 
-Here are some bonus songs. Who knows if these count as breakcore, half the point of the genre is to be experimental after all. Categorize these as drum & bass, glitch, noise, who cares. Their main merit is to be creative and interesting as hell.
-
+- [df0:Bad - Fevered](https://soundcloud.com/cock-rock-disco-label/2-fevered)
+- [Eraserhead - Corvus (Song of the Birds)](https://youtu.be/f9gwFbpmhiM)
+- [Hitori Tori - We Need Blips](https://www.youtube.com/watch?v=VnJY5u6cC7A)
+- [IRIS VON GUL - Y'Hell Haina (Kaktus Kemist remix)](https://irisvongul.bandcamp.com/track/yhell-haina-kaktus-kemist-remix)
 - [Lauren Bousfield - Avalon Sliding Down The Cliff](https://youtu.be/W8j1degs2bA)
 - [Nero's Day At Disneyland - Wrapped Around The Pole](https://youtu.be/mbzy-4YuvIg)
 - [Nero's Day at Disneyland - Happy Screaming Night Businessman](https://youtu.be/Nw7hngk0A9A)
-- [IRIS VON GUL - Y'Hell Haina (Kaktus Kemist remix)](https://irisvongul.bandcamp.com/track/yhell-haina-kaktus-kemist-remix)
+- [Ruby My Dear - Fix II](https://youtu.be/XT4stqdIXlw)
+- [Doc Colibri (Ruby My Dear) - Faya Bumbaka](https://youtu.be/P6DZEATjwpk)
+- [sqrlcore - Streetrat](https://youtu.be/BqjBh4YptVo)
+- [sqrlcore - ceramic](https://www.youtube.com/watch?v=VcHTwVwvncY)
+- [Techdiff - Eat Drink Fuck](https://youtu.be/p8rRuN79Sr0)
+- [The ghost of 3.13 - Forgotten](https://youtu.be/kLPzVn9I_mM)
+- [Venetian Snares - My Half](https://youtu.be/8QyysmlTPlw)
+- [Venetian Snares - Chordate](https://youtu.be/dqbB_WSNKhQ)
+- [Venetian Snares - Beverly's Potato Orchestra](https://youtu.be/OTaqFCr-KL4)
+- [Venetian Snares - Dear Poet](https://youtu.be/VRcj_ThVkjw)
+
+I could keep going.
+
 
 ## drum covers
 
-- Kevin Rabold - Eurocore MVP (Venetian Snares) https://www.youtube.com/watch?v=Nk-q3aUPGqA
+Breakcore drum patterns should be pretty impossible to do with acoustic instruments, but that doesn't keep drummers from trying. Here are some of the more impressive attempts:
+
+- [Jay Oglesby: Venetian Snares - Ongyilkos Vasarnap](https://youtu.be/FwzyjDuWt7M)
+- [Kevin Rabold: Venetian Snares - Eurocore MVP](https://www.youtube.com/watch?v=Nk-q3aUPGqA)
+- [Mike Glozier: Venetian Snares - Frictional Nevada](https://www.youtube.com/watch?v=RwOb-AA7by4)
+- [Mike Glozier: Venetian Snares - Gentleman](http://www.youtube.com/watch?v=_oD3pbOBP50)
+- [Cactus Erectus: Igorrr - Brutal Swing](https://youtu.be/2BWyszFMwQA)
+
 
 ## but are there any memes?
 
-https://youtu.be/HzTXHhLwsZc
+I'm glad you asked! I found two decent ones:
 
+[Introducing friends to breakcore](https://youtu.be/HzTXHhLwsZc)
+
+and
+
+["I listen to everything"](/img/i-listen-to-everything.jpg).
+
+Ok fine, here's also a lame one
 
 
 ## finally
 
-Despite being such a weird niche genre, there is till an absurd amount of musicians to check out. Don't give me grief for not including Aphex Twin, Squarepusher, Enduser, Bong Ra, Sabrepulse, Dev/Null, Xanopticon, Goreshit, Nasenbluten, Hecate, Datach'i, cpxn, Stazma the Junglechrist, DJ Donna Summer, The Teknoist, Spongebob Squarewave, or anyone else you're upset about me not including.
+Despite being such a weird niche genre, there is still an absurd amount of musicians to check out. Don't give me grief for not including Aphex Twin, Squarepusher, Enduser, Bong Ra, Sabrepulse, Dev/Null, Xanopticon, Goreshit, Nasenbluten, Hecate, Datach'i, cpxn, Stazma the Junglechrist, DJ Donna Summer, The Teknoist, Spongebob Squarewave, Rotator, or anyone else you're super into.
