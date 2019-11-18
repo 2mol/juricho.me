@@ -5,6 +5,7 @@ template = "post.html"
 draft = false
 +++
 
+
 ## tl;dr
 
 - More Haskell people should play around with online dev environments.

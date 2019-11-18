@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="personal site">
+  <link href=data:, rel=icon>
+  <link rel="stylesheet" href="/tailwind.min.css">
+  <link rel="stylesheet" href="/markdown.css">
+  <link rel="stylesheet" href="/style.css">
+  <title>{% block title %}{{ page.title }} | config.base_url{% endblock title %}</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134695331-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-134695331-3');
+  </script>
+</head>
+
+<body class="text-gray-900 text-sm">
+  <div class="flex flex-col items-center min-h-screen">
+    <div class="slanted-header w-full px-4 -mr-8 bg-yellow-400">
+      <div class="font-bold text-4xl">
+        {{ page.title }}
+      </div>
+    </div>
+    <div class="max-w-2xl w-full">
+      <div class=" md:border-r md:border-b md:border-gray-400 mb-6">
+        <div class="md:border-l border-gray-400 -mt-6 pt-16 pb-4 md:pb-8 px-8 md:px-16">
+
+          <div class="markdown">
+
+            {% block content %}
+            {{ page.content | safe }}
+            {% endblock content %}
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

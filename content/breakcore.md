@@ -1,8 +1,10 @@
 +++
-title = "Breakcore"
+title = "Love Letter to Breakcore"
+template = "plain-page.html"
 +++
 
-If we're friends, then sooner or later you'll get to find out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore).
+
+My friends sooner or later get to find out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore) (sometimes much to their dismay and confusion).
 
 As far as genres go, it's immature, hyperactive, weird, totally grating, way too fast, and simply my absolute favourite thing ever.
 
