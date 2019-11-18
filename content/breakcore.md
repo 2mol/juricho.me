@@ -1,5 +1,5 @@
 +++
-title = "Breakcore"
+title = "Love letter to Breakcore"
 template = "plain-page.html"
 +++
 
@@ -7,8 +7,8 @@ template = "plain-page.html"
 My friends, sooner or later, have the pleasure of finding out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore). This usually leads to some questions:
 
 - what the fuck is breakcore?
-- why are you listening to this
-- ok, can you turn it off now please
+- why are you listening to this, doesn't it make you very nervous?
+- ok can you turn it off now please
 
 I'm unsure if it should be considered the jazz, the dadaism, or the tourette syndrome of electronic music. As far as genres go, it's immature, hyperactive, often weird, ugly, grating, much too fast, and absolutely one of my favourite things ever.
 
@@ -94,7 +94,7 @@ I could keep going.
 
 ## drum covers
 
-Breakcore drum patterns should be pretty impossible to do with acoustic instruments, but that doesn't keep drummers from trying. Here are some of the more impressive attempts:
+Breakcore drum patterns should be pretty impossible to do with acoustic instruments, but that doesn't keep some brave drummers from trying. Here are some of the more impressive attempts:
 
 - [Jay Oglesby: Venetian Snares - Ongyilkos Vasarnap](https://youtu.be/FwzyjDuWt7M)
 - [Kevin Rabold: Venetian Snares - Eurocore MVP](https://www.youtube.com/watch?v=Nk-q3aUPGqA)
@@ -103,7 +103,7 @@ Breakcore drum patterns should be pretty impossible to do with acoustic instrume
 - [Cactus Erectus: Igorrr - Brutal Swing](https://youtu.be/2BWyszFMwQA)
 
 
-## but are there any memes?
+## but are there any *memes*?
 
 I'm glad you asked! I found two decent ones:
 
@@ -113,7 +113,7 @@ and
 
 ["I listen to everything"](/img/i-listen-to-everything.jpg).
 
-Ok fine, here's also a lame one
+Ok fine, here's also a [greentext](/img/i-listen-to-everything2.jpg).
 
 
 ## finally
