@@ -22,8 +22,8 @@
 
 <body class="text-gray-900 text-sm">
   <div class="flex flex-col items-center min-h-screen">
-    <div class="slanted-header w-full px-4 -mr-8 bg-yellow-400">
-      <div class="font-bold text-4xl">
+    <div class="slanted-header w-full -mr-8 bg-yellow-400">
+      <div class="font-bold text-4xl text-center">
         {{ page.title }}
       </div>
     </div>
@@ -32,11 +32,9 @@
         <div class="md:border-l border-gray-400 -mt-6 pt-16 pb-4 md:pb-8 px-8 md:px-16">
 
           <div class="markdown">
-
             {% block content %}
             {{ page.content | safe }}
             {% endblock content %}
-
           </div>
         </div>
 
