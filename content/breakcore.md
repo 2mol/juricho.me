@@ -4,38 +4,90 @@ template = "plain-page.html"
 +++
 
 
-My friends sooner or later get to find out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore) (sometimes much to their dismay and confusion).
+My friends sooner or later get to find out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore). Often much to their dismay and confusion, especially when I inform them that this is the stuff that shall be played at my funeral.
 
-As far as genres go, it's immature, hyperactive, weird, totally grating, way too fast, and simply my absolute favourite thing ever.
+I'm unsure if it should be considered the jazz, the dadaism, or the tourette syndrome of electronic music. As far as genres go, it's immature, hyperactive, often weird, ugly, grating, much too fast, and absolutely my favourite thing ever.
 
-Here are some of the best tracks:
+## showcase
+
+Now that you have been warned, here is a selection of tracks that give me pure joy:
 
 - [Aaron Spectre - Look Out Fi Liar](https://youtu.be/NE6Q6tivtXs)
-- [Absolete - Fevered](https://soundcloud.com/cock-rock-disco-label/2-fevered)
 - [Acrnym - Knife](https://www.youtube.com/watch?v=8IEUzEpaQtQ)
+- [df0:Bad - Fevered](https://soundcloud.com/cock-rock-disco-label/2-fevered)
 - [Emptone - Blanc foncé](https://www.youtube.com/watch?v=07PfzaY-sRM)
 - [Epsilon - No Try](https://youtu.be/DBx87DWSr5Y)
+- [F000L - Happy Little Clouds](https://youtu.be/EWjG4fQameY)
 - [Frog Pocket - Come on Primate](https://soundcloud.com/frogpocket/come-on-primate)
 - [Hitori Tori - norspct](https://soundcloud.com/hitori-tori/hitori-tori-norspct)
 - [Ruby My Dear - Karoshi](https://youtu.be/ygkPhYCMrxQ)
 - [Ruby My Dear - 7CO](https://youtu.be/sPhfv-GRo6s)
 - [Ruby My Dear - Dreaming Tree](https://www.youtube.com/watch?v=4ZY_xXcG9Ww)
-- [Venetian Snares - Integraation](https://www.youtube.com/watch?v=D5A7zqOWdbk)
+- [Synthamesk - Zone](https://www.youtube.com/watch?t=119&v=sa5HBewx0oA)
+- [TechDiff - Setup.exe](https://youtu.be/qaEV3vn1Dks)
+- [Techdiff - Vat Grown Top Knot](https://www.youtube.com/watch?v=id8XLsJk8ZA)
+- [Venetian Snares - Integraation](https://youtu.be/OfWVLiQfyPY)
 - [Venetian Snares - Pwntendo](https://youtu.be/906sMXi_e3Q)
 - [Venetian Snares - Goodbye09/Hello10](https://youtu.be/GHYW6V8I1yA)
 - [Wisp - Beadumægen](https://youtu.be/OTBlCpstHTg)
+- [Wisp - Hall of Kings](https://youtu.be/aZP4cbWp7Ok)
 
 Here's one gem that isn't even a full song:
 
 [Cu-cumba (jungle raggacore remix)](https://youtu.be/NHk2MVM2dWg)
 
+You can even get the history of the amen break explained to you _while_ listening to breakcore:
 
-## documentary
+[Maladroit - Amen Motherfucker](https://www.youtube.com/watch?v=S219XUm18LA)
 
-There is an adorable half-hour documentary from 2006 called [Notes On Breakcore](https://www.youtube.com/watch?v=40FJhPerCHo).
 
--> link to [archive.org](https://web.archive.org/web/20131012061844/http://notes.breakcore.net/) if you can still manage to run flashplayer videos.
+## more
 
-<!-- ## bonus drum & bass
+Very adorable documentary from 2006: [Notes On Breakcore](https://www.youtube.com/watch?v=40FJhPerCHo). ([archive.org link](https://web.archive.org/web/20131012061844/http://notes.breakcore.net/))
 
-- [Synthamesk - Hunted](https://soundcloud.com/synthamesk/hunted) -->
+
+Insomniac Magazine: [How to Talk to Your Kids About Breakcore](https://www.insomniac.com/magazine/how-to-talk-to-your-kids-about-breakcore/)
+
+Good new and old tracks often pop up on the [breakcore subreddit](https://old.reddit.com/r/breakcore/). Don't ruin it, you and 5 friends could probably outvote the entire community.
+
+
+## but MORE MUSIC
+
+It's hard to refrain from recommending 60% of all of venetian snares and 80% of all of ruby my dear. Here are some full albums:
+
+- [Ruby My Dear - Form](https://youtu.be/vG-cOMJsL9g)
+- [Igorrr & Ruby My Dear - Maigre (EP)](https://youtu.be/oHG9WbyHKmg)
+- Xanopticon - Liminal Space
+
+And random bonus tracks:
+
+- Eraserhead - Corvus (Song of the Birds) https://youtu.be/f9gwFbpmhiM
+- https://www.youtube.com/watch?v=VnJY5u6cC7A
+- Venetian Snares - My Half
+- https://youtu.be/BqjBh4YptVo
+- Techdiff - Eat Drink Fuck
+- The ghost of 3.13 - Forgotten https://youtu.be/kLPzVn9I_mM
+- sqrlcore - ceramic https://www.youtube.com/watch?v=VcHTwVwvncY
+
+## maybe or maybe not breakcore
+
+Here are some bonus songs. Who knows if these count as breakcore, half the point of the genre is to be experimental after all. Categorize these as drum & bass, glitch, noise, who cares. Their main merit is to be creative and interesting as hell.
+
+- [Lauren Bousfield - Avalon Sliding Down The Cliff](https://youtu.be/W8j1degs2bA)
+- [Nero's Day At Disneyland - Wrapped Around The Pole](https://youtu.be/mbzy-4YuvIg)
+- [Nero's Day at Disneyland - Happy Screaming Night Businessman](https://youtu.be/Nw7hngk0A9A)
+- [IRIS VON GUL - Y'Hell Haina (Kaktus Kemist remix)](https://irisvongul.bandcamp.com/track/yhell-haina-kaktus-kemist-remix)
+
+## drum covers
+
+- Kevin Rabold - Eurocore MVP (Venetian Snares) https://www.youtube.com/watch?v=Nk-q3aUPGqA
+
+## but are there any memes?
+
+https://youtu.be/HzTXHhLwsZc
+
+
+
+## finally
+
+Despite being such a weird niche genre, there is till an absurd amount of musicians to check out. Don't give me grief for not including Aphex Twin, Squarepusher, Enduser, Bong Ra, Sabrepulse, Dev/Null, Xanopticon, Goreshit, Nasenbluten, Hecate, Datach'i, cpxn, Stazma the Junglechrist, DJ Donna Summer, The Teknoist, Spongebob Squarewave, or anyone else you're upset about me not including.

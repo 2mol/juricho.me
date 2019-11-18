@@ -1,7 +1,8 @@
 # The URL the site will be built for
-base_url = "https://juricho.me"
+base_url = "juricho.me"
 title = "Juri Chomé"
 default_language = "en"
+generate_rss = true
 
 [extra]
 github_edit_url = "https://github.com/2mol/juricho.me/edit/master/content/"
