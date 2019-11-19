@@ -41,7 +41,7 @@ Here's one piece that isn't even a full song, but encompasses everything that ma
 
 [Cu-cumba (jungle raggacore remix)](https://youtu.be/NHk2MVM2dWg)
 
-You can even get the history of the amen break explained to you _while_ listening to breakcore:
+You can even get the history of the [amen break](https://en.wikipedia.org/wiki/Amen_break) explained to you _while_ listening to breakcore:
 
 [Maladroit - Amen Motherfucker](https://www.youtube.com/watch?v=S219XUm18LA)
 
@@ -75,7 +75,7 @@ And some random bonus songs. Who knows if all of these count as breakcore, half 
 - [df0:Bad - Fevered](https://soundcloud.com/cock-rock-disco-label/2-fevered)
 - [Eraserhead - Corvus (Song of the Birds)](https://youtu.be/f9gwFbpmhiM)
 - [Hitori Tori - We Need Blips](https://www.youtube.com/watch?v=VnJY5u6cC7A)
-- [IRIS VON GUL - Y'Hell Haina (Kaktus Kemist remix)](https://irisvongul.bandcamp.com/track/yhell-haina-kaktus-kemist-remix)
+- [Iris Von Gul - Y'Hell Haina (Kaktus Kemist remix)](https://irisvongul.bandcamp.com/track/yhell-haina-kaktus-kemist-remix)
 - [Lauren Bousfield - Avalon Sliding Down The Cliff](https://youtu.be/W8j1degs2bA)
 - [Nero's Day At Disneyland - Wrapped Around The Pole](https://youtu.be/mbzy-4YuvIg)
 - [Nero's Day at Disneyland - Happy Screaming Night Businessman](https://youtu.be/Nw7hngk0A9A)
@@ -119,7 +119,7 @@ and
 
 ["I listen to everything"](/img/i-listen-to-everything.jpg).
 
-Ok fine, here's also a [greentext](/img/i-listen-to-everything2.jpg).
+(Ok fine, here's also a [greentext](/img/i-listen-to-everything2.jpg))
 
 
 ## finally
