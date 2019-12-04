@@ -8,7 +8,7 @@ draft = false
 
 ## tl;dr
 
-- More Haskell people should play around with online dev environments.
+- More Haskell programmers and learners might enjoy using online dev environments.
 - You can write and execute non-trivial Haskell on [repl.it](https://repl.it/) (I'm not affiliated with them).
 - That environment secretly includes not just `base`, but couple of other useful libraries.
 - You can write interactive command-line programs and have them automagically served up on the web.[^1]

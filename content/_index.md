@@ -2,13 +2,14 @@
 title = "Juri Chomé"
 +++
 
-Hi there, welcome to my personal site!
 
-I'm Juri, I like to make things, so here are some of them. Currently I enjoy playing with [data](https://d-one.ai), woodworking, and making webapps.
+Hi, I'm Juri, I like to make things, so here are some of them. Currently I enjoy [working with data](https://d-one.ai), woodworking, and making webapps.
 
-## projects and experiments {#projects}
 
-Lately I've been interested in how to build minimalist and clean UIs that make complex workflows seem easy and intuitive.
+## projects {#projects}
+
+Lately I've been interested in how to build minimalist and clean UIs that make complex workflows easy and intuitive.
+
 
 ### gulliver
 
