@@ -3,12 +3,15 @@ title = "Juri Chomé"
 +++
 
 
-Hi, I'm Juri, I like to make things, so here are some of them. Currently I enjoy [working with data](https://d-one.ai), woodworking, and making webapps.
+Hi, I'm Juri. I like to make things, so here are some of them. Currently I enjoy [working with data](https://d-one.ai), woodworking, and making webapps.
 
+## Contact me
+
+You can email me under [juri@juricho.me](mailto:juri@juricho.me), or message me on [twitter](https://twitter.com/jurichome).
 
 ## Projects {#projects}
 
-Lately I've been interested in how to build minimalist and clean UIs that make complex workflows easy and intuitive.
+Here are some random thing's I've build in the past. Lately I've been interested in how to build minimalist and clean UIs that make complex workflows easy and intuitive.
 
 
 ### Gulliver
