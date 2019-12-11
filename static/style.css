@@ -9,10 +9,10 @@
 }
 
 .slanted-header {
-  transform: skew(0deg, -3deg) translate(-1rem, 0);
+  transform: skew(0deg, -2deg) translate(-1rem, 0);
 }
 
 .slanted-top {
-  transform: skew(0deg, -3deg);
+  transform: skew(0deg, -2deg);
   margin-top: 2px;
 }
