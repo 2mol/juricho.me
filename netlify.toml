@@ -1,6 +1,7 @@
 [build]
     publish = "public"
     command = """
+    purgecss --config ./purgecss.config.js --out static/
     zola build
     """
 
