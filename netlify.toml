@@ -1,8 +1,6 @@
 [build]
     publish = "public"
     command = """
-    mkdir -p static
-    cp assets/tailwind.min.css static/tailwind.min.css
     zola build
     """
 
