@@ -1,6 +1,10 @@
 /* some custom styles that are not possible to do in tailwind
 */
 
+.font-inter {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 ::selection {
   background: #ffe96c; /* WebKit/Blink Browsers */
 }
