@@ -10,11 +10,11 @@ Currently I enjoy [working with data](https://d-one.ai), woodworking, and making
 If you want to contact me:
 
 - email: [juri@juricho.me](mailto:juri@juricho.me)
-- DM on Twitter: [@jurichome](https://twitter.com/jurichome)
+- twitter: [@jurichome](https://twitter.com/jurichome)
 
 ## projects {#projects}
 
-Here are some random thing's I've build in the past. Lately I've been interested in how to build minimalist and clean UIs that make complex workflows easy and intuitive.
+Here are some random things I've build in the past. Lately I've been interested in how to build minimalist and clean UIs that make complex workflows easy and intuitive.
 
 
 ### gulliver
