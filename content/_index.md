@@ -14,7 +14,7 @@ If you want to contact me:
 
 ## projects {#projects}
 
-Here are some random things I've build in the past. Lately I've been interested in how to build minimalist and clean UIs that make complex workflows easy and intuitive.
+Here are some random things I've built in the past. Lately I've been interested in how to build minimalist and clean UIs that make complex workflows easy and intuitive.
 
 
 ### gulliver
