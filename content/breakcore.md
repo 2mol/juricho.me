@@ -119,8 +119,6 @@ and
 
 ["I listen to everything"](/img/i-listen-to-everything.jpg).
 
-(Ok fine, here's also a [greentext](/img/i-listen-to-everything2.jpg))
-
 
 ## finally
 

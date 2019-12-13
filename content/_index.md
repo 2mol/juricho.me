@@ -3,7 +3,9 @@ title = "Juri Chomé"
 +++
 
 
-Hi, I'm Juri. I like to make things, so here are some of them. Currently I enjoy [working with data](https://d-one.ai), woodworking, and making webapps.
+Hi, I'm Juri. I like to make things, so here are some of them.
+
+Currently I enjoy [working with data](https://d-one.ai), woodworking, and making webapps. You can get in touch with me
 
 
 ## projects {#projects}
