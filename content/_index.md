@@ -6,7 +6,7 @@ title = "Juri Chomé"
 Hi, I'm Juri. I like to make things, so here are some of them. Currently I enjoy [working with data](https://d-one.ai), woodworking, and making webapps.
 
 
-## Projects {#projects}
+## projects {#projects}
 
 Here are some random thing's I've build in the past. Lately I've been interested in how to build minimalist and clean UIs that make complex workflows easy and intuitive.
 

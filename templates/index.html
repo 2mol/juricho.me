@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="/tailwind.min.css">
   <link rel="stylesheet" href="/markdown.css">
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="/fonts/inter.css">
+  <!-- <link rel="stylesheet" href="/fonts/inter.css"> -->
   <title>{% block title %}{{ config.title }} - {{ config.base_url }}{% endblock title %}</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134695331-3"></script>
@@ -20,18 +20,18 @@
   </script>
 </head>
 
-<body class="font-inter text-gray-900 md:bg-gray-300 text-sm md:text-base">
+<body class="text-gray-900 md:bg-gray-300 text-sm md:text-base">
   <div class="flex flex-col items-center min-h-screen">
     <div class="max-w-2xl w-full">
-      <div class="slanted-header bg-white py-2 px-4 md:border border-b border-gray-400 ml-4 -mr-4 md:mx-0 md:shadow-lg">
-        <div class="font-bold text-4xl">
+      <div class="slanted-header bg-white py-2 px-4 md:border border-b border-gray-400 ml-4 -mr-4 md:mx-0 shadow-lg">
+        <div class="text-4xl">
           <a class="ml-4" href="/">Juri Chomé</a>
         </div>
       </div>
       <!-- <div class="slanted-top bg-white shadow-md border-gray-400 border-t md:border-l md:border-r -mb-6 pt-10">
       </div> -->
       <div class="bg-white md:shadow-md md:border md:border-gray-400 mb-6 pt-4">
-        <div class="text-right font-medium pr-6">
+        <div class="text-right pr-6">
           <a class="underline hover:no-underline" href="/#projects">projects</a>
           ·
           <a class="underline hover:no-underline" href="/about">about</a>

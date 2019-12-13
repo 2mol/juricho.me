@@ -1,8 +1,10 @@
 /* some custom styles that are not possible to do in tailwind
 */
 
-.font-inter {
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700);
+
+body {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 }
 
 ::selection {
