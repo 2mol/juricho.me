@@ -5,6 +5,7 @@
 
 body {
   font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-size: .95rem;
 }
 
 ::selection {
