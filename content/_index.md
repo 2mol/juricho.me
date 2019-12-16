@@ -3,14 +3,10 @@ title = "Juri Chomé"
 +++
 
 
-Hi, I'm Juri. I like to make things, so here are some of them.
+Hi, I'm Juri. I like to make things, so here are some of them. Currently I enjoy [working with data](https://d-one.ai), woodworking, and making webapps.
 
-Currently I enjoy [working with data](https://d-one.ai), woodworking, and making webapps.
+You can contact me on twitter, or by sending an email to [juri@juricho.me](mailto:juri@juricho.me).
 
-If you want to contact me:
-
-- email: [juri@juricho.me](mailto:juri@juricho.me)
-- twitter: [@jurichome](https://twitter.com/jurichome)
 
 ## projects {#projects}
 
