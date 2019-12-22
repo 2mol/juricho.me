@@ -1,9 +1,9 @@
 +++
 title = "Love letter to Breakcore"
-template = "plain-page.html"
+template = "post-plain.html"
 +++
 
-My friends, sooner or later, have the pleasure of finding out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore). This usually leads to some questions:
+If we're friends, then sooner or later you get to have the pleasure of finding out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore). This usually leads to some questions:
 
 - what *the fuck* is breakcore?
 - why are you listening to this, doesn't it make you very nervous?
