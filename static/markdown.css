@@ -46,3 +46,6 @@
   margin-bottom: 1rem;
   margin-left: 1rem;
 }
+.markdown li {
+  margin-bottom: 0.75rem;
+}

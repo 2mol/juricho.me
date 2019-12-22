@@ -4,8 +4,9 @@
 {{ section.title }} - {{ config.base_url }}
 {% endblock title %}
 
-{% block content %}
-<div class="markdown">
-  {{ section.content | safe }}
-</div>
-{% endblock content %}
+{% block bla %}
+{% endblock bla %}
+
+{% block markdown_content %}
+{{ section.content | safe }}
+{% endblock markdown_content %}

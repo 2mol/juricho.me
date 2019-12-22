@@ -40,30 +40,45 @@
           ·
           <a class="underline hover:no-underline" href="https://twitter.com/jurichome" target="_blank">twitter</a>
         </div>
-        <div class="markdown pt-10 pb-4 md:pb-8 px-4 md:px-10">
+        <div class="pt-10 pb-4 md:pb-8 px-4 md:px-10">
           <!-- <h2 class="font-bold text-3xl">
-              posts
-            </h2>
-            <table class="mb-6">
-              {% set posts_section = get_section(path="posts/_index.md") %}
-              {% for page in posts_section.pages | sort(attribute="date") | reverse %}
-              {% if not page.draft %}
-              <tr>
-                <td class="text-right">{{ page.date | date(format="%d. %b %Y") }}</td>
-                <td class="px-2">―</td>
-                <td><a href="{{ page.permalink }}">{{ page.title }}</a></td>
-              </tr>
-              {% else %}
-              {% endif %}
-              {% endfor %}
-            </table>
+          posts
+        </h2>
+        <table class="mb-6">
+          {% set posts_section = get_section(path="posts/_index.md") %}
+          {% for page in posts_section.pages | sort(attribute="date") | reverse %}
+          {% if not page.draft %}
+          <tr>
+            <td class="text-right">{{ page.date | date(format="%d. %b %Y") }}</td>
+            <td class="px-2">―</td>
+            <td><a href="{{ page.permalink }}">{{ page.title }}</a></td>
+          </tr>
+          {% else %}
+          {% endif %}
+          {% endfor %}
+        </table>
 
-            <hr> -->
+        <hr> -->
+          {% block bla %}
+          <div class="markdown">
+            <p>
+              Hi, I'm Juri. I like to make things, so here are some of them. Currently I enjoy <a
+                href="https://d-one.ai">working with data</a>, woodworking, and making webapps.
+            </p>
+            <p>
+              You can contact me on <a href="https://twitter.com/jurichome">twitter</a>, or by sending an email to <a
+                href="mailto:juri@juricho.me">juri@juricho.me</a>.
+            </p>
+            <h2>posts</h2>
+            {% include "posts-list.html" %}
+          </div>
+          {% endblock bla %}
 
-          {% block content %}
-          {{ section.content | safe }}
-          {% endblock content %}
-
+          <div class="markdown">
+            {% block markdown_content %}
+            {{ section.content | safe }}
+            {% endblock markdown_content %}
+          </div>
         </div>
       </div>
     </div>
