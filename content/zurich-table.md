@@ -19,7 +19,7 @@ Since a couple of friends have already asked me for the plans with the intention
 Since I get to name it, I'm calling it the **Züri Dësch**, after the city where it was conceived, and the Luxembourgish word for table.
 
 
-## the plan
+## the goal
 
 {{ image(url="/img/zurich-table/plan-sketchup.png", text="Couch Table 3D Plan") }}
 
@@ -27,19 +27,30 @@ To summarise the criteria: This table should...
 
 - be easy enough to build with semi-basic tools in a small space.
 - be sturdy enough to carry the weight of people sitting on it.
-- be fast and simple to build.
-    - I think one could churn out a dozen in 3 days with a bit of preparation.
-    - Fast also means that it can be _affordable_. I care about good handmade design & craft being accessible to more than just a wealthy subset of the population.
+- be fast and simple[^1] to build.
 - look good.
 
 It's not the _absolute easiest_ build, since it has these long dovetails attaching the legs to the top, and I suspect it needs a decent workbench to hold the pieces in place at various steps.
 
-However, I think anybody with some experience, diligence, and tools should be able to do it. For reference, [this](/img/zurich-table/bedroom-workshop.jpg) was my [bedroom workshop](/img/zurich-table/bedroom-workshop2.jpg) in which I built all three couch tables.
+However, I think anybody with some experience, diligence, and tools should be able to do it. For reference, [this](/img/zurich-table/bedroom-workshop.jpg) was my [bedroom workshop](/img/zurich-table/bedroom-workshop2.jpg) in which I built all three tables.
 
 {{ image(url="/img/zurich-table/table-bench.jpg", text="Couch Table + Bench combo") }}
 
 ## how to make your own
 
+
 ## download plans
 
-[^99]: [reddit thread](https://old.reddit.com/r/woodworking/comments/6n107g/im_making_these_minimalist_couch_tables_this_is/)
+
+---
+
+[^1]: Fast and minimal materials also means that it can be _affordable_. I care about good handmade design & craft being accessible to more than just a wealthy few.
+<p>
+I've seen (admittedly cool) benches being sold for 2000 bucks[^2] where I live. What.
+</p><p>
+I estimated that I could churn out a dozen Züri tables in 3 days with a bit of prep, meaning they could be profitably sold for a fraction of that.
+</p>
+
+[^2]: Euros, US Dollars, Swiss Francs, pretty much the same at the time of writing.
+
+<!-- [^99]: [reddit thread](https://old.reddit.com/r/woodworking/comments/6n107g/im_making_these_minimalist_couch_tables_this_is/) -->
