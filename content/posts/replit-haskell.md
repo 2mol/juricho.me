@@ -2,7 +2,6 @@
 title = "Write Haskell in your browser"
 date = 2019-02-13
 template = "post.html"
-draft = false
 +++
 
 

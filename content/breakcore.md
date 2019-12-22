@@ -1,6 +1,9 @@
 +++
 title = "Love letter to Breakcore"
 template = "post-plain.html"
+
+[extra]
+headerstyle = "bg-yellow-400"
 +++
 
 If we're friends, then sooner or later you get to have the pleasure of finding out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore). This usually leads to some questions:

@@ -1,13 +1,10 @@
 <table class="mb-6">
   {% set posts_section = get_section(path="posts/_index.md") %}
   {% for page in posts_section.pages | sort(attribute="date") | reverse %}
-  {% if not page.draft %}
   <tr>
     <td class="text-right">{{ page.date | date(format="%d. %b %Y") }}</td>
     <td class="px-2">―</td>
     <td><a href="{{ page.permalink }}">{{ page.title }}</a></td>
   </tr>
-  {% else %}
-  {% endif %}
   {% endfor %}
 </table>
