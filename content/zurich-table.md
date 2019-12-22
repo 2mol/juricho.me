@@ -6,9 +6,9 @@ template = "post-plain.html"
 headerstyle = "bg-red-500 text-yellow-200"
 +++
 
-Let me introduce you to a **couch table** that is so simple and elegant, that I don't feel like I've designed it, instead I feel like I _discovered_ it.
+Let me introduce you to a **couch table** so simple and elegant, that I don't feel like I've designed it, instead I feel like I _discovered_ it.
 
-It started out as an obsessive conviction that I could make a fully stable table/bench combination without strechers.
+It started out as an obsessive conviction that I could make a fully stable couch table that could also be used as a bench.
 
 ## the plan
 

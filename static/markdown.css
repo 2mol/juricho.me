@@ -16,11 +16,6 @@
 }
 .markdown h2 {
   font-size: 160%;
-  /* color: white;
-  background-color: black;
-  display: inline;
-  padding-left: .2em;
-  padding-right: .2em; */
 }
 .markdown h3 {
   font-size: 120%;
@@ -45,4 +40,13 @@
   list-style-type: decimal;
   margin-bottom: 1rem;
   margin-left: 1rem;
+}
+.markdown hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.markdown blockquote {
+  color:rgb(158, 158, 158);
+  padding-left: 2rem;
+  padding-right: 2rem;
 }

@@ -2,4 +2,4 @@
 title = "About"
 +++
 
-_not yet_
+I'm a software engineer
