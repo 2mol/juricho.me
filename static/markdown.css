@@ -10,6 +10,7 @@
 }
 .markdown p {
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 .markdown h1 {
   font-size: 200%;
@@ -33,7 +34,10 @@
 }
 .markdown ul {
   list-style-type: disc;
-  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.markdown ul li ul {
+  list-style-type: circle;
   margin-left: 1rem;
 }
 .markdown ol {
