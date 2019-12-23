@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['**/*.html'],
+  content: ['**/*.html', '**/*.md'],
   css: [
     'static/tailwind.min.css',
     'static/markdown.css',
