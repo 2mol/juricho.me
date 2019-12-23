@@ -21,7 +21,7 @@ Since I get to name it, I'm calling it the **Züri Dësch**, after the city wher
 
 ## the plan
 
-{{ image(url="/img/zurich-table/plan-sketchup.png", text="Couch Table 3D Plan.") }}
+{{ image(url="/img/zurich-table/plan-sketchup.png", text="3D Plan made in SketchUp 2017.") }}
 
 The design should fulfill the following criteria:
 
@@ -35,26 +35,31 @@ It's not the _absolute easiest_ build, since it has these long dovetails attachi
 
 However, I think anybody with some experience, diligence, and tools should be able to do it. For reference, [this beautiful mess](/img/zurich-table/bedroom-workshop2.jpg) was my bedroom workshop in which I built all three tables.
 
-{{ image(url="/img/zurich-table/table-bench.jpg", text="Couch Table/Bench combo made from ash.") }}
+{{ image(url="/img/zurich-table/table-bench.jpg", text="Couch table + bench combo made from ash.") }}
 
 
 ## how to make your own
 
 ### what you need
 
-- a couple of boards of wood. I've tried ash and oak.
-- a way to flatten[^3] and join boards to make the top.
-- one or two wide woodworking chisels.
-- a saw - I recommend a circular saw, or a japanese handsaw if you're confident you can make a straight angled cut with it. The latter are quite affordable, and *amazing*.
-- something to measure and draw angles with (like a sliding T bevel + protractor).
-- sandpaper or a power sander.
-- a pencil.
+- a couple of **boards** of the wood of your choice. I've tried ash and oak.
+- a way to **flatten**[^2] and **join** boards to make the top.
+- one or two wide woodworking **chisels**.
+- a **saw** - I recommend a circular saw. Alternatively a japanese handsaw if you're confident you can make a straight cut with it. The latter are quite affordable, and *amazing*.
+- something to measure and **draw angles** (like a sliding T bevel + protractor).
+- **clamps**.
+- **glue**.
+- **sandpaper** or a power sander.
+- **oil** to finish.
+- a **pencil**.
 
 
 ### optional
 
-- a card scraper for surface finish.
-- a handplane to thin the legs, chamfer edges and flatten the top of the legs sticking out.
+- card scraper for surface finish.
+- handplane to thin the legs, chamfer edges and flatten the top of the legs sticking out.
+- small router to chamfer edges and remove material for the dovetail (haven't tried it).
+- a jigsaw or a bandsaw to help cut the dovetails (haven't tried it).
 
 
 ## download plans
@@ -62,16 +67,11 @@ However, I think anybody with some experience, diligence, and tools should be ab
 
 ---
 
-[^1]: Fast and minimal materials also means that it can be _affordable_. I care about long-lasting objects being accessible to as many people as possible.
+[^1]: Minimal materials and easy to build also means that it can be _affordable_. I care about long-lasting objects being accessible to more than just a wealthy few.
 <p>
-I've seen (admittedly cool) benches being sold for 2000 bucks[^2] where I live. What.
-</p><p>
-I estimated that I could churn out a dozen Züri tables in 3 days with a bit of prep, meaning they could be profitably sold for a fraction of that.
+I've seen - admittedly excellent - benches being sold for 2000.- where I live. Back then I estimated that I could churn out a dozen Züri tables in about 3 days with a bit of prep, meaning they could be profitably sold for a fraction of the above.
 </p>
 
-[^3]: I used a big planer in a community workshop.
-
-[^2]: Euros, US Dollars, Swiss Francs, pretty much the same at the time of writing.
-
+[^2]: I used a big planer in a community workshop.
 
 <!-- [^99]: [reddit thread](https://old.reddit.com/r/woodworking/comments/6n107g/im_making_these_minimalist_couch_tables_this_is/) -->
