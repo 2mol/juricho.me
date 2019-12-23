@@ -69,8 +69,20 @@
               You can contact me on <a href="https://twitter.com/jurichome">twitter</a>, or by sending an email to <a
                 href="mailto:juri@juricho.me">juri@juricho.me</a>.
             </p>
-            <h2>posts</h2>
-            {% include "posts-list.html" %}
+            <h2>
+              posts
+            </h2>
+            <table class="mb-6">
+              {% set posts_section = get_section(path="posts/_index.md") %}
+              {% for page in posts_section.pages | sort(attribute="date") | reverse %}
+              <tr>
+                <td class="text-right">{{ page.date | date(format="%d. %b %Y") }}</td>
+                <td class="px-2">―</td>
+                <td><a href="{{ page.permalink }}">{{ page.title }}</a></td>
+              </tr>
+              {% endfor %}
+            </table>
+
           </div>
           {% endblock bla %}
 
