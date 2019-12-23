@@ -8,7 +8,7 @@ module.exports = {
   extractors: [
     {
       extractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-      extensions: ['html']
+      extensions: ['html', 'md']
     }
   ]
 }
