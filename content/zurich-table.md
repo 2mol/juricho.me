@@ -82,20 +82,57 @@ Good? Good. Here is an image so you can visualise the whole thing:
 {{ image(url="/img/zurich-table/plan-sketchup.png", text="3D Plan you can download below.") }}
 
 
-### top slab
+### top
 
-You should know how to make join boards. Here's my poorly-lit version of that, but ignore the hardware[^2], four clamps would do the same:
+Plane your stock to the final thickness and make the edges square.
+
+You should know how to make join boards to make your top slab. Here's my poorly-lit version of that. Ignore the hardware[^2], four clamps would do the same:
 
 {{ image(url="/img/zurich-table/joined-boards.jpg") }}
 
+When this has dried, scrape off the squeezed out glue, and cut the ends square.
+
 ### legs
 
-{{ image(url="/img/zurich-table/legs.jpg") }}
+{{ image(url="/img/zurich-table/legs.jpg", float=true) }}
 
-The tapered legs are a bit tricky and I suggest you get access to a table saw. If you don't know how to make long taper cuts at a steep angle, search for instructions on [table saw tapered cut](https://www.google.com/search?tbm=isch&q=table+saw+tapered+cut).
+The tapered legs are a bit tricky and I suggest you get access to a table saw. If you don't know how to make long cuts at a steep angle, search for instructions on [table saw tapered cut](https://www.google.com/search?tbm=isch&q=table+saw+tapered+cut).
 
+After cutting the big taper on the back of the legs, I also tapered the sides of the legs with a handplane. Thinning them towards the bottom makes the difference between the table looking crude or elegant, so I'm a big fan of that.
+
+<div class="clearfix"></div>
+
+Congratulations, you now have all five pieces needed! Hopefully they are square and flat where they should be.
+
+{{ image(url="/img/zurich-table/final-parts.jpg", text="ta-da") }}
+
+### dovetails
+
+First, cut off the corners or the top at the specified angle.
+
+> This is not a purely aesthetic step, due to the direction of the wood grain: gluing in the dovetailed legs at the specified angle is the best trade-off between the top (a) potentially splitting under lateral strain on the legs, and (b) leaving a weak triangle on the inner side of the leg.
+
+{{ image(url="/img/zurich-table/corner.jpg") }}
+
+Next, lay out the dovetails:
+
+{{ image(url="/img/zurich-table/dovetails-layout.jpg", text="Tape off the depth so that you don't cut too far.") }}
+
+Cut them out, and do the corresponding thing for the legs. This step is not easy to do gap-free, you'll need some patience and chiselling skills.
+
+{{ image(url="/img/zurich-table/dovetails-cut.jpg", text="Fit and adjust as needed.") }}
+
+{{ image(url="/img/zurich-table/dovetails-legs.jpg", text="Dovetailed and chamfered legs.") }}
+
+{{ image(url="/img/zurich-table/legs-chamfer.jpg", text="Chamfering the feet is important for the wood not to fray and split.") }}
+
+See how everything fits together before making your mistakes permanent with glue.
+
+{{ image(url="/img/zurich-table/dovetails-done.jpg") }}
 
 ### glue-up
+
+Not much to this step, except clamps and making a mess. This is your last chance to sand hard-to-reach spots, and maybe pre-finish the exposed surfaces to help clean out the glue squeeze-out later.
 
 ### finish
 

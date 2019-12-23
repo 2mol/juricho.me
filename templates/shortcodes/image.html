@@ -3,24 +3,19 @@
 {% else %}
 {% set label = "" %}
 {% endif %}
-<div class="flex flex-col items-center">
 
-  <!-- {% if body %}
-  <div class="flex justify-between">
-    <div class="w-1/2 mx-4">
-      {{body}}
-    </div>
-  {% endif %} -->
-
+{% if float %}
+<a href="{{url}}">
+  <img class="float-right ml-4 mt-4" srcset="{{url}} 1x, {{url}} 2x" src="{{url}}" alt="{{label}}" title="{{label}}" />
+</a>
+{% else %}
+<div class="flex flex-col items-center mt-4">
   <a href="{{url}}">
-    <img style="float: right;" srcset="{{url}} 1x, {{url}} 2x" src="{{url}}" alt="{{label}}" title="{{label}}" />
+    <img srcset="{{url}} 1x, {{url}} 2x" src="{{url}}" alt="{{label}}" title="{{label}}" />
   </a>
 
-  <!-- {% if body %}
-  </div>
-  {% endif %} -->
-
   {% if text %}
-  <div class="my-2 text-xs">{{text}}</div>
+  <div class="my-2 px-4 text-xs">{{text}}</div>
   {% endif %}
 </div>
+{% endif %}
