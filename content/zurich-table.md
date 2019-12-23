@@ -40,6 +40,14 @@ However, I think anyone with a bit of experience, diligence, and some tools shou
 
 {{ image(url="/img/zurich-table/table-bench.jpg", text="Couch table + bench combo made from ash.") }}
 
+To achieve the criteria above, the main idea is to use legs that are quite long in the "depth" direction, and insert them into the top with a long dovetail with a lot of surface area for glue.
+
+When done at an angle, this provides the necessary rigidity, without leaving any serious weak-spots on the connection between leg and table top.
+
+{{ image(url="/img/zurich-table/dovetail-closeup.jpg", text="Dovetail with a deeply inset leg that is heavily tapered towards the bottom.") }}
+
+Using a couple of these for a few years confirms that you can sit on them, rock back and forth and abuse them in lots of other ways, and they don't seem to mind.
+
 
 ## make your own
 
