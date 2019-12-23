@@ -3,7 +3,7 @@ title = "Juri Chomé"
 +++
 
 
-## projects {#projects}
+## projects
 
 Lately my interests revolve around good design, minimalist UIs, and making complex workflows easy and intuitive.
 
@@ -18,3 +18,9 @@ Here is some of what I've built in the past:
 - **a divorce rate calculator** - built as a prototype to show how a custom, reactive user interface can bring clarity into complex legal rules. The tool also provides legal documentation to each of the key inputs, enabling lawyers and judges to be many times more efficient and consistent when handling a case.
 <br/>(In German, and only applicable to Swiss law.)
 <br/>→ [demo](https://2mol.gitlab.io/urechner)
+
+## woodworking
+
+I like making furniture, and I'll try to find the time to put plans, photos, and build instructions online.
+
+- [Züri Dësch - The Zurich Table](/zurich-table)
