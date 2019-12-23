@@ -21,7 +21,7 @@ Since I get to name it, I'm calling it the **Züri Dësch**, after the city wher
 
 Here are two specimens:
 
-{{ image(url="/img/zurich-table/two-tables.jpg", text="Züri Dësch v1 and v3, in ash and oak respectively.") }}
+{{ image(url="/img/zurich-table/two-tables.jpg", text="version 1 and version 3, in ash and oak respectively.") }}
 
 
 ## the design
@@ -41,11 +41,11 @@ However, I think anyone with a bit of experience, diligence, and some tools shou
 {{ image(url="/img/zurich-table/table-bench.jpg", text="Couch table + bench combo made from ash.") }}
 
 
-## how to make your own
+## make your own
 
 What you'll need:
 
-1. a couple of **boards** of the wood of your choice. I've tried ash and oak.
+1. a couple of **boards** of the (hard)wood of your choice. I've tried ash and oak.
 1. a way to **flatten**[^2] and **join** boards to make the top.
 1. one or two wide woodworking **chisels**.
 1. a **saw** - I recommend a circular saw. Alternatively a japanese handsaw if you're confident you can make a straight cut with it. The latter are quite affordable, and *amazing*.
@@ -62,12 +62,38 @@ Optional:
 - handplane to thin the legs, chamfer edges and flatten the top of the legs sticking out.
 - small router to chamfer edges and remove material for the dovetail (haven't tried it).
 - a jigsaw or a bandsaw to help cut the dovetails (haven't tried it).
+- a table saw, especially for cutting the legs.
 
-Ok, let's get started!
+Ok cool, let's get started! You will roughly have to do the following:
+
+1. decide on the measurements you want, make your own drawing/plan.
+1. get the materials.
+1. plane the stock, glue up the boards for the top.
+1. cut the tapered shape of the legs.
+1. cut off the corners of the table top.
+1. lay out the dovetails on both the legs and the table top corners.
+1. cut the dovetails (this is the tricky part).
+1. optional: pre-finish your parts by sanding and oiling the exposed surfaces.
+1. glue up.
+1. plane everything flush, chamfer, sand, oil, done.
+
+Good? Good. Here is an image so you can visualise the whole thing:
+
+{{ image(url="/img/zurich-table/plan-sketchup.png", text="3D Plan you can download below.") }}
+
 
 ### top slab
 
+You should know how to make join boards. Here's my poorly-lit version of that, but ignore the hardware[^2], four clamps would do the same:
+
+{{ image(url="/img/zurich-table/joined-boards.jpg") }}
+
 ### legs
+
+{{ image(url="/img/zurich-table/legs.jpg") }}
+
+The tapered legs are a bit tricky and I suggest you get access to a table saw. If you don't know how to make long taper cuts at a steep angle, search for instructions on [table saw tapered cut](https://www.google.com/search?tbm=isch&q=table+saw+tapered+cut).
+
 
 ### glue-up
 
@@ -76,9 +102,7 @@ Ok, let's get started!
 
 ## download plans
 
-{{ image(url="/img/zurich-table/plan-sketchup.png", text="SketchUp 3D Plan.") }}
-
-[Here is a SketchUp file](/files/couch_table_v1.skp) with the measurements of one of the versions. I made it in SketchUp 2017, which should still be available for free online.
+[Here is a SketchUp file](/files/couch_table_v1.skp) with the measurements of one of the versions. I used SketchUp 2017, which should still be available for free online.
 
 
 ## get in touch
@@ -94,6 +118,6 @@ You can send me an email at [juri@juricho.me](mailto:juri@juricho.me).
 I've seen (admittedly excellent) benches being sold for 2000.- where I live. I estimate that you could churn out a dozen Züri tables in about 3 days with a bit of prep, meaning they could be profitably sold for a fraction of the above.
 
 
-[^2]: I used a big planer in a community workshop.
+[^2]: I went to prep my stock at a community workshop. This gave me access to a planer and a table saw amongst other things. I highly recommend seeking out your local community workshops if there are any where you live.
 
 <!-- [^99]: [reddit thread](https://old.reddit.com/r/woodworking/comments/6n107g/im_making_these_minimalist_couch_tables_this_is/) -->

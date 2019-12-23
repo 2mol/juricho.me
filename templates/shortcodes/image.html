@@ -1,6 +1,26 @@
+{% if text %}
+{% set label = text %}
+{% else %}
+{% set label = "" %}
+{% endif %}
 <div class="flex flex-col items-center">
+
+  <!-- {% if body %}
+  <div class="flex justify-between">
+    <div class="w-1/2 mx-4">
+      {{body}}
+    </div>
+  {% endif %} -->
+
   <a href="{{url}}">
-    <img srcset="{{url}} 1x, {{url}} 2x" src="{{url}}" alt="{{text}}" title="{{text}}" />
+    <img style="float: right;" srcset="{{url}} 1x, {{url}} 2x" src="{{url}}" alt="{{label}}" title="{{label}}" />
   </a>
+
+  <!-- {% if body %}
+  </div>
+  {% endif %} -->
+
+  {% if text %}
   <div class="my-2 text-xs">{{text}}</div>
+  {% endif %}
 </div>
