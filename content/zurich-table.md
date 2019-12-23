@@ -46,7 +46,7 @@ When done at an angle, this provides the necessary rigidity, without leaving any
 
 {{ image(url="/img/zurich-table/dovetail-closeup.jpg", text="Dovetail with a deeply inset leg that is heavily tapered towards the bottom.") }}
 
-Using a couple of these for a few years confirms that you can sit on them, rock back and forth and abuse them in lots of other ways, and they don't seem to mind.
+Using a couple of these tables for a few years now confirms that you can sit on them, rock back and forth and abuse them in lots of other ways, and they don't seem to mind.
 
 
 ## make your own
