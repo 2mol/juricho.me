@@ -57,10 +57,6 @@ code {
   padding: 0.1rem 0.3rem;
 }
 
-pre code {
-  background-color: transparent;
-}
-
 a:link {
     color:#4078f1
 }

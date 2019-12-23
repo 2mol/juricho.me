@@ -31,6 +31,10 @@
     <div class="max-w-2xl w-full">
       <div class="bg-white md:border md:border-gray-400 pt-12 px-4 md:px-12 pb-4 md:pb-12 -mt-6 mb-8">
         <div class="markdown">
+          {% if page.extra.toc %}
+          {% include "table-of-contents.html" %}
+          {% endif %}
+
           {% block content %}
           {{ page.content | safe }}
           {% endblock content %}

@@ -36,14 +36,16 @@
   list-style-type: disc;
   margin-left: 1rem;
 }
-.markdown ul li ul {
-  list-style-type: circle;
-  margin-left: 1rem;
-}
 .markdown ol {
   list-style-type: decimal;
-  margin-bottom: 1rem;
   margin-left: 1rem;
+}
+.markdown li {
+  margin-left: 1rem;
+  padding-left: 0.4rem;
+}
+.markdown ul li ul {
+  list-style-type: circle;
 }
 .markdown hr {
   margin-top: 2rem;
@@ -53,4 +55,9 @@
   color:rgb(158, 158, 158);
   padding-left: 2rem;
   padding-right: 2rem;
+}
+.markdown code {
+  color: #1f1f1f;
+  background-color: #fff398;
+  padding: 0.1rem 0.3rem;
 }

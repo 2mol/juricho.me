@@ -23,3 +23,34 @@ body {
   transform: skew(0deg, -2deg);
   margin-top: 2px;
 }
+
+/* zola specific footnote style */
+
+.footnote-definition {
+  display: flex;
+  font-size: 90%;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.footnote-definition p {
+  margin: 0rem;
+}
+
+.footnote-definition-label {
+  background: black;
+  color: white;
+  margin-right: 0.75rem;
+  border-radius: 50%;
+  height: 1.5em;
+  width: 1.5em;
+  min-height: 1.5em;
+  min-width: 1.5em;
+  text-align: center;
+}
+
+.footnote-definition sup {
+  top: 0;
+  line-height: 1.5em;
+  font-size: 0.85em;
+}
