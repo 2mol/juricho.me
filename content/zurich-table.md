@@ -130,11 +130,27 @@ See how everything fits together before making your mistakes permanent with glue
 
 {{ image(url="/img/zurich-table/dovetails-done.jpg") }}
 
+Now is your last chance to sand hard-to-reach spots, and maybe pre-finish the exposed surfaces to help clean out the glue squeeze-out later.
+
 ### glue-up
 
-Not much to this step, except clamps and making a mess. This is your last chance to sand hard-to-reach spots, and maybe pre-finish the exposed surfaces to help clean out the glue squeeze-out later.
+Not much to this step, except clamps and making a mess.
+
+{{ image(url="/img/zurich-table/glue.jpg") }}
 
 ### finish
+
+The last steps are
+
+1. plane the top of the legs flush with the table top.
+1. sand everything.
+1. oil the same everything.
+
+{{ image(url="/img/zurich-table/sanded.jpg", text="Sanding is annoying and takes forever. I still recommend going down to a pretty fine grit size like 400, it pays off in the form of a silky-smooth surface finish later.") }}
+
+{{ image(url="/img/zurich-table/oiled.jpg") }}
+
+{{ image(url="/img/zurich-table/done.jpg", text="Oiled and done. Enjoy all the future compliments you're going to hear about your shiny couch table.") }}
 
 
 ## download plans
