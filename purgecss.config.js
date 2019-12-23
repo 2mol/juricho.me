@@ -1,10 +1,6 @@
 module.exports = {
   content: ['**/*.html', '**/*.md'],
-  css: [
-    'static/tailwind.min.css',
-    'static/markdown.css',
-    'static/style.css'
-  ],
+  css: ['static/tailwind.min.css'],
   extractors: [
     {
       extractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
