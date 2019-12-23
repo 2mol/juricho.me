@@ -23,4 +23,4 @@ Here is some of what I've built in the past:
 
 I like making furniture, and I'll try to find the time to put plans, photos, and build instructions online.
 
-- [Züri Dësch - The Zurich Table](/zurich-table)
+- [Züri Dësch - The Zurich couch table](/zurich-table)
