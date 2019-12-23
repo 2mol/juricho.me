@@ -21,24 +21,22 @@ Since I get to name it, I'm calling it the **Züri Dësch**, after the city wher
 
 Here are two specimens:
 
-{{ image(url="/img/zurich-table/two-tables.jpg", text="Züri Dësch v1 and v3, ash and oak respectively.") }}
+{{ image(url="/img/zurich-table/two-tables.jpg", text="Züri Dësch v1 and v3, in ash and oak respectively.") }}
 
 
-## the plan
+## the design
 
-{{ image(url="/img/zurich-table/plan-sketchup.png", text="3D Plan made in SketchUp 2017.") }}
+The table should:
 
-The design should fulfill the following criteria:
-
-- have only five parts.
+- only have five parts.
 - be sturdy enough to carry the weight of people sitting on it.
-- possible to build with semi-basic tools in a small space.
+- be possible to build with semi-basic tools in a small space.
 - be fast and simple[^1] to make.
 - look good.
 
 Skill-wise it's easy, but not a not a _completely trivial_ build, mainly due to these long dovetails attaching the legs to the top.
 
-However, I think anybody with some experience, diligence, and tools should be able to do it. For reference, [this beautiful mess](/img/zurich-table/bedroom-workshop2.jpg) was my bedroom workshop in which I made all three tables.
+However, I think anyone with a bit of experience, diligence, and some tools should be able to build one for themselves. For reference, [this beautiful mess](/img/zurich-table/bedroom-workshop2.jpg) was my bedroom workshop in which I made all three tables.
 
 {{ image(url="/img/zurich-table/table-bench.jpg", text="Couch table + bench combo made from ash.") }}
 
@@ -58,7 +56,6 @@ What you'll need:
 1. **oil** to finish.
 1. **pencil**, **tape**, a **square**, you know the drill
 
-
 Optional:
 
 - card scraper for surface finish.
@@ -66,11 +63,29 @@ Optional:
 - small router to chamfer edges and remove material for the dovetail (haven't tried it).
 - a jigsaw or a bandsaw to help cut the dovetails (haven't tried it).
 
+Ok, let's get started!
+
+### top slab
+
+### legs
+
+### glue-up
+
+### finish
+
 
 ## download plans
 
-Here is a SketchUp file where I wrote down the measurements of one of the versions.
+{{ image(url="/img/zurich-table/plan-sketchup.png", text="SketchUp 3D Plan.") }}
 
+[Here is a SketchUp file](/files/couch_table_v1.skp) with the measurements of one of the versions. I made it in SketchUp 2017, which should still be available for free online.
+
+
+## get in touch
+
+If you make your own, I would love to see photos. If you have any corrections, or struggle with some step, then I'm also more than happy to hear about it, so that I can improve the instructions.
+
+You can send me an email at [juri@juricho.me](mailto:juri@juricho.me).
 
 ---
 
