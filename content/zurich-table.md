@@ -34,7 +34,7 @@ The table should:
 - be fast and simple[^1] to make.
 - look good.
 
-Skill-wise it's easy, but not a not a _completely trivial_ build, mainly due to these long dovetails attaching the legs to the top.
+Skill-wise it's easy, but not a _completely trivial_ build, mainly due to these long dovetails attaching the legs to the top.
 
 However, I think anyone with a bit of experience, diligence, and some tools should be able to build one for themselves. For reference, [this beautiful mess](/img/zurich-table/bedroom-workshop2.jpg) was my bedroom workshop in which I made all three tables.
 
@@ -62,7 +62,7 @@ What you'll need:
 1. **glue**.
 1. **sandpaper** or a power sander.
 1. **oil** to finish.
-1. **pencil**, **tape**, a **square**, you know the drill
+1. **pencil**, **tape**, a **square**, you know the drill.
 
 Optional:
 
@@ -96,9 +96,8 @@ Plane your stock to the final thickness and make the edges square.
 
 You should know how to make join boards to make your top slab. Here's my poorly-lit version of that. Ignore the hardware[^2], four clamps would do the same:
 
-{{ image(url="/img/zurich-table/joined-boards.jpg") }}
+{{ image(url="/img/zurich-table/joined-boards.jpg", text="When this has dried, scrape off the squeezed out glue, and cut the ends square.") }}
 
-When this has dried, scrape off the squeezed out glue, and cut the ends square.
 
 ### legs
 
@@ -118,7 +117,7 @@ Congratulations, you now have all five pieces needed! Hopefully they are square 
 
 First, cut off the corners or the top at the specified angle.
 
-> This is not a purely aesthetic step, due to the direction of the wood grain: gluing in the dovetailed legs at the specified angle is the best trade-off between the top (a) potentially splitting under lateral strain on the legs, and (b) leaving a weak triangle on the inner side of the leg.
+> Note: his is not a purely aesthetic step, due to the direction of the wood grain: gluing in the dovetailed legs at the specified angle is the best trade-off between (a) the top potentially splitting under lateral strain on the legs, and (b) the top having a weak triangle on the inner side of the leg.
 
 {{ image(url="/img/zurich-table/corner.jpg") }}
 
