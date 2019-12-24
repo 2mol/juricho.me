@@ -51,6 +51,8 @@ Using a couple of these tables for a few years now confirms that you can sit on 
 
 ## make your own
 
+### prep
+
 What you'll need:
 
 1. a couple of **boards** of the (hard)wood of your choice. I've tried ash and oak.
