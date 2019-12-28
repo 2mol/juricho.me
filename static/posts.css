@@ -139,3 +139,12 @@ hr {
 .screen-fill {
   height: 100vh;
 }
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+}
+
+.footnote-definition sup {
+  line-height: 1.5;
+}

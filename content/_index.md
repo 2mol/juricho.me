@@ -21,6 +21,6 @@ Here is some of what I've built in the past:
 
 ## woodworking
 
-I like making furniture. This is where I will gradually put plans, photos, and build instructions of the more interesting projects.
+I like making furniture. This is where I will gradually put plans, and photos of the more interesting projects.
 
 - [Züri Dësch - The Zurich couch table](/zurich-table)

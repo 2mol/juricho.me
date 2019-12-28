@@ -180,6 +180,6 @@ You can send me an email at [juri@juricho.me](mailto:juri@juricho.me).
 I've seen (admittedly excellent) benches being sold for 2000.- where I live. I estimate that you could churn out a dozen Züri tables in about 3 days with a bit of prep, meaning they could be profitably sold for a fraction of the above.
 
 
-[^2]: I went to prep my stock at a community workshop. This gave me access to a planer and a table saw amongst other things. I highly recommend seeking out your local community workshops if there are any where you live.
+[^2]: I went to prep my stock at a community workshop. This gave me access to a planer and a table saw amongst other things. I highly recommend seeking out your local community workshops if there are any near you.
 
 <!-- [^99]: [reddit thread](https://old.reddit.com/r/woodworking/comments/6n107g/im_making_these_minimalist_couch_tables_this_is/) -->
