@@ -619,6 +619,9 @@ Here are a bunch of photos of the physical result of all this.
 
 <img srcset="/img/puzzle/plexi2.jpg 1x, /img/puzzle/plexi2.jpg 2x" src="/img/puzzle/plexi2.jpg"/>
 
+That's right, it even cuts plexiglass!
+
+
 ## Possible improvements
 
 If I have more time, I would like to improve several things:
