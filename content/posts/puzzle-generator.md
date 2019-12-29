@@ -2,7 +2,7 @@
 title = "Write a puzzle generator in Elm"
 date = 2019-12-27
 template = "post.html"
-draft = true
+draft = false
 +++
 
 
@@ -20,19 +20,26 @@ I used [Elm](https://elm-lang.org/), because it has a nice way to produce SVGs, 
 
 ## Intro
 
+> Sidenote: This turned post out to be longer than I anticipated! If you just want to skip straight to the code, it's at [https://github.com/2mol/jigsaw-tutorial/](https://github.com/2mol/jigsaw-tutorial/).
+
 I actually made two attempts, the first one being based on generating a [Voronoi tesselation](https://en.wikipedia.org/wiki/Voronoi_diagram) and making heavy use of [`elm-geometry`](https://package.elm-lang.org/packages/ianmackenzie/elm-geometry/latest/). That approach had some subtle problems[^2], which made me go back to the drawing board for a second attempt.
 
-I will not describe that approach in much detail, instead I'll walk you through a fully working solution based on my second attempt.
+I will not describe that approach in much detail, instead I'll walk you through a fully working solution based on my second attempt. However, if you're interested, you can have a look at my messy original code repo at [https://github.com/2mol/elm-jigsaw](https://github.com/2mol/elm-jigsaw).
 
 Here is how I broke down the problem:
 
 1. [Generate a grid with square pieces](#grid).
 1. [Randomly move all the inner corners of the grid a little bit](#wiggle).
 1. [Replace the edges with a tongue shape](#edges).
+1. [Save the SVG](#save).
 
-That's it for the highlevel view! It turns out however that you need to solve some smaller problems to make it work. You can have a look at the code on [Ellie](TODO) or the [code repo of this tutorial](TODO).
+That's it for the high level view! It turns out however that you need to solve some smaller problems to make it work. You can have a look at the code on [Ellie](TODO) or the [code repo of this tutorial](TODO).
 
 See [possible improvements](#possible-improvements) below for some ideas about how to make the puzzles better, or polish the overall tool.
+
+Here is what we'll try to achieve:
+
+![The goal puzzle](/img/puzzle_new_crooked_16x8.svg)
 
 
 ## Setting up your Elm project
@@ -347,25 +354,286 @@ snapToBorder_ howClose maxCoord coord =
         coord
 ```
 
-Again, this is mostly simple code, but it was fairly tricky to get the random parts working correctly. It's easy to fall into the trap of using the same seed for a list of things, getting the same perturbation everywhere.
+Again, this is mostly simple code, but it was fairly tricky to use `Random` the right way. It's easy to fall into the trap of using the same seed for a list of things, getting the same perturbation everywhere.
 
-Additionally, the bulk of the code consists of some boring logic to snap the outer edges back into the rectangular border shape. You could skip this to get a more interesting puzzle!
+The rest of the above consists of some mundane logic to snap the outer edges back into the rectangular border shape. You could skip this to get a more interesting puzzle!
 
 <img srcset="/img/edges-pert.png 1x, /img/edges-pert.png 2x" src="/img/edges-pert.png"/>
 
-Yay.
-
-[Ellie](https://ellie-app.com/7Cx2fryTJH3a1) and [code](https://github.com/2mol/jigsaw-tutorial/blob/6efea6c463c3dd0aca57727c26af6f84641552d4/src/Main.elm) checkpoints.
+Yay. [Ellie](https://ellie-app.com/7Cx2fryTJH3a1) and [code](https://github.com/2mol/jigsaw-tutorial/blob/6efea6c463c3dd0aca57727c26af6f84641552d4/src/Main.elm) checkpoints.
 
 ## Puzzle edge shapes {#edges}
 
 It doesn't look like much yet, but everything is goint to fall into place with this next step.
 
+The idea is to replace each inner edge with a typical puzzle tongue shape to create the interlocking parts. We basically want this thing everywhere:
+
+<img srcset="/img/puzzle-tongue.png 1x, /img/puzzle-tongue.png 2x" src="/img/puzzle-tongue.png"/>
+
+It helps to have a basic intuition about Bézier curves. For the syntax itself, I have to admit that I had to stare at the [explanation for SVG paths](https://developer.mozilla.org/en/docs/Web/SVG/Tutorial/Paths) quite a bit.
+
+Basically, there is a syntax for cubic splines (a curve with two points and two control points), and then there is a special syntax for chaining a bunch of them together. We're looking to generate something like this:
+
+```html
+<svg>
+  <path d="M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80"/>
+</svg>
+```
+
+The coordinates above are for the points on the curve, and their respective control points. The letters are a way to tag which is which, but then also one of the control point is omitted, because it's symmetrical to the previous one.
+
+Super easy to get confused! I decided to define a record type to keep track of which coordinate pair means what.
+
+Here it is, along with its drawing function:
+
+```elm
+type alias Curve3 =
+    { start : Point
+    , startControl : Point
+    , middle : Point
+    , middleControl : Point
+    , endControl : Point
+    , end : Point
+    }
+
+drawCurve3 : Curve3 -> Svg msg
+drawCurve3 curve =
+    let
+        m =
+            [ "M"
+            , String.fromInt curve.start.x
+            , String.fromInt curve.start.y
+            ]
+
+        c =
+            [ "C"
+            , String.fromInt curve.startControl.x
+            , String.fromInt curve.startControl.y
+            , String.fromInt curve.middleControl.x
+            , String.fromInt curve.middleControl.y
+            , String.fromInt curve.middle.x
+            , String.fromInt curve.middle.y
+            ]
+
+        s =
+            [ "S"
+            , String.fromInt curve.endControl.x
+            , String.fromInt curve.endControl.y
+            , String.fromInt curve.end.x
+            , String.fromInt curve.end.y
+            ]
+
+        pathString =
+            [ m, c, s ]
+                |> List.map (String.join " ")
+                |> String.join ""
+    in
+    Svg.path
+        [ stroke "black"
+        , fill "none"
+        , d pathString
+        ]
+        []
+```
+
+Try it out on [Ellie](https://ellie-app.com/7CzW5Vc4Ywqa1) or [read the full code](https://github.com/2mol/jigsaw-tutorial/blob/2ab9f659587e708f32c504e97fbe959e8b6927fa/src/Main.elm).
+
+Now we have one last fun problem to solve. Given an edge, fit the tongue shape into it. There should also be a parameter that decides which way to flip the piece. I used a boolean, but it would be trivial to define a proper type like `type FlipDirection = OneWay | TheOtherway`, and generate these randomly.
+
+```elm
+makeTongue : Bool -> Edge -> Curve3
+makeTongue = ???
+```
+
+Did you try?
+
+Good, here's my way of doing it. It's basically a linear interpolation between the edges and the curve points. This is definitely something that is **a lot** nicer to do with `elm-geometry`, since you can just define a base shape and then rotate, translate, and scale it in the right way.
+
+```elm
+makeTongue : Bool -> Edge -> Curve3
+makeTongue flip { start, end } =
+    let
+        vEdge =
+            { x = end.x - start.x
+            , y = end.y - start.y
+            }
+
+        vPerp =
+            if start.y /= end.y then
+                { x = 1
+                , y = toFloat -vEdge.x / toFloat vEdge.y |> round
+                }
+
+            else
+                --if start.x /= end.x
+                { x = toFloat -vEdge.y / toFloat vEdge.x |> round
+                , y = 1
+                }
+
+        flipMult =
+            if flip then
+                -1
+
+            else
+                1
+
+        vPerpN =
+            { x = flipMult * toFloat vPerp.x / norm vPerp |> round
+            , y = flipMult * toFloat vPerp.y / norm vPerp |> round
+            }
+
+        middleScale =
+            toFloat puzzle.pixelsPerCell * 0.18 |> round
+
+        scaleV h vect =
+            { x = toFloat vect.x * h |> round
+            , y = toFloat vect.y * h |> round
+            }
+
+        scale h n =
+            toFloat n * h |> round
+
+        middle =
+            { x = (vPerpN.x * middleScale) + scale 0.5 (start.x + end.x)
+            , y = (vPerpN.y * middleScale) + scale 0.5 (start.y + end.y)
+            }
+    in
+    { start = Point start.x start.y
+    , startControl = Point (start.x + scale 0.8 vEdge.x) (start.y + scale 0.8 vEdge.y)
+    , middleControl = Point (middle.x - scale 0.4 vEdge.x) (middle.y - scale 0.4 vEdge.y)
+    , middle = Point middle.x middle.y
+    , endControl = Point (end.x - scale 0.8 vEdge.x) (end.y - scale 0.8 vEdge.y)
+    , end = Point end.x end.y
+    }
+
+-- | The norm (length) of a vector.
+norm : Point -> Float
+norm vect =
+    (vect.x ^ 2 + vect.y ^ 2)
+        |> toFloat
+        |> sqrt
+```
+
+There are definitely a bunch of magic numbers in the above, but since I had to get it done, there wasn't any time to create a nicer abstraction. But it works, so I'm not too bothered.
+
+Let's hook it all up! I'll let you figure out for yourself what some of the additional code does.
+
+```elm
+main : Svg msg
+main =
+    let
+        cnvs =
+            canvas params.width params.height
+
+        grid =
+            rectangularGrid puzzle.piecesX puzzle.piecesY
+                |> perturbGrid
+
+        markers =
+            Dict.values grid
+                |> List.map drawMarker
+
+        isOnBorder edge =
+            False
+                || (edge.start.x == 0 && edge.end.x == 0)
+                || (edge.start.y == 0 && edge.end.y == 0)
+                || (edge.start.x == params.width && edge.end.x == params.width)
+                || (edge.start.y == params.height && edge.end.y == params.height)
+
+        edges =
+            calcEdges grid
+                |> List.filter (not << isOnBorder)
+
+        ( flips, _ ) =
+            Random.uniform True [ True, False ]
+                |> Random.list (List.length edges)
+                |> (\l -> Random.step l puzzle.seed)
+
+        tongues =
+            List.map2 makeTongue flips edges
+
+        border =
+            Svg.rect
+                [ x "0"
+                , y "0"
+                , width (String.fromInt params.width)
+                , height (String.fromInt params.height)
+                , fillOpacity "0"
+                , stroke "black"
+                ]
+                []
+    in
+    cnvs <|
+        if puzzle.draftMode then
+            [ Svg.g [] <| List.map drawCurve3 tongues
+            , border
+            , Svg.g [] markers
+            , Svg.g [] <| List.map drawEdge edges
+            ]
+
+        else
+            [ Svg.g [] <| List.map drawCurve3 tongues
+            , border
+            ]
+```
+
+One last time, you can see everything together in [Ellie](https://ellie-app.com/7CBySTkJkJna1), or have a look at the [final code](https://github.com/2mol/jigsaw-tutorial/blob/master/src/Main.elm).
+
+Let's see the result:
+
+<img srcset="/img/puzzle-draft.png 1x, /img/puzzle-draft.png 2x" src="/img/puzzle-draft.png"/>
+
+Switch `draftMode` to `False`, and you can see the final puzzle in all its glory:
+
+<img srcset="/img/puzzle-final.png 1x, /img/puzzle-final.png 2x" src="/img/puzzle-final.png"/>
+
+
+## Extract the SVG {#save}
+
+One important thing I almost forgot! You've now generated some fantastic SVG code, but how do you get it out? I really had no more time to export the DOM string, so I just did it the dumb way: copy-paste the SVG code from the site's source code:
+
+<img srcset="/img/puzzle-inspect.png 1x, /img/puzzle-inspect.png 2x" src="/img/puzzle-inspect.png"/>
+
+...
+
+<img srcset="/img/puzzle-inspect2.png 1x, /img/puzzle-inspect2.png 2x" src="/img/puzzle-inspect2.png"/>
+
+You can then save this as an .svg file, or use some feature/plugin for your vector graphics editor to insert this.
+
+This is so dumb, but these kind of quick & hacky solutions make me so happy! Obviously if you wanted to export an hundred of these you could easily display the svg string, or even hook it up to a button that copies it into your clipboard. If you know of a way to make elm download an svg file generated from this, let me know.
+
+
+## Conclusion
+
+It took a little bit of work to come up with a nice way to express and solve this problem. I'm sure there are lots of improvements to be done, but I'm quite happy with the readability and the flexibility of the code.
+
+Here are a bunch of photos of the physical result of all this.
+
+<img srcset="/img/puzzle/mdf.jpg 1x, /img/puzzle/mdf.jpg 2x" src="/img/puzzle/mdf.jpg"/>
+
+<img srcset="/img/puzzle/mdf2.jpg 1x, /img/puzzle/mdf2.jpg 2x" src="/img/puzzle/mdf2.jpg"/>
+
+<img srcset="/img/puzzle/long.jpg 1x, /img/puzzle/long.jpg 2x" src="/img/puzzle/long.jpg"/>
+
+<img srcset="/img/puzzle/plexi.jpg 1x, /img/puzzle/plexi.jpg 2x" src="/img/puzzle/plexi.jpg"/>
+
+<img srcset="/img/puzzle/plexi2.jpg 1x, /img/puzzle/plexi2.jpg 2x" src="/img/puzzle/plexi2.jpg"/>
 
 ## Possible improvements
 
+If I have more time, I would like to improve several things:
+
+- my initial voronoi approach could generate truly random pieces. It would be cool to put in some logic to avoid sime pieces intersecting, but I think this might be quite tricky.
+- This tool could easily be made into a website where you set the parameters interactiveely
+- I would like to randomize the shape of the tongues a bit. It wouldn't be too hard to make some thinner or slanted, and this would help a lot with making each piece unique.
+- I could engrave the next puzzle, making it slightly easier to solve.
 
 
+## That's it.
+
+LASER!
+
+<img srcset="/img/puzzle/LASER.jpg 1x, /img/puzzle/LASER.jpg 2x" src="/img/puzzle/LASER.jpg"/>
 
 ---
 
