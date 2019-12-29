@@ -600,7 +600,7 @@ One important thing I almost forgot! You've now generated some fantastic SVG cod
 
 You can then save this as an .svg file, or use some feature/plugin for your vector graphics editor to insert this.
 
-This is so dumb, but these kind of quick & hacky solutions make me so happy! Obviously if you wanted to export an hundred of these you could easily display the svg string, or even hook it up to a button that copies it into your clipboard. If you know of a way to make elm download an svg file generated from this, let me know.
+This is so dumb, but these kind of quick & hacky solutions make me very happy! Obviously if you wanted to export an hundred of these you could easily display the svg string, or even hook it up to a button that copies it into your clipboard. If you know of a way to make elm download an svg file generated from this, let me know.
 
 
 ## Conclusion
@@ -626,8 +626,8 @@ That's right, it even cuts plexiglass!
 
 If I have more time, I would like to improve several things:
 
-- my initial voronoi approach could generate truly random pieces. It would be cool to put in some logic to avoid sime pieces intersecting, but I think this might be quite tricky.
-- This tool could easily be made into a website where you set the parameters interactiveely
+- My [initial voronoi approach](https://github.com/2mol/elm-jigsaw/blob/master/src/Main.elm) could generate truly random pieces. It would be cool to put in some logic to avoid the tongue pieces intersecting. It should also avoid generating pieces that are too small.
+- This tool could easily be made into a website where you set the parameters interactively
 - I would like to randomize the shape of the tongues a bit. It wouldn't be too hard to make some thinner or slanted, and this would help a lot with making each piece unique.
 - I could engrave the next puzzle, making it slightly easier to solve.
 
