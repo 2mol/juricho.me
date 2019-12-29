@@ -33,7 +33,7 @@ Here is how I broke down the problem:
 1. [Replace the edges with a tongue shape](#edges).
 1. [Save the SVG](#save).
 
-That's it for the high level view! It turns out however that you need to solve some smaller problems to make it work. You can have a look at the code on [Ellie](TODO) or the [code repo of this tutorial](TODO).
+That's it for the high level view! It turns out however that you need to solve some smaller problems to make it work. You can have a look at the code on [Ellie](https://ellie-app.com/7CBySTkJkJna1) or the [code repo of this tutorial](https://github.com/2mol/jigsaw-tutorial).
 
 See [possible improvements](#possible-improvements) below for some ideas about how to make the puzzles better, or polish the overall tool.
 
