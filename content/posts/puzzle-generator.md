@@ -362,6 +362,7 @@ The rest of the above consists of some mundane logic to snap the outer edges bac
 
 Yay. [Ellie](https://ellie-app.com/7Cx2fryTJH3a1) and [code](https://github.com/2mol/jigsaw-tutorial/blob/6efea6c463c3dd0aca57727c26af6f84641552d4/src/Main.elm) checkpoints.
 
+
 ## Puzzle edge shapes {#edges}
 
 It doesn't look like much yet, but everything is goint to fall into place with this next step.
@@ -656,6 +657,7 @@ If I have more time, I would like to improve several things:
 - I could engrave the next puzzle, making it pretty and slightly easier to solve.
 
 Feel free to send me pull requests if you happen to hack on my code.
+
 
 ## That's it.
 
