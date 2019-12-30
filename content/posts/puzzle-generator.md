@@ -293,7 +293,7 @@ Here are the checkpoints for [Ellie](https://ellie-app.com/7CwR5kHgB2La1) and th
 
 ## Wiggle the grid {#wiggle}
 
-Time to make this grid less boring. I think with the setup we chose it is nice to have a function that just transforms a grid `Dict` into another grid `Dict`. Here are the new pieces of code:
+Time to make this grid less boring. The advantage with the setup we chose is that it's now possible to have a function that just transforms a grid `Dict` into another grid `Dict`. Here are the new pieces of code:
 
 ```elm
 module Main exposing (main)
@@ -382,7 +382,7 @@ Basically, there is a syntax for cubic splines (a curve with two points and two 
 
 The coordinates above are for the points on the curve, and their respective control points. The letters are a way to tag which is which, but then also one of the control point is omitted, because it's symmetrical to the previous one.
 
-Super easy to get confused! I decided to define a record type to keep track of which coordinate pair means what.
+Super easy to get confused! For example the endpoint is the only one where the control point coordinates are specified before the point itself... Time to define a record type to keep track of which coordinate pair means what.
 
 Here it is, along with its drawing function:
 
@@ -438,7 +438,15 @@ drawCurve3 curve =
 
 Try it out on [Ellie](https://ellie-app.com/7CzW5Vc4Ywqa1) or [read the full code](https://github.com/2mol/jigsaw-tutorial/blob/2ab9f659587e708f32c504e97fbe959e8b6927fa/src/Main.elm).
 
-Now we have one last fun problem to solve. Given an edge, fit the tongue shape into it. There should also be a parameter that decides which way to flip the piece. I used a boolean, but it would be trivial to define a proper type like `type FlipDirection = OneWay | TheOtherway`, and generate these randomly.
+Now we have one last fun problem to solve. Given an edge, fit the tongue shape into it. There should also be a parameter that decides which way to flip the piece. I used a boolean, but it would be good to define a proper type like
+
+```elm
+type FlipDirection = OneWay | TheOtherway
+```
+
+Generating these randomly is exactly as easy as generating a list of `Bool`, so boo for my laziness.
+
+Ok, do this:
 
 ```elm
 makeTongue : Bool -> Edge -> Curve3
@@ -447,7 +455,7 @@ makeTongue = ???
 
 Did you try?
 
-Good, here's my way of doing it. It's basically a linear interpolation between the edges and the curve points. This is definitely something that is **a lot** nicer to do with `elm-geometry`, since you can just define a base shape and then rotate, translate, and scale it in the right way.
+Here's my way of doing it. It's basically a linear interpolation between the edges and the curve points. This is definitely something that is **a lot** nicer to do with `elm-geometry`, since you can just define a base shape and then rotate, translate, and scale it in the right way.
 
 ```elm
 makeTongue : Bool -> Edge -> Curve3
@@ -506,7 +514,7 @@ makeTongue flip { start, end } =
     , end = Point end.x end.y
     }
 
--- | The norm (length) of a vector.
+-- The norm (length) of a vector.
 norm : Point -> Float
 norm vect =
     (vect.x ^ 2 + vect.y ^ 2)
@@ -590,7 +598,7 @@ Switch `draftMode` to `False`, and you can see the final puzzle in all its glory
 
 ## Extract the SVG {#save}
 
-One important thing I almost forgot! You've now generated some fantastic SVG code, but how do you get it out? I really had no more time to export the DOM string, so I just did it the dumb way: copy-paste the SVG code from the site's source code:
+One important thing I almost forgot! You've now generated some fantastic SVG code, but how do you get it out? I really had no more time to display the DOM string, so I just did it the simplest way possible: copy-paste the generated SVG from the site's source code:
 
 <img srcset="/img/puzzle-inspect.png 1x, /img/puzzle-inspect.png 2x" src="/img/puzzle-inspect.png"/>
 
@@ -598,16 +606,18 @@ One important thing I almost forgot! You've now generated some fantastic SVG cod
 
 <img srcset="/img/puzzle-inspect2.png 1x, /img/puzzle-inspect2.png 2x" src="/img/puzzle-inspect2.png"/>
 
-You can then save this as an .svg file, or use some feature/plugin for your vector graphics editor to insert this.
-
 This is so dumb, but these kind of quick & hacky solutions make me very happy! Obviously if you wanted to export an hundred of these you could easily display the svg string, or even hook it up to a button that copies it into your clipboard. If you know of a way to make elm download an svg file generated from this, let me know.
+
+Save this as an .svg file, or use some feature/plugin for your vector graphics editor. I used [SVG-insert](https://github.com/tankxu/svg-insert) because I happen to use Sketch.
 
 
 ## Conclusion
 
-It took a little bit of work to come up with a nice way to express and solve this problem. I'm sure there are lots of improvements to be done, but I'm quite happy with the readability and the flexibility of the code.
+This tutorial only shows the final happy path. It took a little bit of work to come up with a nice way to express and solve this problem, so don't be frustrated if you get stuck on some seemingly simple parts. Jump to the [fun failures](#fail) below to see some of the garbage I produced to get here.
 
-Here are a bunch of photos of the physical result of all this.
+I'm sure there are lots of improvements to be done, but I'm quite happy with the readability and the flexibility of the code.
+
+Here are a bunch of photos of the physical result of all this work.
 
 <img srcset="/img/puzzle/mdf.jpg 1x, /img/puzzle/mdf.jpg 2x" src="/img/puzzle/mdf.jpg"/>
 
@@ -619,25 +629,41 @@ Here are a bunch of photos of the physical result of all this.
 
 <img srcset="/img/puzzle/plexi2.jpg 1x, /img/puzzle/plexi2.jpg 2x" src="/img/puzzle/plexi2.jpg"/>
 
-That's right, it even cuts plexiglass!
+It even cuts plexiglass! This machine is seriously so cool.
+
+
+## Fun failures {#fail}
+
+Let's agree to call these generative art.
+
+<img srcset="/img/puzzle/fail4.png 1x, /img/puzzle/fail4.png 2x" src="/img/puzzle/fail4.png"/>
+
+<img srcset="/img/puzzle/fail3.png 1x, /img/puzzle/fail3.png 2x" src="/img/puzzle/fail3.png"/>
+
+<img srcset="/img/puzzle/fail2.png 1x, /img/puzzle/fail2.png 2x" src="/img/puzzle/fail2.png"/>
+
+<img srcset="/img/puzzle/fail1.png 1x, /img/puzzle/fail1.png 2x" src="/img/puzzle/fail1.png"/>
 
 
 ## Possible improvements
 
 If I have more time, I would like to improve several things:
 
-- My [initial Voronoi approach](https://github.com/2mol/elm-jigsaw/blob/master/src/Main.elm) could generate truly random pieces. It would be cool to put in some logic to avoid the tongue pieces intersecting. It should also avoid generating pieces that are too small.
+- My [initial Voronoi approach](https://github.com/2mol/elm-jigsaw/blob/master/src/Main.elm) could also generate truly random pieces[^3]. It would be cool to put in some logic to avoid the tongue pieces intersecting. It should also avoid generating pieces that are too small.
 - This tool could easily be made into a website where you set the parameters interactively.
 - With low enough perturbation, the pieces are actually not unique enough. Some of the puzzles I made are quite tough to solve.
 - I would like to randomise the shape of the tongues a bit. It wouldn't be too hard to make some thinner or slanted, and this would help a lot with making each piece unique.
-- I could engrave the next puzzle, making it slightly easier to solve.
+- I could engrave the next puzzle, making it pretty and slightly easier to solve.
 
+Feel free to send me pull requests if you happen to hack on my code.
 
 ## That's it.
 
 LASER!
 
 <img srcset="/img/puzzle/LASER.jpg 1x, /img/puzzle/LASER.jpg 2x" src="/img/puzzle/LASER.jpg"/>
+
+Laser.
 
 ---
 
@@ -649,4 +675,4 @@ It turns out that the Laser just cuts the path **in the same order** as they app
 <br><br>
 Long story short, my paths were in a pretty random order, so the cutting time estimate on the machine for a medium sized puzzle was 30min. This wasn't feasible with the way the machine is rented out. So I decided to go back and optimize the path generation to somehow group long chains of consecutive sub-paths together.
 
-<!-- [^99]: https://developer.mozilla.org/en/docs/Web/SVG/Tutorial/Paths -->
+[^3]: ![random voronoi tesselation](/img/puzzle/voronoi-random.png)
