@@ -11,7 +11,7 @@ draft = false
 This holiday season I wanted to make some custom jigsaw puzzle gifts. The plan:
 
 - Write a jigsaw puzzle generator.
-- Use a Lasercutter to cut them out[^1]. (so much fun!)
+- Use a laser cutter to cut them out[^1]. (so much fun!)
 
 Randomly generating puzzles is a nice problem for beginners and tinkerers, so I wanted to write up the approach that I came up with. I'd love to hear from you if you attempted to do something similar, especially if you came up with different solutions.
 
@@ -673,7 +673,7 @@ Laser.
 
 [^2]: One problem was how the paths in the generated svg were laid out. In particular, the first time I went to cut out my puzzles, I learned that the algorithm to generate the cutting path is not particularily fancy. If you've ever looked at the source code for an SVG file, you've noticed that it's just a bunch nested of XML elements, which describe the rectangles, circles, Bézier curves, and other shapes.
 <br><br>
-It turns out that the Laser just cuts the path **in the same order** as they appear in that file. This works fine for small puzzles, but for larger ones this means that the head has to jump around a lot if the path order is quite random.
+It turns out that the laser just cuts the path **in the same order** as they appear in that file. This works fine for small puzzles, but for larger ones this means that the head has to jump around a lot if the path order is quite random.
 <br><br>
 Long story short, my paths were in a pretty random order, so the cutting time estimate on the machine for a medium sized puzzle was 30min. This wasn't feasible with the way the machine is rented out. So I decided to go back and optimize the path generation to somehow group long chains of consecutive sub-paths together.
 
