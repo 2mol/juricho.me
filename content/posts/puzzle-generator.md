@@ -13,7 +13,7 @@ This holiday season I wanted to make some custom jigsaw puzzle gifts. The plan:
 - Write a jigsaw puzzle generator.
 - Use a Lasercutter to cut them out[^1]. (so much fun!)
 
-Since randomly generating puzzles is a fun problem for beginners and tinkerers, I want to write up the approach that I came up with. I'd love to hear from you if you attempted to do something similar, especially if you came up with different solutions.
+Randomly generating puzzles is a nice problem for beginners and tinkerers, so I wanted to write up the approach that I came up with. I'd love to hear from you if you attempted to do something similar, especially if you came up with different solutions.
 
 I used [Elm](https://elm-lang.org/), because it has a nice way to produce SVGs, and it happens to be the frontend language I know best.
 
@@ -33,7 +33,7 @@ Here is how I broke down the problem:
 1. [Replace the edges with a tongue shape](#edges).
 1. [Save the SVG](#save).
 
-That's it for the high level view! It turns out however that you need to solve some smaller problems to make it work. You can have a look at the code on [Ellie](https://ellie-app.com/7CBySTkJkJna1) or the [code repo of this tutorial](https://github.com/2mol/jigsaw-tutorial).
+That's it for the high level view! It turns out however that you need to solve some smaller problems to make it work. You can have a look at the code on [Ellie](https://ellie-app.com/7CBySTkJkJna1) or the [code repo of this tutorial](https://github.com/2mol/jigsaw-tutorial/).
 
 See [possible improvements](#possible-improvements) below for some ideas about how to make the puzzles better, or polish the overall tool.
 
@@ -97,7 +97,7 @@ Amazing! With that out of the way, we start solving the actual problem.
 
 ## Generate a grid {#grid}
 
-With the benefit of hindsight, we'll abstract a couple of things: let's define some basic datatypes and a top-level record that holds the parameters of our puzzle:
+With the benefit of hindsight, we'll abstract a couple of things: let's define some basic types and a top-level record that holds the parameters of our puzzle:
 
 ```elm
 module Main exposing (main)
@@ -128,12 +128,12 @@ Again, the commented out parts are to give you a taste of what we'll need in a m
 
 Now we need to make a grid of square pieces. Some thoughts:
 
-- a grid is a 2-dimensional list of corner points, but it is _also_ a list of edges. Which one you generate depends on what you want to do with it.
-- our units will be pixels
-- we might want to keep the coordinates of the pieces separate from the numbering of the pieces. I often confused the two!
-- Carrying over this numbering when we work on edges is tricky, but super useful later when we want to sort the paths.
+- A grid is a 2-dimensional list of corner points, but it is _also_ a list of edges. Which one you generate depends on what you want to do with it.
+- Our units will be pixels.
+- We might want to keep the coordinates of the pieces separate from the numbering of the pieces. I often confused the two!
+- Carrying over this numbering when we work on edges takes some care, but it will be useful later when we want to sort the paths.
 
-With this in mind, I decided to describe my grid as a `Dict` of points. The keys are tuples that correspond to my x-y _numbering_ of the pieces.
+With this in mind, I decided to describe my grid as a `Dict` of points. The keys are tuples that correspond to my `(x, y)` numbering of the pieces, and the points themselves contain their coordinates..
 
 With a bit of programming 101, here is the function that gives us a dictionary of corner points for our grid:
 
@@ -626,9 +626,10 @@ That's right, it even cuts plexiglass!
 
 If I have more time, I would like to improve several things:
 
-- My [initial voronoi approach](https://github.com/2mol/elm-jigsaw/blob/master/src/Main.elm) could generate truly random pieces. It would be cool to put in some logic to avoid the tongue pieces intersecting. It should also avoid generating pieces that are too small.
-- This tool could easily be made into a website where you set the parameters interactively
-- I would like to randomize the shape of the tongues a bit. It wouldn't be too hard to make some thinner or slanted, and this would help a lot with making each piece unique.
+- My [initial Voronoi approach](https://github.com/2mol/elm-jigsaw/blob/master/src/Main.elm) could generate truly random pieces. It would be cool to put in some logic to avoid the tongue pieces intersecting. It should also avoid generating pieces that are too small.
+- This tool could easily be made into a website where you set the parameters interactively.
+- With low enough perturbation, the pieces are actually not unique enough. Some of the puzzles I made are quite tough to solve.
+- I would like to randomise the shape of the tongues a bit. It wouldn't be too hard to make some thinner or slanted, and this would help a lot with making each piece unique.
 - I could engrave the next puzzle, making it slightly easier to solve.
 
 
