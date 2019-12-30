@@ -673,7 +673,7 @@ Laser.
 
 [^2]: One problem was how the paths in the generated svg were laid out. In particular, the first time I went to cut out my puzzles, I learned that the algorithm to generate the cutting path is not particularily fancy. If you've ever looked at the source code for an SVG file, you've noticed that it's just a bunch nested of XML elements, which describe the rectangles, circles, Bézier curves, and other shapes.
 <br><br>
-It turns out that the Laser just cuts the path **in the same order** as they appear in that file. This works fine for small puzzles, butor a larger ones this means that the head has to jump to whatever path comes next, no matter how close it is to the current position.
+It turns out that the Laser just cuts the path **in the same order** as they appear in that file. This works fine for small puzzles, but for larger ones this means that the head has to jump around a lot if the path order is quite random.
 <br><br>
 Long story short, my paths were in a pretty random order, so the cutting time estimate on the machine for a medium sized puzzle was 30min. This wasn't feasible with the way the machine is rented out. So I decided to go back and optimize the path generation to somehow group long chains of consecutive sub-paths together.
 
