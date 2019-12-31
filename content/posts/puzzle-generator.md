@@ -665,7 +665,7 @@ LASER!
 
 <img srcset="/img/puzzle/LASER.jpg 1x, /img/puzzle/LASER.jpg 2x" src="/img/puzzle/LASER.jpg"/>
 
-Laser.
+(Laser)
 
 ---
 
