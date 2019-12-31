@@ -20,7 +20,7 @@ I used [Elm](https://elm-lang.org/), because it has a nice way to produce SVGs, 
 
 ## Intro
 
-> Sidenote: This turned post out to be longer than I anticipated! If you just want to skip straight to the code, it's at [https://github.com/2mol/jigsaw-tutorial/](https://github.com/2mol/jigsaw-tutorial/).
+> Sidenote: This post turned out to be longer than I anticipated! If you just want to skip straight to the code, it's at [https://github.com/2mol/jigsaw-tutorial/](https://github.com/2mol/jigsaw-tutorial/).
 
 I actually made two attempts, the first one being based on generating a [Voronoi tesselation](https://en.wikipedia.org/wiki/Voronoi_diagram) and making heavy use of [`elm-geometry`](https://package.elm-lang.org/packages/ianmackenzie/elm-geometry/latest/). That approach had some subtle problems[^2], which made me go back to the drawing board for a second attempt.
 
