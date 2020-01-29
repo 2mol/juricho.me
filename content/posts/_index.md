@@ -1,7 +1,3 @@
 +++
-title = "all posts section"
+title = "posts"
 +++
-
-all posts
-
-<!-- TODO -->
