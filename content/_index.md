@@ -26,31 +26,43 @@ Here is some of what I've built in the past:
 
 ## interesting problems {#problems}
 
-Below is a list of problems for which I'm not aware of an existing solution. One or the other might be pretty easy to implement, and I plan to give them a go when I have the time.
+I often come across problems that I find interesting, so I started collecting them. Below is a list for which I'm not aware of an existing solution. Some might be pretty easy to implement, so I hope to find the time to attack some of these.
 
-Reach out if you have any thoughts ideas, or if there are existing tools/products that I have overlooked.
-
-
-### teaching via git diff history
-
-Despite it's unquestionable success, I believe that version control is _still_ not used to its full potential.
-
-When I read a tutorial, blog post, or documentation, I often would like to see the **diff of the code** at each step.
-
-Currently the presenter has to
+Reach out if you have any insights or ideas, if you want to collaborate, or if there are existing tools/products that I have overlooked.
 
 
+### teaching with diffs
 
-It would be fun to try the same thing for teaching writing or other text-based topics.
+Tutorials and blog posts should more often be centered around letting me see the **diff of the code** in a particular step. Currently a common dilemma for authors is that they have to choose between:
+
+- only showing the relevant code snippets at each step.
+<br/>**Downside**: the reader has a hard time keeping track of the context of said snippet, as a lot of important definitions and assignments will be omitted.
+- displaying more context (or even the entire source code) For context.
+<br/>**Downside**: There will be a lot of repetition, and articles get very long and bloated, making it difficult to navigate.
+
+Either way the result for the reader is often a lot of jumping back and forth, trying to piece together a full picture of what's happening.
+
+The way I imagine the solution: use a git commit history to render an **interactive diff viewer** next to the article text. The diffs could advance automatically when I scroll to the next section, and I want to jump to the full source code view at any time, so that I can explore the changes and the full context at the same time.
+
+> **Side note 1**: It would be fun to try the same thing for teaching writing or other topics centered around text.
+
+> **Side note 2**: This exposes another belief I have: Despite it's unquestionable success, version control is **still** not used to its full potential, especially outside of software engineering.
+
+**Possible problems** with my approach:
+
+- interactive notebooks might already fill this need a lot better.
+- creating a clean git commit history could be too much hassle for most writers.
 
 
 ### SQL in your text editor
 
-I want an editor plugin (particularily [vscode](https://code.visualstudio.com/)) that lets me write **SQL queries against files with tabular data** (mostly csv, parquet, etc).
+I want an editor plugin that lets me write **SQL queries against files with tabular data** (mostly csv, parquet, etc).
 
 I want to see the resulting data right there in the editor. I know of [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv), but I think the experience can be improved. The query engine is awkward, and I have to address the columns by index instead of by name.
 
 The approach I would like to try is to dump the data into sqlite and do some simple detection of column types. Then simply send the query to sqlite and make the output pretty.
+
+**Prior art**: [q is a tool](http://harelba.github.io/q/) that lets you do exactly this from the commandline. This is great for a lot of use cases, but I also want editor integration so that I get syntax highlighting and a more interactive experience.
 
 
 ## woodworking
