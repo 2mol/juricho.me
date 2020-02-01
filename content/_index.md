@@ -26,7 +26,7 @@ Here is some of what I've built in the past:
 
 ## interesting problems {#problems}
 
-I often come across problems that I find interesting, so I started collecting them. Below is a list for which I'm not aware of an existing solution. This is basically a list of projects I'd like to work on.
+I often come across problems for which I'm not aware of an existing solution. This is basically a list of projects I'd like to work on.
 
 Reach out if you have any insights or ideas, if you want to collaborate, or if there are existing tools/products that I have overlooked.
 
