@@ -19,8 +19,7 @@ Here is some of what I've built in the past:
 <br/>→ [website](https://gllvr.com)
 - **paperboy** - a tiny commandline utility to help with your pdf hoarding.
 <br/>→ [github](https://github.com/2mol/pboy)
-- **a divorce rate calculator** - built as a prototype to show how a custom, reactive user interface can bring clarity into complex legal rules. The tool also provides legal documentation to each of the key inputs, enabling lawyers and judges to be many times more efficient and consistent when handling a case.
-<br/>(In German, and only applicable to Swiss law.)
+- **a divorce rate calculator** - built as a prototype to show how a bespoke tool can bring clarity into complex legal rules. The tool also provides legal documentation to each of the key inputs, enabling lawyers and judges to be more efficient and consistent. Only applicable to Swiss law.
 <br/>→ [demo](https://2mol.gitlab.io/urechner)
 
 
