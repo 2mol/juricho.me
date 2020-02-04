@@ -11,7 +11,7 @@ I believe that if there is any point to software, it's to augment human capabili
 
 You can contact me on [twitter](https://twitter.com/jurichome), or by sending an email to [juri@juricho.me](mailto:juri@juricho.me).
 
-## projects
+## Projects
 
 Here is some of what I've built in the past:
 
@@ -19,29 +19,29 @@ Here is some of what I've built in the past:
 <br/>→ [website](https://gllvr.com)
 - **paperboy** - a tiny commandline utility to help with your pdf hoarding.
 <br/>→ [github](https://github.com/2mol/pboy)
-- **a divorce rate calculator** - built as a prototype to show how a bespoke tool can bring clarity into complex legal rules. The tool also provides legal documentation to each of the key inputs, enabling lawyers and judges to be more efficient and consistent. Only applicable to Swiss law.
+- **divorce rate calculator** - built as a prototype to show how a bespoke tool can bring clarity into complex legal rules. The tool also provides legal documentation to each of the key inputs, enabling lawyers and judges to be more efficient and consistent. Only applicable to Swiss law.
 <br/>→ [demo](https://2mol.gitlab.io/urechner)
 
 
-## interesting problems {#problems}
+## Interesting problems {#problems}
 
 I often come across problems for which I'm not aware of an existing solution. This is basically a list of projects I'd like to work on.
 
 Reach out if you have any insights or ideas, if you want to collaborate, or if there are existing tools/products that I have overlooked.
 
 
-### teaching with diffs
+### Teaching with diffs
 
 Tutorials and blog posts should more often be centered around letting me see the **diff of the code** in a particular step. Currently a common dilemma for authors is that they have to choose between:
 
-- only showing the relevant code snippets at each step.
+- Only show the relevant code snippets at each step.
 <br/>**Downside**: the reader has a hard time keeping track of the context of said snippet, as a lot of important definitions and assignments will be omitted.
-- displaying more context (or even the entire source code) For context.
+- Display more context (or even the entire source code).
 <br/>**Downside**: There will be a lot of repetition, and articles get very long and bloated, making it difficult to navigate.
 
-Either way the result for the reader is often a lot of jumping back and forth, trying to piece together a full picture of what's happening.
+Either way the result for the reader is often a lot of jumping back and forth, trying to piece together a full picture of what's happening. Why can't I just jump through the diff while reading the article next to it?
 
-The way I imagine the solution: use a git commit history to render an **interactive diff viewer** next to the article text. The diffs could advance automatically when I scroll to the next section, and I want to jump to the full source code view at any time, so that I can explore the changes and the full context at the same time.
+One possible solution: use a git commit history to render an **interactive diff viewer** next to the article text. The diffs could advance automatically when I scroll to the next section, and I want to jump to the full source code view at any time, so that I can explore the changes and the full context at my leisure.
 
 > **Side note 1**: It would be fun to try the same thing for teaching writing or other topics centered around text.
 
@@ -49,8 +49,8 @@ The way I imagine the solution: use a git commit history to render an **interact
 
 **Possible problems** with my approach:
 
-- interactive notebooks might already fill this need a lot better.
-- creating a clean git commit history could be too much hassle for most writers.
+- interactive notebooks might already fulfill this need.
+- maybe creating a clean git commit history is a hassle for most writers.
 
 
 ### SQL in your text editor
@@ -64,7 +64,7 @@ The approach I would like to try is to dump the data into sqlite and do some sim
 **Prior art**: [q is a tool](http://harelba.github.io/q/) that lets you do exactly this from the commandline. This is great for a lot of use cases, but I also want editor integration so that I get syntax highlighting and a more interactive experience.
 
 
-## woodworking
+## Woodworking
 
 I like making furniture. This is where I will gradually put plans, and photos of the more interesting projects.
 
