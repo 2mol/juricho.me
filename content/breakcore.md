@@ -36,7 +36,7 @@ Now that you have been appropriately warned, here is a top selection of tracks t
 - [Ruby My Dear - 7CO](https://youtu.be/sPhfv-GRo6s)
 - [Ruby My Dear - Dreaming Tree](https://www.youtube.com/watch?v=4ZY_xXcG9Ww)
 - [Synthamesk - Zone](https://www.youtube.com/watch?t=119&v=sa5HBewx0oA)
-- [The Flashbulb – Kirlian Choices](http://youtu.be/y2WX0Mt7n7M)
+- [The Flashbulb - Kirlian Choices](http://youtu.be/y2WX0Mt7n7M)
 - [TechDiff - Setup.exe](https://youtu.be/qaEV3vn1Dks)
 - [Techdiff - Vat Grown Top Knot](https://www.youtube.com/watch?v=id8XLsJk8ZA)
 - [Venetian Snares - Integraation](https://youtu.be/OfWVLiQfyPY)
