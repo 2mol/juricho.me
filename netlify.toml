@@ -6,7 +6,7 @@
     """
 
 [build.environment]
-    ZOLA_VERSION = "0.9.0"
+    ZOLA_VERSION = "0.10.1"
 
 [context.deploy-preview]
     # The magic for deploying previews of branches
