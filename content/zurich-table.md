@@ -12,7 +12,7 @@ Let me introduce you to a couch table _so simple_, that I feel I didn't create t
 
 It started out as an obsessive conviction that it was possible to make a very stable, minimalist couch table that didn't need an [apron](https://www.google.com/search?tbm=isch&q=table+apron) for rigidity.
 
-To add to the challenge, I wanted to use it as a bench when needed, and the first version was built to support the weight of 3 people. It worked great, so I later built two shorter versions that could seat two and had slimmer tops that the first one.
+To add to the challenge, I wanted to use it as a bench when needed, and the first version was built to support the weight of 3 people. It worked great, so I later built two shorter versions that could seat two and had thinner tops that the first one.
 
 Since a couple of friends have already asked me for the plans with the intention of building their own, I'm posting a summary of the design and the build.
 
@@ -111,9 +111,10 @@ After cutting the big taper on the back of the legs, I also tapered the sides of
 
 <div class="clearfix"></div>
 
-Congratulations, you now have all five pieces needed! Hopefully they are square and flat where they should be.
+Congratulations, you now have all five pieces needed! Hopefully they are square and flat in all the right places.
 
-{{ image(url="/img/zurich-table/final-parts.jpg", text="ta-da") }}
+{{ image(url="/img/zurich-table/final-parts.jpg") }}
+
 
 ### dovetails
 
