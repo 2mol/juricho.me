@@ -2,7 +2,7 @@
 base_url = "https://www.juricho.me"
 title = "Juri Chomé"
 default_language = "en"
-generate_rss = true
+generate_feed = true
 
 [extra]
 github_edit_url = "https://github.com/2mol/juricho.me/edit/master/content/"
