@@ -1,8 +1,7 @@
 base_url = "https://www.juricho.me"
 title = "Juri Chomé"
 default_language = "en"
-# generate_feed = true
-generate_rss = true
+generate_feed = true
 
 highlight_code = true
 highlight_theme = "base16-ocean-dark"
