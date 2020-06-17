@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="/tailwind.min.css">
   <link rel="stylesheet" href="/markdown.css">
   <link rel="stylesheet" href="/style.css">
-  <!-- <link rel="stylesheet" href="/fonts/inter.css"> -->
-  <title>{% block title %}{{ config.title }} - juricho.me{% endblock title %}</title>
+  <title>
+    {% block title %}{{ config.title }} - {{ config.extra.base_url_simple }}{% endblock title %}
+  </title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134695331-3"></script>
   <script>

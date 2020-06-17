@@ -132,7 +132,6 @@ proportions xs =
     [c / n | c' <- counts, let c = fromIntegral c']
     where
         counts = M.elems (count xs)
-
         n = fromIntegral $ length xs
 
 -- entropy measure
