@@ -11,14 +11,6 @@
   <title>
     {% block title %}{{ page.title }} - {{ config.extra.base_url_simple }}{% endblock title %}
   </title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134695331-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-134695331-3');
-  </script>
 </head>
 
 <body class="text-gray-900 text-sm md:bg-gray-200">
@@ -50,7 +42,8 @@
       ~ the end ~
     </div>
   </div>
-
+  <script data-goatcounter="https://juri.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+  </script>
 </body>
 
 </html>
