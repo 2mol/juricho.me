@@ -9,8 +9,12 @@ body {
   padding: 0 0.6rem;
 }
 
+h1 {
+  font-size: 2.5em;
+}
+
 h2 {
-  font-size: 200%;
+  font-size: 1.8em;
 }
 
 h2,h3 {
@@ -57,9 +61,13 @@ small {
 }
 
 code {
-  color: #1f1f1f;
   background-color: #fff398;
-  padding: 0.1rem 0.3rem;
+  padding: 0.1rem 0.2rem;
+}
+
+pre > code {
+  background-color: transparent;
+  padding: 0;
 }
 
 a:link {
@@ -71,11 +79,11 @@ a:visited {
 
 pre {
   font-size: 90%;
-  background-color: #fafafa;
-  padding: 12px;
+  /* background-color: #fafafa; */
+  padding: 1rem;
   box-shadow: 1px 1px 3px #999;
   overflow-x: auto;
-  margin: 1.5rem 0
+  /* margin: 1.5rem 0 */
 }
 
 /* ul {
