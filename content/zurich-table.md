@@ -89,8 +89,9 @@ Ok cool, let's get started! You will roughly have to do the following:
 
 Good? Good. Here is an image so you can visualise the whole thing:
 
-{{ image(url="/img/zurich-table/plan-sketchup.png", text="3D Plan you can download below.") }}
+{{ image(url="/img/zurich-table/plan-sketchup.png") }}
 
+3D Plan you can [download below](#download-plans).
 
 ### top
 
@@ -165,7 +166,11 @@ The last steps are
 
 ## download plans
 
-[Here is a SketchUp file](/files/couch_table_v1.skp) with the measurements of one of the versions. I used SketchUp 2017, which should still be available for free online.
+Here are 3D files with the measurements of the best version of the table. I used SketchUp 2017, which should still be available for free online.
+
+- **Sketchup** - [couch_table.skp](/files/couch_table.skp)
+- **Collada** - [couch_table.dae](/files/couch_table.dae)
+
 
 
 ## get in touch
