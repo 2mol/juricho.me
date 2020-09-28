@@ -91,7 +91,7 @@ Good? Good. Here is an image so you can visualise the whole thing:
 
 {{ image(url="/img/zurich-table/plan-sketchup.png") }}
 
-3D Plan you can [download below](#download-plans).
+3D Plan that you can [download below](#download-plans).
 
 ### top
 
