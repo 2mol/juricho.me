@@ -43,9 +43,7 @@ Either way the result for the reader is often a lot of jumping back and forth, t
 
 One possible solution: use a git commit history to render an **interactive diff viewer** next to the article text. The diffs could advance automatically when I scroll to the next section, and I want to jump to the full source code view at any time, so that I can explore the changes and the full context at my leisure.
 
-> **Side note 1**: It would be fun to try the same thing for teaching writing or other topics centered around text.
-
-> **Side note 2**: This exposes another belief I have: Despite it's unquestionable success, version control is **still** not used to its full potential, especially outside of software engineering.
+> **Side note:** This ties into another observation: Despite it's unquestionable success, version control is **still** not used to its full potential, especially outside of software engineering.
 
 **Possible problems** with my approach:
 
