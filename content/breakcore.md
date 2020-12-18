@@ -14,11 +14,6 @@ If we're friends, then sooner or later you have the pleasure of finding out abou
 
 I'm unsure if it should be considered the jazz, the dadaism, or the tourette syndrome of electronic music. As far as genres go, it's immature, hyperactive, often weird, ugly, grating, much too fast, and absolutely one of my favourite things ever.
 
-## why
-
-It's hard to explain why anyone keeps coming back to a certain art form, or why some specific patterns _really_ trigger your brain's pleasure centers or let you relax and zen out.
-
-Instead of speculating about drowning out a modern restless [infovore](https://en.wiktionary.org/wiki/infovore) brain with noisy music, I'm going to link you to this [WAY over-the-top blurb](#finally) I once wrote for a compilation.
 
 ## showcase
 
@@ -125,13 +120,3 @@ and
 ## finally
 
 Despite being such a weird niche genre, there is still an absurd amount of musicians to check out. Don't give me grief for not including Aphex Twin, Squarepusher, Enduser, Bong Ra, Sabrepulse, Dev/Null, Xanopticon, Goreshit, Nasenbluten, Hecate, Datach'i, cpxn, Stazma the Junglechrist, DJ Donna Summer, The Teknoist, Spongebob Squarewave, Rotator, Kettel, or anyone else you're super into.
-
----
-
-> Nerves of Time is the love letter to the chaos of your overloaded mind. Like all the contradictions held in your ape-evolved psyche, opposites are made to coexist. It is both melancholic and funny, melodic calm is meshed with the frenetic energy of the synthesizer's roar, overloading your senses while a drum is manipulated with surgical precision to deliver the infinitely nested fractal of the breakbeat.
-
-> A moment of harmony cools off your overheating neurons, before otherworldly noises hit you again with the momentum of a speeding freight train. You are a child playing at the beach in the sun, when a wave washes you away with the force of an ocean, sweeping you into a weightless trance and submerging you fully within its bottomless medium.
-
-> The prerequisite for subverting all conventions of tone and rhythm is a firm grasp of their rules in the first place. The craftsmen of this musical rebirth affectionately cite a hundred genres, yet imitate none of them. The familiar parts build expectations in your pavlovian brain that are then mercilessly subverted. At any moment, the main theme might disintegrate into a hectic flurry of sounds, with skillfully constructed cycles of tension-release throwing you around like a cat playing with its prey.
-
-> Several layers below, the ominous hum of drones and basslines provides an constant foundation of energy. Like cosmic background radiation it is the backdrop against which you witness stars collapsing in on themselves, releasing all their energy in one last blaze of glory. Enjoy the wild ride before the inevitable heat death of your universe.
