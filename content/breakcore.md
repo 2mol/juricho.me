@@ -19,7 +19,7 @@ I'm unsure if it should be considered the jazz, the dadaism, or the tourette syn
 
 Now that you have been appropriately warned, here is a top selection of tracks that give me pure joy. Consider this my version of a mixtape:
 
-- [Aaron Spectre - Look Out Fi Liar](https://youtu.be/NE6Q6tivtXs)
+- [Aaron Spectre - Look Out Fi Liar](https://youtu.be/1LVDFHPV9mE)
 - [Acrnym - Knife](https://www.youtube.com/watch?v=8IEUzEpaQtQ)
 - [Emptone - Blanc foncé](https://www.youtube.com/watch?v=07PfzaY-sRM)
 - [Epsilon - No Try](https://youtu.be/DBx87DWSr5Y)
