@@ -3,13 +3,14 @@ title = "Juri Chomé"
 +++
 
 
-Hi, I'm Juri. I like to make things, so here are some of them. Currently I enjoy [working with data](https://d-one.ai), [woodworking](#woodworking), and making web apps.
+Hi, I'm Juri. I like to make things, so here are some of them. Currently I'm gainfully employed as a [full-stack developer](https://valora.digital/), working on autonomous stores and making backend systems beautiful and reliable.
 
 Lately my interests revolve around good design, minimalist UIs, and making complex workflows easy and intuitive. I've experienced time and time again that we can still unlock huge productivity gains with better UX.
 
 I believe that if there is any point to software, it's to augment human capabilities and provide new tools for thinking. See [interesting problems](#problems) below for some examples.
 
 You can contact me on [twitter](https://twitter.com/jurichome), or by sending an email to [juri@juricho.me](mailto:juri@juricho.me).
+
 
 ## Projects
 

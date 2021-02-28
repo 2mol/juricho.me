@@ -4,7 +4,7 @@
 {{ section.title }} - {{ config.extra.base_url_simple }}
 {% endblock title %}
 
-{% block bla %}
+{% block additional_content %}
 <table class="mb-6">
   {% set posts_section = get_section(path="posts/_index.md") %}
   {% for page in posts_section.pages | sort(attribute="date") | reverse %}
@@ -17,4 +17,4 @@
   </tr>
   {% endfor %}
 </table>
-{% endblock bla %}
+{% endblock additional_content %}

@@ -49,6 +49,8 @@
           {% endfor %}
         </table>
         -->
+          {% block additional_content %}
+          {% endblock additional_content %}
           <div class="markdown">
             {% block markdown_content %}
             {{ section.content | safe }}

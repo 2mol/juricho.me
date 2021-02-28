@@ -2,7 +2,9 @@
 title = "A primer for Haskell on repl.it"
 date = 2019-02-13
 template = "post.html"
-draft = false
+
+[extra]
+headerstyle = "bg-gray-700 text-white"
 +++
 
 
