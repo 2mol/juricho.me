@@ -2,4 +2,4 @@
 title = "pay"
 +++
 
-sup
+{{ stripe() }}

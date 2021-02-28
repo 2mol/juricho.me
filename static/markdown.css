@@ -1,11 +1,11 @@
 .markdown h1, h2 {
   font-weight: 700;
-  margin-top: 1.5em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 .markdown h3, h4 {
   font-weight: 700;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 .markdown p {

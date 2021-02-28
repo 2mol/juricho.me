@@ -282,8 +282,6 @@ drawEdge { start, end } =
         []
 ```
 
-> Sidenote: Ping me if you know why the highlight.js syntax highlighting for elm sometimes breaks, like above.
-
 Progress! This is what it looks like:
 
 <img srcset="/img/edges.png 1x, /img/edges.png 2x" src="/img/edges.png"/>
