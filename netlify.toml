@@ -1,16 +1,19 @@
 [build]
     publish = "public"
     command = """
-    purgecss --config ./purgecss.config.js --out static/
+    npm run build:css
     zola build
     """
 
 [build.environment]
-    ZOLA_VERSION = "0.12.2"
+    ZOLA_VERSION = "0.13.0"
 
 [context.deploy-preview]
     # The magic for deploying previews of branches
     # We need to override the base url with whatever url Netlify assigns to our
     # preview site.  We do this using the Netlify environment variable
     # `$DEPLOY_PRIME_URL`.
-    command = "zola build --base-url $DEPLOY_PRIME_URL"
+    command = """
+    npm run build:css
+    zola build --drafts --base-url $DEPLOY_PRIME_URL
+    """

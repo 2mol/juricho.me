@@ -1,3 +1,7 @@
-public/
 .DS_Store
-.vscode/
+.vscode/settings.json
+
+node_modules/
+
+public/
+static/styles.css

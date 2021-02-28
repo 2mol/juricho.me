@@ -5,9 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href=data:, rel=icon>
-  <link rel="stylesheet" href="/tailwind.min.css">
   <link rel="stylesheet" href="/markdown.css">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/styles.css">
   <title>
     {% block title %}{{ page.title }} - {{ config.extra.base_url_simple }}{% endblock title %}
   </title>
@@ -18,12 +17,12 @@
   <div class="flex flex-col items-center min-h-screen">
     <div class="w-full {% if page.extra.headerstyle %}{{ page.extra.headerstyle }}{% endif %}"
       style="transform: skew(0deg, -2deg)">
-      <div class="font-bold text-4xl text-center">
+      <div class="font-bold text-4xl text-center my-2">
         {{ page.title }}
       </div>
     </div>
     <div class="max-w-2xl w-full">
-      <div class="bg-white md:border md:border-gray-400 pt-12 px-4 md:px-12 pb-4 md:pb-12 -mt-6 mb-8">
+      <div class="bg-white md:border md:border-gray-300 pt-12 px-4 md:px-12 pb-4 md:pb-12 -mt-6 mb-8">
         <div class="markdown">
           {% if page.extra.toc %}
           {% include "table-of-contents.html" %}

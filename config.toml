@@ -3,8 +3,11 @@ title = "Juri Chomé"
 default_language = "en"
 generate_feed = true
 
+[markdown]
 highlight_code = true
-highlight_theme = "base16-ocean-dark"
+highlight_theme = "demain"
+
+external_links_target_blank = true
 
 [extra]
 github_edit_url = "https://github.com/2mol/juricho.me/edit/master/content/"
