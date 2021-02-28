@@ -56,7 +56,7 @@ Insomniac Magazine: [How to Talk to Your Kids About Breakcore](https://www.insom
 
 Good new and old tracks often pop up on the [breakcore subreddit](https://old.reddit.com/r/breakcore/). But don't go and ruin it, you and 5 friends could probably outvote the entire community.
 
-## I meant MORE MUSIC
+## I meant _more music_
 
 I tried to keep the initial list balanced, but it's hard to refrain from recommending 60% of all of Venetian Snares and 80% of all that Ruby My Dear has ever created. Here are some of the most legendary full albums:
 

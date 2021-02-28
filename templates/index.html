@@ -16,10 +16,8 @@
 <body class="text-gray-900 md:bg-gray-200">
   <div class="flex flex-col items-center min-h-screen">
     <div class="max-w-2xl w-full">
-      <div class="slanted-header bg-white py-2 px-4 ml-4 -mr-4 md:mx-0 shadow-lg">
-        <div class="text-4xl">
+      <div class="slanted-header text-4xl bg-white py-2 px-4 ml-4 -mr-4 md:mx-0 shadow-lg">
           <a class="ml-4" href="/">Juri Chomé</a>
-        </div>
       </div>
       <div class="bg-white md:shadow-md mb-6 pt-4">
         <div class="text-right pr-6">
@@ -33,8 +31,8 @@
           <a class="underline hover:no-underline" href="https://twitter.com/jurichome" target="_blank"
             rel="noreferrer">twitter</a>
         </div>
-        <div class="pt-10 pb-4 md:pb-12 px-4 md:px-12">
-          <!-- <h2 class="font-bold text-3xl">
+        <div class="pt-6 pb-4 md:pb-12 px-4 md:px-12">
+        <!-- <h2 class="font-bold text-3xl">
           posts
         </h2>
         <table class="mb-6">
@@ -50,23 +48,7 @@
           {% endif %}
           {% endfor %}
         </table>
-
-        <hr> -->
-          {% block bla %}
-          <!-- <div class="markdown">
-            <p>
-              Hi, I'm Juri. I like to make things, so here are some of them. Currently I enjoy <a
-                href="https://d-one.ai" target="_blank" rel="noreferrer">working with data</a>, <a href="/#woodworking">woodworking</a>, and making webapps.
-            </p>
-            <p>
-              You can contact me on <a href="https://twitter.com/jurichome">twitter</a>, or by sending an email to <a
-                href="mailto:juri@juricho.me">juri@juricho.me</a>.
-            </p>
-            <h2>posts</h2>
-            {% include "posts-list.html" %}
-          </div> -->
-          {% endblock bla %}
-
+        -->
           <div class="markdown">
             {% block markdown_content %}
             {{ section.content | safe }}
