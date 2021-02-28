@@ -1,8 +1,12 @@
 module.exports = {
-  purge: ["./templates/**/*.html", "./theme/**/*.html", "./**/*.md"],
+  purge: [
+    "./templates/**/*.html",
+    "./theme/**/*.html",
+    "./content/**/*.md",
+  ],
   theme: {},
   variants: {},
   plugins: [
-    require('@tailwindcss/typography'),
+    // require('@tailwindcss/typography'),
   ],
 };

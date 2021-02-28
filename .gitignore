@@ -4,4 +4,4 @@
 node_modules/
 
 public/
-static/styles.css
+static/tailwind.css
