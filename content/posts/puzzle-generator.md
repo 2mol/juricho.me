@@ -2,6 +2,7 @@
 title = "Write a puzzle generator in Elm"
 date = 2019-12-29
 template = "post.html"
+draft = false
 
 [extra]
 headerstyle = "bg-red-500 text-white"

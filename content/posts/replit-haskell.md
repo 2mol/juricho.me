@@ -2,6 +2,7 @@
 title = "A primer for Haskell on repl.it"
 date = 2019-02-13
 template = "post.html"
+draft = false
 +++
 
 
