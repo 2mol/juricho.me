@@ -9,7 +9,7 @@
     "tailwindcss": "^2.0.3"
   },
   "scripts": {
-    "watch:css": "postcss styles/tailwind.css -o public/tailwind.css -w",
-    "build:css": "postcss styles/tailwind.css -o public/tailwind.css"
+    "watch:css": "postcss styles/tailwind.css -o static/tailwind.css -w",
+    "build:css": "postcss styles/tailwind.css -o static/tailwind.css"
   }
 }
