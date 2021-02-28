@@ -1,6 +1,6 @@
 +++
 title = "Love letter to Breakcore"
-template = "post-plain.html"
+template = "post.html"
 
 [extra]
 headerstyle = "bg-yellow-300 text-gray-700"

@@ -1,6 +1,6 @@
 +++
 title = "Züri Dësch - The Zurich Table"
-template = "post-plain.html"
+template = "post.html"
 
 [extra]
 headerstyle = "bg-red-400 text-yellow-100"
