@@ -11,7 +11,7 @@ I have a deep nagging feeling that we _still_ haven't scratched the surface of w
 
 I started to collect [interesting problems](#problems) that are probably within reach of a motivated programmer with a couple of weekends to spare.
 
-I enjoy typed functional programming. I write [F#](https://fsharp.org/) at my current day-job, and I co-organise the largest European [Haskell](https://www.haskell.org/) Hackathon: [ZuriHac](http://zurihac.com/). I tend to reach for [Elm](https://elm-lang.org/) for doing frontend work.
+I enjoy typed functional programming. I write [F#](https://fsharp.org/) at my current day-job, and I co-organise [ZuriHac](http://zurihac.com/), a European [Haskell](https://www.haskell.org/) Hackathon. I tend to reach for [Elm](https://elm-lang.org/) for doing frontend work.
 
 When I'm not earning money, I also like to make furniture, go climbing, cooking, and all that other cliché stuff.
 
