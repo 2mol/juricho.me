@@ -11,7 +11,7 @@ I have a deep nagging feeling that we _still_ haven't scratched the surface of w
 
 I started to collect [interesting problems](#problems) that are probably within reach of a motivated programmer with a couple of weekends to spare.
 
-I enjoy typed functional programming. I write F# at my current day-job, and I co-organize the largest European Haskell Hackathon: [ZuriHac](http://zurihac.com/). I tend to reach for Elm for doing frontend work.
+I enjoy typed functional programming. I write [F#](https://fsharp.org/) at my current day-job, and I co-organise the largest European [Haskell](https://www.haskell.org/) Hackathon: [ZuriHac](http://zurihac.com/). I tend to reach for [Elm](https://elm-lang.org/) for doing frontend work.
 
 When I'm not earning money, I also like to make furniture, go climbing, cooking, and all that other cliché stuff.
 
@@ -45,7 +45,7 @@ Reach out if you have any insights or ideas, if you want to collaborate, or if t
 
 ### A personal bookshelf
 
-I grew up in a house full of bookshelves. It was amazing to browse through decades of old stuff that my parents had read at some point, with the odd boardgame or CD collection in between. It is still a special feeling to look at these shelves and realize that it contains things that were special or influential to people that are very dear to me.
+I grew up in a house full of bookshelves. It was amazing to browse through decades of old stuff that my parents had read at some point, with the odd boardgame or CD collection in between. It is still a special feeling to look at these shelves and realise that it contains things that were special or influential to people that are very dear to me.
 
 Over the years I added to the shelves, so they now represent a mish-mash history of everybody in my immediate family.
 
