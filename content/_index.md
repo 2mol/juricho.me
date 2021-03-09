@@ -83,6 +83,12 @@ One possible solution: use a git commit history to render an **interactive diff 
 - maybe creating a clean git commit history is a hassle for most writers.
 
 
+**Existing work** I've found in the meantime:
+
+- [GitChapter](https://github.com/chrissound/GitChapter)
+- [kamo](https://github.com/matsumonkie/kamo)
+
+
 ### SQL in your text editor
 
 I want an editor plugin that lets me write **SQL queries against files with tabular data** (mostly csv, parquet, etc).
