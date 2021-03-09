@@ -15,7 +15,7 @@ I enjoy typed functional programming. I write F# at my current day-job, and I co
 
 When I'm not earning money, I also like to make furniture, go climbing, cooking, and all that other cliché stuff.
 
-You can contact me via [email](mailto:juri@juricho.me), or by messaging me on twitter.
+You can contact me via [email](mailto:juri@juricho.me), or by messaging me on [twitter](https://twitter.com/jurichome).
 
 
 ## Projects
