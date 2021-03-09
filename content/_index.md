@@ -59,15 +59,17 @@ Part of this would be building a better [Goodreads](https://www.goodreads.com/),
 
 It doesn't need big social features, but adding a short snippet to an item would be great.
 
+**Prior ideas:** Reading clubs, Goodreads, general appreciation for the [link post](https://patrickcollison.com/links), many people's reading section on their personal blogs ([example](https://hojberg.xyz/reads/)).
+
 
 ### Teaching with diffs
 
 Tutorials and blog posts should more often be centered around letting me see the **diff of the code** in a particular step. Currently a common dilemma for authors is that they have to choose between:
 
 - Only show the relevant code snippets at each step.
-<br/>**Downside**: the reader has a hard time keeping track of the context of said snippet, as a lot of important definitions and assignments will be omitted.
+<br/>_Downside_: the reader has a hard time keeping track of the context of said snippet, as a lot of important definitions and assignments will be omitted.
 - Display more context (or even the entire source code).
-<br/>**Downside**: There will be a lot of repetition, and articles get very long and bloated, making it difficult to navigate.
+<br/>_Downside_: There will be a lot of repetition, and articles get very long and bloated, making it difficult to navigate.
 
 Either way the result for the reader is often a lot of jumping back and forth, trying to piece together a full picture of what's happening. Why can't I just jump through the diff while reading the article next to it?
 
