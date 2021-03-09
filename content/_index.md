@@ -45,13 +45,19 @@ Reach out if you have any insights or ideas, if you want to collaborate, or if t
 
 ### A personal bookshelf
 
-I grew up in a house full of bookshelves. It was amazing to browse through decades of old stuff that my parents had read at some point, with the odd boardgame or CD collection in between. It is still a special feeling to look at these shelves and realize that it contains things that were special or influential to somebody at some point.
+I grew up in a house full of bookshelves. It was amazing to browse through decades of old stuff that my parents had read at some point, with the odd boardgame or CD collection in between. It is still a special feeling to look at these shelves and realize that it contains things that were special or influential to people that are very dear to me.
 
 Over the years I added to the shelves, so they now represent a mish-mash history of everybody in my immediate family.
 
-I would like to create something that let's me have a digital bookshelf. Realistically that means not the contents, just the titles. I want to track a reading list, a collection of books, articles, essays, games, etc that are near and dear to my heart, and a dump pile of stuff I've consumed, but don't need to highlight as anything special.
+I would like to create something that let's me have a digital bookshelf. Realistically that means not the contents, just the titles. I want to track
+
+- a reading list.
+- a collection of books, articles, essays, games, etc that hold a special place in my heart.
+- a dump pile of stuff I've read, but don't need to keep around.
 
 Part of this would be building a better [Goodreads](https://www.goodreads.com/), which is well known to be crappy, slow, and just overall _blergh_.
+
+It doesn't need big social features, but adding a short snippet to an item would be great.
 
 
 ### Teaching with diffs
