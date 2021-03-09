@@ -45,7 +45,7 @@ Reach out if you have any insights or ideas, if you want to collaborate, or if t
 
 ### A personal bookshelf
 
-I grew up in a house full of bookshelves. It was amazing to browse through decades old stuff that my parents had read at some point, with the odd boardgame or CD collection in between. It is still a special feeling to look at these shelves and realize that it contains things that were special or influential to somebody at some point.
+I grew up in a house full of bookshelves. It was amazing to browse through decades of old stuff that my parents had read at some point, with the odd boardgame or CD collection in between. It is still a special feeling to look at these shelves and realize that it contains things that were special or influential to somebody at some point.
 
 Over the years I added to the shelves, so they now represent a mish-mash history of everybody in my immediate family.
 
