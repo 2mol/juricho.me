@@ -51,9 +51,9 @@ Over the years I added to the shelves, so they now represent a mish-mash history
 
 I would like to create something that let's me have a digital bookshelf. Realistically that means not the contents, just the titles. I want to track
 
-- a reading list.
-- a collection of books, articles, essays, games, etc that hold a special place in my heart.
-- a dump pile of stuff I've read, but don't need to keep around.
+- a reading list
+- a collection of books, articles, essays, games, etc that hold a special place in my heart
+- a dump pile of stuff I've read, but don't need to be kept around
 
 Part of this would be building a better [Goodreads](https://www.goodreads.com/), which is well known to be crappy, slow, and just overall _blergh_.
 
