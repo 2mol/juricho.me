@@ -5,9 +5,7 @@ title = "Juri Chomé"
 
 Hi, I'm Juri 👋
 
-I'm a developer, currently employed as a full-stack engineer at [Valora Digital](https://valora.digital/). I work on autonomous stores and on making critical systems beautiful and reliable.
-
-<!-- I have a deep nagging feeling that we _still_ haven't scratched the surface of what human-computer interaction could be. Some day I'll elaborate on that. -->
+I'm a developer, gainfully employed as a full-stack engineer at [Valora Digital](https://valora.digital/). I work on autonomous stores and on making critical systems beautiful and reliable.
 
 I started to collect [interesting problems](#problems) that are probably within reach of a motivated programmer with a couple of weekends to spare.
 
