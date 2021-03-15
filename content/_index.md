@@ -18,7 +18,7 @@ You can contact me via [email](mailto:juri@juricho.me), or by messaging me on [t
 
 ## Projects
 
-I like to work on small physical or digital projects. Here are some that have reached at least a minimum notion of finished or polished.
+I like to work on physical and digital projects. Here are some that have reached at least a minimum notion of finished or polished.
 
 **Laser-cut jigsaw puzzles** - I wrote a [puzzle generator](/posts/puzzle-generator) so that I could generate SVGs to cut out with an industrial Laser.
 
