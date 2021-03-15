@@ -5,7 +5,7 @@ title = "Juri Chomé"
 
 Hi, I'm Juri 👋
 
-I'm a developer, gainfully employed as a full-stack engineer at [Valora Digital](https://valora.digital/). I work on autonomous stores and on making critical systems beautiful and reliable.
+I'm a developer, currently employed as a full-stack engineer at [Valora Digital](https://valora.digital/). I work on autonomous stores and on making critical systems beautiful and reliable.
 
 I started to collect [interesting problems](#problems) that are probably within reach of a motivated programmer with a couple of weekends to spare.
 
@@ -57,7 +57,7 @@ Part of this would be building a better [Goodreads](https://www.goodreads.com/),
 
 It doesn't need big social features, but adding a short snippet to an item would be great.
 
-**Prior ideas:** Reading clubs, Goodreads, general appreciation for the [link post](https://patrickcollison.com/links), many people's reading section on their personal blogs ([example](https://hojberg.xyz/reads/)).
+**Prior ideas:** Reading clubs, Goodreads, general appreciation for the [link post](https://patrickcollison.com/links), many people's reading section on their personal blogs ([some](https://danwang.co/books/) [examples](https://hojberg.xyz/reads/)).
 
 
 ### Teaching with diffs
