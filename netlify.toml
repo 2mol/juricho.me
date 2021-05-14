@@ -1,8 +1,7 @@
 [build]
     publish = "public"
     command = """
-    npm run build:css
-    zola build
+    make build
     """
 
 [build.environment]
