@@ -14,7 +14,7 @@ I co-organise[^organisers] a hackathon called [ZuriHac](https://zurihac.com) tha
 
 We tried to find some guidance on how to organise virtual events, but there wasn't much out there that we could apply. Most of the information was (and still is) geared towards conferences, often with a focus on corporate events.
 
- Hackathons are different enough from conferences that we had to come up with our own approach. Here are some notes on what we learned.
+Hackathons are different enough from conferences that we had to come up with our own approach. Here are some notes on what we learned.
 
 ## About ZuriHac
 
@@ -95,7 +95,7 @@ On the organizational side, we've always used Google Docs to coordinate everythi
 
 ### Discord
 
-![Discord screenshot](/img/zurihac2020/discord-screenshot.jpg)
+{{ image(url="/img/zurihac2020/discord-screenshot.jpg") }}
 
 Discord is really excellent, and it mostly comes down to how it combines features that you would otherwise need separate apps for. It's being used as a hub for a huge amount of online communities these days, so I don't really need to bang the advertisement drum.
 
