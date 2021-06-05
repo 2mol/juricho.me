@@ -3,7 +3,7 @@ title = "Love letter to Breakcore"
 template = "post.html"
 
 [extra]
-headerstyle = "bg-yellow-300 text-gray-700"
+headerclass = "bg-yellow-300 text-gray-700"
 +++
 
 If we're friends, then sooner or later you have the pleasure of finding out about my unreasonable and undying love for [breakcore](https://en.wikipedia.org/wiki/Breakcore). This usually leads to some questions:

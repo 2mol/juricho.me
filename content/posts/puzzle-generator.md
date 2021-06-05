@@ -4,7 +4,7 @@ date = 2019-12-29
 template = "post.html"
 
 [extra]
-headerstyle = "bg-green-300 text-white"
+headerclass = "bg-green-300 text-white"
 +++
 
 

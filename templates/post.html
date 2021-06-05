@@ -16,7 +16,9 @@
   <div class="back-arrow font-bold mx-1"><a href="/">←</a></div>
   <div class="flex flex-col items-center min-h-screen">
     <div class="w-full" style="transform: skew(0deg, -2deg)">
-      <div class="font-bold text-4xl text-center py-2 {% if page.extra.headerstyle %}{{ page.extra.headerstyle }}{% endif %}">
+      <div
+        class="font-bold text-4xl text-center py-2 {% if page.extra.headerclass %}{{ page.extra.headerclass }}{% endif %}"
+        style="{% if page.extra.headerstyle %}{{ page.extra.headerstyle }}{% endif %}">
         {{ page.title }}
       </div>
     </div>

@@ -3,7 +3,7 @@ title = "Züri Dësch - The Zurich Table"
 template = "post.html"
 
 [extra]
-headerstyle = "bg-red-400 text-yellow-100"
+headerclass = "bg-red-400 text-yellow-100"
 toc = true
 +++
 
