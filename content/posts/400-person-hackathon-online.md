@@ -2,6 +2,7 @@
 title = "How to move a 400-person hackathon online"
 date = 2021-06-05
 template = "post.html"
+draft = true
 
 [extra]
 headerclass = "text-white"
