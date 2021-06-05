@@ -14,6 +14,6 @@
     # preview site.  We do this using the Netlify environment variable
     # `$DEPLOY_PRIME_URL`.
     command = """
-    npm run build:css
-    zola build --drafts --base-url $DEPLOY_PRIME_URL
+    make build-draft
     """
+
