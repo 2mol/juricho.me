@@ -341,7 +341,7 @@ Have a **registration system**, even when the tickets are free. I don't feel sup
 
 Have a **runbook**. We created a Google doc with super dumb instructions of what to do at which time, and who's responsible for it. Again, our event isn't crazy complex, but it's still easy to get lost in a dozen other things, and in the rush I can't always think straight. Having a runbook is good advice even for physical events.
 
-**Have a plan**
+### Have a plan
 
 ![captain obvious](/img/zurihac2020/capt-obv.gif)
 
