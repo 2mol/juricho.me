@@ -1,5 +1,5 @@
 +++
-title = "How to move a 400-person hackathon online"
+title = "Moving a 400-person hackathon online"
 date = 2021-06-05
 template = "post.html"
 draft = true
@@ -90,6 +90,7 @@ Let me just spoil the outcome and tell you how we addressed the goals above:
 5. A combination of pre-recorded videos and live lessons in Discord for the beginner's track.
 6. [repl.it](https://repl.it) for a beginner-friendly zero-setup Haskell environment, as well as some live coding.
 7. Our [website](https://zurihac.com) with the most important event information, as well as the schedule calendar, and a list of projects.
+8. A [registration system](https://github.com/zfoh/zureg) that we had built in 2019 for the physical event.
 
 On the organizational side, we've always used Google Docs to coordinate everything: budget, sponsorships, email drafts, a full event plan document, surveys, and much more. This was super valuable, and I'm even referring back to those old notes while writing this post.
 
@@ -97,7 +98,7 @@ On the organizational side, we've always used Google Docs to coordinate everythi
 
 {{ image(url="/img/zurihac2020/discord-screenshot.jpg") }}
 
-Discord is really excellent, and it mostly comes down to how it combines features that you would otherwise need separate apps for. It's being used as a hub for a huge amount of online communities these days, so I don't really need to bang the advertisement drum.
+Discord is great, and it mostly comes from how it combines features that you would otherwise need separate apps for. It's being used as a hub for a huge amount of online communities these days, so I don't really need to bang the advertisement drum.
 
 In the past we've maintained a ZuriHac Slack server. This was great for having topical channels, technical discussions, and a way for participants to ping or find each other. IRC also plays an important part in the Haskell community, so many people hung out there too.
 
@@ -125,7 +126,7 @@ StreamYard[^bbcon] on the other hand is a godsend, it did exactly what we needed
 
 Basically it lets you combine people's video feeds (like on a regular Zoom/Google Meet call), slides, and some framing and logos. That then gets streamed through YouTube. You can see the result below, but please don't judge out sense of aesthetics, we're engineers.
 
-![StreamYard](/img/zurihac2020/streamyard-yt.png)
+{{ image(url="/img/zurihac2020/streamyard-yt.png") }}
 
 It's worth highlighting another amazing aspect of StreamYard: To invite somebody who has never used the platform, you just send them a link. This means that speakers don't need to create an account, and it's trivially simple for them to start presenting.
 
@@ -174,7 +175,7 @@ There are probably more, feel free to let me know of any amazing ones that you'v
 
 ## The plan
 
-Tooling gets you far, but it's worth mentioning how we tried to structure the event.
+The software and platforms above do a lot of the heavy lifting, but it's also worth mentioning how we structured the event.
 
 ### The hub
 
@@ -288,6 +289,10 @@ Projects
 └─ zephyr
 ```
 
+That's a lot! I think it was quite discoverable, thanks in part to the grouping and the fact that you don't have join channels like you do in Slack.
+
+### Streaming talks
+
 
 
 in the end
@@ -296,6 +301,8 @@ in the end
 - t-shirts
 
 ## So, how did it go?
+
+Let's first be clear about one thing: an online hackathon
 
 - We had around 1000 people register and use the Discord invite link.
 - It generally went well, and we received positive feedback.
@@ -333,7 +340,7 @@ I've been to online events that made it super confusing to know how to even part
 
 **Misc:**
 
-Have a **registration system**, even when the tickets are free. I don't feel super strongly about this one, but it's useful to keep track of interest, by seeing how many people intend to attend. It's also great to be able to send people announcements emails.
+Have a **registration system**, even when the tickets are free. It's useful to keep track of interest, by seeing how many people intend to attend. It's also great to be able to send people announcements emails.
 
 **Definitely send a survey** afterwards so that you can gauge how people felt, what was important to them, and how they rate individual aspects. Without this it's really hard to know what worked and what didn't. We failed to do that in 2020 and I hope we can make up for it this year.
 
@@ -347,7 +354,7 @@ Have a **runbook**. We created a Google doc with super dumb instructions of what
 
 If you've ever organised anything, you're mumbling "well duh" to yourself right now. But we're a bunch of nerds, so having a structured approach to an unforseen event like the pandemic was very helpful. Here's a screenshot of our "Plan B" document:
 
-![planb](/img/zurihac2020/planb.png)
+> ![planb](/img/zurihac2020/planb.png)
 
 Here an excerpt is how we took a structured approach to the question "How the hell do we even hold this event online??":
 
