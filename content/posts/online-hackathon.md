@@ -2,7 +2,6 @@
 title = "How to move a 400-person hackathon online"
 date = 2021-06-05
 template = "post.html"
-draft = true
 
 [extra]
 headerclass = "text-white"
@@ -14,7 +13,7 @@ I co-organise[^organisers] a hackathon called [ZuriHac](https://zurihac.com) tha
 
 We tried to find some guidance on how to organise virtual events, but there wasn't much out there that we could apply. Most of the information was (and still is) geared towards conferences, often with a focus on corporate events.
 
- Hackathons are different enough from conferences that we had to come up with our own approach. Here are some notes on what we learned.
+Hackathons are different enough from conferences that we had to come up with our own approach. Here are some notes on what we learned.
 
 ## About ZuriHac
 
@@ -90,14 +89,15 @@ Let me just spoil the outcome and tell you how we addressed the goals above:
 5. A combination of pre-recorded videos and live lessons in Discord for the beginner's track.
 6. [repl.it](https://repl.it) for a beginner-friendly zero-setup Haskell environment, as well as some live coding.
 7. Our [website](https://zurihac.com) with the most important event information, as well as the schedule calendar, and a list of projects.
+8. A [registration system](https://github.com/zfoh/zureg) that we had built in 2019 for the physical event.
 
 On the organizational side, we've always used Google Docs to coordinate everything: budget, sponsorships, email drafts, a full event plan document, surveys, and much more. This was super valuable, and I'm even referring back to those old notes while writing this post.
 
 ### Discord
 
-![Discord screenshot](/img/zurihac2020/discord-screenshot.jpg)
+{{ image(url="/img/zurihac2020/discord-screenshot.jpg") }}
 
-Discord is really excellent, and it mostly comes down to how it combines features that you would otherwise need separate apps for. It's being used as a hub for a huge amount of online communities these days, so I don't really need to bang the advertisement drum.
+Discord is great, and it mostly comes from how it combines features that you would otherwise need separate apps for. It's being used as a hub for a huge amount of online communities these days, so I don't really need to bang the advertisement drum.
 
 In the past we've maintained a ZuriHac Slack server. This was great for having topical channels, technical discussions, and a way for participants to ping or find each other. IRC also plays an important part in the Haskell community, so many people hung out there too.
 
@@ -125,7 +125,7 @@ StreamYard[^bbcon] on the other hand is a godsend, it did exactly what we needed
 
 Basically it lets you combine people's video feeds (like on a regular Zoom/Google Meet call), slides, and some framing and logos. That then gets streamed through YouTube. You can see the result below, but please don't judge out sense of aesthetics, we're engineers.
 
-![StreamYard](/img/zurihac2020/streamyard-yt.png)
+{{ image(url="/img/zurihac2020/streamyard-yt.png") }}
 
 It's worth highlighting another amazing aspect of StreamYard: To invite somebody who has never used the platform, you just send them a link. This means that speakers don't need to create an account, and it's trivially simple for them to start presenting.
 
@@ -174,7 +174,7 @@ There are probably more, feel free to let me know of any amazing ones that you'v
 
 ## The plan
 
-Tooling gets you far, but it's worth mentioning how we tried to structure the event.
+The software and platforms above do a lot of the heavy lifting, but it's also worth mentioning how we structured the event.
 
 ### The hub
 
@@ -288,36 +288,77 @@ Projects
 └─ zephyr
 ```
 
+That's a lot! I think it was quite discoverable, thanks in part to the grouping and the fact that you don't have join channels like you do in Slack.
 
+### The talks
 
-in the end
+The important stuff is already described in the StreamYard section above. What's worth mentioning is that we wanted to keep the activity withing Discord, so we held the Q&A session there. The first couple of questions were relayed to the speaker by a moderator, and we even had a bit of an upvote system (via Discord emoji reactions) to surface the best questions.
 
-- registration system
-- t-shirts
+### Sponsors
+
+It turns out that an online event is orders of magnitude cheaper that holding a physical one. This put us in a somewhat embarassing spot, since we have many long-term and very trusting relationships with our sponsors and we're not super keen on amassing a huge war-chest for no reason. [Zürich Friends of Haskell](http://zfoh.ch/) is a not-for-profit organisation, and we have about a year's worth of ZuriHac + general expenses in the bank account.
+
+The easy thing to do was just to offer to reimburse all our sponsors, and get back to them next year.
+
+This is where I want to mention a change for 2021 that I'm a bit prouf of. See, here's the thing:
+
+- We still don't need money.
+- But having companies as part of your event is **really great**. It exposes people to Haskell jobs, it lets participants ask questions of companies, it lets companies recruit extremely smart people, and it helps us be an active and interconnected community.
+
+So this year, we decided to have companies on board as partners instead of sponsors. Basically it means that instead of giving us money, they participate in the event, each in their own way. Some companies will hold Q&As and present a little bit about their industry, others will show off some cool technical thing, and others are gracious enough to hold tutorials and workshops.
+
+And because there is no money involved, I feel a little bit less nervous about standardising company participation to give everybody exactly the same exposure and attention.
+
+### Miscellaneous
+
+Some things worth mentioning for completeness' sake:
+
+We had a **registration system** to control the flow of people a little. Basically this allowed us to send out announcement emails, as well as the Discord invite link. You can definitely do without, but for us the communication is pretty crucial. We often only finalise the schedule very late, so the last announcement email serves as both info about the content, as well as a timely reminder.
+
+We decided to sell **t-shirts** simply because it turns out people _really_ love and want their yearly t-shirt. Jasper set up a shop, and they were printed and shipped by an external company. This was fun (but see below for our bad experience with PayPal), and we committed to donating the money to a Covid-19 related charity, since we didn't need the money, as mentioned above.
 
 ## So, how did it go?
 
-- We had around 1000 people register and use the Discord invite link.
-- It generally went well, and we received positive feedback.
+It was great! But that's only the subjective experience of the organisers, so let's dive into some details.
 
-What was missing/what went less well?
+- We had around 1000 people register and join Discord.
+- Out of those, 500 people sent at least one message. But people can also just join voice/video chats (or watch talks) without having to type a single character, so it's hard to estimate "how many people" we actually were. If I had to make an very rough estimation, I would say 300-400 people were active to a degree that can be considered "participation".
+- Some of the talks ended up gathering around 10K views since the event.
 
-- zero spam or behaviour/moderation issues (that we are aware of!)
+### The good
 
-### Things that work better online vs. what's better in person
+- Due to being online, we had a wider reach, and a lot of people could join ZuriHac for the first time without having to buy a plane ticket.
+- Some of the projects were amazing. I only had time for being a passive observer on a couple, but the level of know-how, diversity of domains, and quality of presentations was really impressive[^mission-control].
 
+- People seemed to have a good time and we received positive feedback.
+- Q&A sessions after talks are much better! I didn't expect this, but because the questions can be a little async, and the speaker can stick around, the resulting discussion has a lot more depth, and isn't time constrained. Also, questions can be answered by other participants _during_ the talk!
+- The community was extremely friendly, actively helpful towards newcomers, and just generally very chill. We had zero spam or moderation issues.
+- Virtual events are much cheaper.
+- In a lot of aspects they also create _less_ work for the organisers. Not just that, but also somehow less stress and risk. The things that can go wrong IRL might result in people having no food (or worse, no coffee). Online, the worst that can happen is that the content is boring.
+- We actually managed to pull it off! We didn't have to cancel ZuriHac. Yay!
 
+### The improvable
 
-### Things we're doing differently in 2021
+**Gathering online** isn't as great as seeing your friends and community in real-life. I'm sure we can make it a little bit better, but honestly it will never be the real thing.
 
-We're mostly sticking to the approach we took in 2020. There are a couple of important things we've ironed out though.
+**Engagement** is extremely hard to figure out. My personal feeling is that activity follows a 80-20 rule.
 
-- sponsors -> partners
-- streamyard has 1080p now. yay!
-- no tshirts, screw you paypal
-- no complicated instructions - simplify
+- A small amount of people are participating the most, chatting everywhere, joining projects, impromptu talks, etc. These people are great, because a lot of them also helped out others everywhere, all the time.
 
-## Random notes for this year and next time
+- A large majority seemed to enjoy themselves in smaller groups, maybe joining a project or chatting to the people they already knew.
+- Finally, a good amount of people were just lurking, or maybe lost interest after a short while.
+
+I hope that shy people also managed to have some fun and find their little groups or projects. But without spying on everybody, it's kinda hard to know.
+
+**Classes**
+
+It was super hard to figure out how to hold a classroom online! The burden of this fell onto the teachers of the beginner's track, Julie Moroniku and Chris Martin of [TypeClasses](https://typeclasses.com/). They did an amazing job and even prepared a series of videos in advance.
+
+But there was definitely a feeling of herding cats, and I think as organisers we failed to give a clearer structure to the participants. Overall, I think a bunch of people got good value out of it, but I wish it had been more. The physical class in 2018 was also held by Julie and it was insanely full and popular, so we have a high bar to aspire to.
+
+**T-shirts:** We had a whole PayPal Odyssey that I was luckily less involved in. Of course they blocked our account (what else does PayPal do) after we had sold a couple thousand bucks worth of t-shirts. Solving this took more than half a year, but it's really not worth discussing in detail.
+
+## Final notes and learnings
 
 **Instructions for participants:**
 
@@ -333,7 +374,7 @@ I've been to online events that made it super confusing to know how to even part
 
 **Misc:**
 
-Have a **registration system**, even when the tickets are free. I don't feel super strongly about this one, but it's useful to keep track of interest, by seeing how many people intend to attend. It's also great to be able to send people announcements emails.
+Have a **registration system**, even when the tickets are free. It's useful to keep track of interest, by seeing how many people intend to attend. It's also great to be able to send people announcements emails.
 
 **Definitely send a survey** afterwards so that you can gauge how people felt, what was important to them, and how they rate individual aspects. Without this it's really hard to know what worked and what didn't. We failed to do that in 2020 and I hope we can make up for it this year.
 
@@ -347,7 +388,7 @@ Have a **runbook**. We created a Google doc with super dumb instructions of what
 
 If you've ever organised anything, you're mumbling "well duh" to yourself right now. But we're a bunch of nerds, so having a structured approach to an unforseen event like the pandemic was very helpful. Here's a screenshot of our "Plan B" document:
 
-![planb](/img/zurihac2020/planb.png)
+> ![planb](/img/zurihac2020/planb.png)
 
 Here an excerpt is how we took a structured approach to the question "How the hell do we even hold this event online??":
 
@@ -362,6 +403,10 @@ Here an excerpt is how we took a structured approach to the question "How the he
 
 Very scientific. But it gave us a lot of clarity, after the initial confusion. It might not be clear from the context, but just canceling the hackathon was the default alternative outcome.
 
+## The End
+
+Well, not quite! You can join us at [this year's ZuriHac](https://zurihac.com) if you've ever had any inclination to learn (or continue practicing) Haskell. We're nice ~~and we have cookies~~!
+
 ---
 
 [^organisers]: The other organisers are [Jasper Van der Jeugt](https://jaspervdj.be/), Prof. ‪Farhad Mehta, and Bieke Hoefkens. In addition to that we rely on a dozen volunteers for the physical event.
@@ -374,6 +419,10 @@ Very scientific. But it gave us a lot of clarity, after the initial confusion. I
 
 [^streamyard]: You can have a look at the [2020 videos](https://www.youtube.com/watch?v=kCpQ4aTzlis&list=PLiU7KJ5_df6aZbNfh_TUJt-6w9N3rYkTX) to see what I mean.
 
-[^bbcon]: Shout-out to our heroes at [!!Con](https://bangbangcon.com/), where I first saw it in use.
+[^bbcon]: Shout-out to our role-models at [!!Con](https://bangbangcon.com/), where I first saw it in use.
 
 [^easy]: You might disagree with something here, but I'm personally keen on getting newcomers into the language, and it's not always productive to require them to jump through hoops to join your community. Maybe get them into IRC and Emacs _after_ you've hooked them on the joy of your language.
+
+
+
+[^mission-control]: I think my favourite was an intro to [mission control software](https://youtu.be/26ViUXHtah0)!
