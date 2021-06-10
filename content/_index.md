@@ -20,7 +20,7 @@ I like to work on physical and digital projects. Here are some that have reached
 
 [**Laser-cut jigsaw puzzles**](/posts/puzzle-generator) - I wrote a puzzle generator so that I could generate SVGs to cut out with an industrial Laser.
 
-[**Züri Dësch**](/zurich-table) - A minimalist couch table that has a second use as a bench. Go ahead, build a replica.
+[**Züri Dësch**](/zurich-table) - A minimalist couch table that has a second use as a bench.
 
 [**Gulliver**](https://gllvr.com) - a trip planner with a focus on simplicity and a slick user interface.
 

@@ -23,6 +23,8 @@ Here are two specimens:
 
 {{ image(url="/img/zurich-table/two-tables.jpg", text="version 1 and version 3, in ash and oak respectively.") }}
 
+July 2021 update: I've built the 4th table by now, and I can confirm that it's possible to do with only handtools and a circular saw.
+
 
 ## the design
 
