@@ -304,9 +304,9 @@ The easy thing to do was just to offer to reimburse all our sponsors, and get ba
 This is where I want to mention a change for 2021 that I'm a bit prouf of. See, here's the thing:
 
 - We still don't need money.
-- But having companies as part of your event is **really great**. It shows people that there are Haskell jobs out there, it lets participants ask questions of companies, it lets companies recruit extremely smart people, and it helps us be an active and interconnected community.
+- But having companies as part of your event is **really great**. It exposes people to Haskell jobs, it lets participants ask questions of companies, it lets companies recruit extremely smart people, and it helps us be an active and interconnected community.
 
-So this year, we decided to have companies on board as partners instead of sponsors. Basically it means that they participate in the event, each in their own way. Some companies will hold Q&As and present a little bit about their industry, others will show off some cool technical thing, and others are gracious enough to hold tutorials and workshops.
+So this year, we decided to have companies on board as partners instead of sponsors. Basically it means that instead of giving us money, they participate in the event, each in their own way. Some companies will hold Q&As and present a little bit about their industry, others will show off some cool technical thing, and others are gracious enough to hold tutorials and workshops.
 
 And because there is no money involved, I feel a little bit less nervous about standardising company participation to give everybody exactly the same exposure and attention.
 
@@ -358,15 +358,6 @@ It was super hard to figure out how to hold a classroom online! The burden of th
 But there was definitely a feeling of herding cats, and I think as organisers we failed to give a clearer structure to the participants. Overall, I think a bunch of people got good value out of it, but I wish it had been more. The physical class in 2018 was also held by Julie and it was insanely full and popular, so we have a high bar to aspire to.
 
 **T-shirts:** We had a whole PayPal Odyssey that I was luckily less involved in. Of course they blocked our account (what else does PayPal do) after we had sold a couple thousand bucks worth of t-shirts. Solving this took more than half a year, but it's really not worth discussing in detail.
-
-### Things we're doing differently in 2021
-
-We're sticking to the general approach we took in 2020. There are a couple of important things we've ironed out though.
-
-- sponsors -> partners
-- streamyard has 1080p now. yay!
-- no tshirts, screw you paypal
-- no complicated instructions - simplify
 
 ## Final notes and learnings
 
