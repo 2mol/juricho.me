@@ -32,13 +32,12 @@
             rel="noreferrer">twitter</a>
         </div>
         <div class="pt-6 pb-4 md:pb-12 px-4 md:px-12">
-          {% block additional_content %}
-          {% endblock additional_content %}
           <div class="markdown">
             {% block markdown_content %}
             {{ section.content | safe }}
             {% endblock markdown_content %}
           </div>
+          {% block post_list %}
           <table class="mb-6">
             {% set posts_section = get_section(path="posts/_index.md") %}
             {% for page in posts_section.pages | sort(attribute="date") | reverse %}
@@ -52,6 +51,7 @@
             {% endif %}
             {% endfor %}
           </table>
+          {% endblock post_list %}
         </div>
       </div>
     </div>
