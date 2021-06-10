@@ -1,6 +1,6 @@
 +++
 title = "How to move a 400-person hackathon online"
-date = 2021-06-05
+date = 2021-06-11
 template = "post.html"
 
 [extra]
@@ -422,7 +422,5 @@ Well, not quite! You can join us at [this year's ZuriHac](https://zurihac.com) i
 [^bbcon]: Shout-out to our role-models at [!!Con](https://bangbangcon.com/), where I first saw it in use.
 
 [^easy]: You might disagree with something here, but I'm personally keen on getting newcomers into the language, and it's not always productive to require them to jump through hoops to join your community. Maybe get them into IRC and Emacs _after_ you've hooked them on the joy of your language.
-
-
 
 [^mission-control]: I think my favourite was an intro to [mission control software](https://youtu.be/26ViUXHtah0)!
