@@ -2,7 +2,6 @@
 title = "How to move a 400-person hackathon online"
 date = 2021-06-05
 template = "post.html"
-draft = true
 
 [extra]
 headerclass = "text-white"
@@ -347,7 +346,7 @@ It was great! But that's only the subjective experience of the organisers, so le
 - A small amount of people are participating the most, chatting everywhere, joining projects, impromptu talks, etc. These people are great, because a lot of them also helped out others everywhere, all the time.
 
 - A large majority seemed to enjoy themselves in smaller groups, maybe joining a project or chatting to the people they already knew.
-- Finally, a good amount of people were just lurking, or maybe lost interest after a short while. 
+- Finally, a good amount of people were just lurking, or maybe lost interest after a short while.
 
 I hope that shy people also managed to have some fun and find their little groups or projects. But without spying on everybody, it's kinda hard to know.
 
