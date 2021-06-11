@@ -133,7 +133,9 @@ One minor sad thing was that it supported only up to 720p resolution, but that's
 
 ### repl.it
 
-I already mentioned Zoom, but we also tried to use Visual Studio Code with the LiveShare extension for mob programming. This failed hilariously, because with 30 people the syncing between the editors completely glitched out. I'm sure the extension has matured since, but you know what _did_ work in a pinch? [repl.it](https://repl.it).
+Due to the recent drama we will probably be a bit hesitant to recommend this as the default for newcomers. But last year it kind of saved our butts for a mob programming session.
+
+I already mentioned Zoom, but we also tried to use Visual Studio Code with the LiveShare extension for mob programming. This failed hilariously, because with 30 people the syncing between the editors completely glitched out. I'm sure the extension has matured since, but [repl.it](https://repl.it) worked in a pinch!
 
 We also recommended it as the default environment for the beginner's track, and the lessons were structured such that they didn't require any external libraries that are not pre-installed on repl.it.
 
