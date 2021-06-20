@@ -7,7 +7,7 @@ Hi, I'm Juri 👋
 
 I'm a developer, currently employed as a full-stack engineer at [Valora Digital](https://valora.digital/). I work on autonomous stores and on making critical systems beautiful and reliable.
 
-I enjoy typed functional programming. I write F# at my current day-job, and I co-organise [ZuriHac](http://zurihac.com/), a European Haskell Hackathon. I tend to reach for Elm for doing frontend work.
+I enjoy typed functional programming. I write F# at my day-job, and I co-organise [ZuriHac](http://zurihac.com/), a European Haskell Hackathon. I tend to reach for Elm for doing frontend work.
 
 When I'm not earning money, I also like to make furniture, go climbing, cooking, and all that other cliché stuff.
 
