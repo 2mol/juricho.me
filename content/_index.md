@@ -26,6 +26,6 @@ I like to work on physical and digital projects. Here are some that have reached
 
 [**Paperboy**](https://github.com/2mol/pboy) - a tiny commandline utility to help with your pdf hoarding.
 
-[**Divorce rate calculator**](https://2mol.gitlab.io/urechner) - This encodes Swiss law about separating estates and calculating child support. Built as a prototype, learning the hard way that [your biggest competitor is a spreadsheet](https://grid.is/blog/your-biggest-competitor-is-a-spreadsheet). The key idea was to expose complex rules via a simple UI, and to provide legal documentation to each of the inputs.
+[**Divorce rate calculator**](https://2mol.gitlab.io/urechner) - Prototype tool for calculating divorce outcomes under Swiss law. Built to expose complex rules via a simple UI, and to provide legal documentation to each of the inputs. I re-learned the lesson that [your biggest competitor is a spreadsheet](https://grid.is/blog/your-biggest-competitor-is-a-spreadsheet).
 
 ## Posts
