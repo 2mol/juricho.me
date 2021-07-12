@@ -1,8 +1,14 @@
 {% extends "index.html" %}
 
+{% block extrahead %}
+{% endblock extrahead %}
+
 {% block title %}
 {{ page.title }} - {{ config.extra.base_url_simple }}
 {% endblock title %}
+
+{% block whimsical %}
+{% endblock whimsical %}
 
 {% block markdown_content %}
 {{ page.content | safe }}
