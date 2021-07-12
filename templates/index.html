@@ -8,6 +8,9 @@
   <link href=data:, rel=icon>
   <link rel="stylesheet" href="/tailwind.css">
   <link rel="stylesheet" href="/main.css">
+  {% block extrahead %}
+  <script src="/solar.js"></script>
+  {% endblock extrahead %}
   <title>
     {% block title %}{{ config.title }} - {{ config.extra.base_url_simple }}{% endblock title %}
   </title>
@@ -32,6 +35,7 @@
             rel="noreferrer">twitter</a>
         </div>
         <div class="pt-6 pb-4 md:pb-12 px-4 md:px-12">
+
           <div class="markdown">
             {% block markdown_content %}
             {{ section.content | safe }}
@@ -52,10 +56,18 @@
             {% endfor %}
           </table>
           {% endblock post_list %}
+
         </div>
+
       </div>
     </div>
   </div>
+  {% block extrascript %}
+  <script>
+  var app = Elm.EarthMoon.init({node: document.getElementById('elm')});
+  </script>
+  {% endblock extrascript %}
+
   <script data-goatcounter="https://juri.goatcounter.com/count" async src="//gc.zgo.at/count.js">
   </script>
   <noscript>
