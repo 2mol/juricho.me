@@ -10,5 +10,5 @@ highlight_theme = "demain"
 external_links_target_blank = true
 
 [extra]
-github_edit_url = "https://github.com/2mol/juricho.me/edit/master/content/"
+github_edit_url = "https://github.com/2mol/juricho.me/edit/main/content/"
 base_url_simple = "juricho.me"
