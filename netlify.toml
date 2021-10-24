@@ -6,7 +6,7 @@
 
 [build.environment]
     ZOLA_VERSION = "0.14.1"
-    NODE_VERSION = "15"
+    NODE_VERSION = "17"
 
 [context.deploy-preview]
     # The magic for deploying previews of branches
