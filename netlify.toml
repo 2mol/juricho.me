@@ -5,7 +5,7 @@
     """
 
 [build.environment]
-    ZOLA_VERSION = "0.13.0"
+    ZOLA_VERSION = "0.14.1"
     NODE_VERSION = "15"
 
 [context.deploy-preview]
