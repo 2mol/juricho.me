@@ -11,7 +11,7 @@ I enjoy typed functional programming. I write F# at my day-job, and I co-organis
 
 Apart from that, I love working on infrastructure. Terraform, any of the big cloud providers, architecture work, you name it.
 
-A long time ago I wrote a Master's thesis on [Hyperelliptic Curves](/files/masterarbeit-hyperelliptic_curves-juri.pdf). It has illustrations! I proved new things (although without any obvious practical application). I'm still proud of it, even though I don't fully understand the proofs anymore.
+A long time ago I wrote a Master's thesis on [Hyperelliptic Curves](/files/masterarbeit-hyperelliptic_curves-juri.pdf). It has illustrations! I managed to prove new things (although without an immediately obvious practical application). I'm still proud of it, even though I probably don't understand my own proofs anymore.
 
 In my personal time I like to do woodworking, go climbing, and start too many projects.
 
