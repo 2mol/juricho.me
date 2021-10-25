@@ -9,9 +9,9 @@ I'm a developer, currently employed as a full-stack engineer at [Valora Digital]
 
 I enjoy typed functional programming. I write F# at my day-job, and I co-organise [ZuriHac](http://zurihac.com/), a European Haskell Hackathon. I tend to reach for Elm for doing frontend work.
 
-Apart from that, I love working on infrastructure. Terraform, any of the big cloud providers, architecture work, you name it.
+Apart from coding, I love working on infrastructure. I've done almost anything on that spectrum: The 3 big cloud providers, CI/CD, containerised services, infrastructure-as-code, DevOps, architecting new systems, big data platforms, and even security.
 
-A long time ago I wrote a master's thesis on [hyperelliptic curves](/files/masterarbeit-hyperelliptic_curves-juri.pdf). It has illustrations! I managed to prove new things (although without an immediately obvious practical application). I'm still proud of it, even though I probably don't understand my own proofs anymore.
+A long time ago I studied pure math and ended up writing a master's thesis on [hyperelliptic curves](/files/masterarbeit-hyperelliptic_curves-juri.pdf) under a [delightfully excellent supervisor](https://en.wikipedia.org/wiki/David_Masser). I managed to prove something new, and it even has illustrations! I'm still proud of it, although I can't claim to still understand my own proofs.
 
 In my personal time I like to do woodworking, go climbing, and start too many projects.
 
