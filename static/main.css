@@ -19,7 +19,7 @@ a:link {
     text-decoration: underline;
   }
 a:visited {
-  color:#a625a4;
+  color:#9d57c5;
   text-decoration: underline;
 }
 a:hover {
@@ -27,6 +27,15 @@ a:hover {
 }
 .back-arrow a {
   text-decoration: none;
+}
+
+.footer > a:link {
+  color:white;
+  text-decoration: underline;
+}
+.footer > a:visited {
+color:white;
+text-decoration: underline;
 }
 
 /* main website header */

@@ -24,16 +24,16 @@
       </div>
       <div class="bg-white md:shadow-md mb-6 pt-4">
         <div class="text-right pr-6">
-          <!-- <a class="underline hover:no-underline" href="/about">about</a>
+          <!-- <a href="/about">about</a>
           · -->
           <a href="mailto:juri@juricho.me">email</a>
           ·
-          <a href="https://juricho.me/atom.xml">rss</a>
+          <a href="/atom.xml">rss</a>
           ·
-          <a class="underline hover:no-underline" href="https://github.com/2mol" target="_blank"
+          <a href="https://github.com/2mol" target="_blank"
             rel="noreferrer">github</a>
           ·
-          <a class="underline hover:no-underline" href="https://twitter.com/jurichome" target="_blank"
+          <a href="https://twitter.com/jurichome" target="_blank"
             rel="noreferrer">twitter</a>
         </div>
         <div class="pt-6 pb-4 md:pb-12 px-4 md:px-12">
@@ -60,10 +60,26 @@
           {% endblock post_list %}
           {% block whimsical %}<div id="elm" class="text-xs"></div>{% endblock whimsical %}
         </div>
-
       </div>
     </div>
   </div>
+  <div class="bg-gray-800 text-white text-sm p-4 flex flex-col items-center">
+    <div class="footer">
+      <a href="/">home</a>
+      ·
+      <a href="/about">about</a>
+      ·
+      <a href="/atom.xml">rss</a>
+      ·
+      <a href="mailto:juri@juricho.me">email</a>
+      ·
+      <a href="https://twitter.com/jurichome" target="_blank"
+        rel="noreferrer">twitter</a>
+      ·
+      <a href="/fiction">fiction</a>
+    </div>
+  </div>
+
   {% block extrascript %}
   <script>
   var app = Elm.EarthMoon.init({node: document.getElementById('elm')});
