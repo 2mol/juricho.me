@@ -9,7 +9,11 @@ I'm a developer, currently employed as a full-stack engineer at [Valora Digital]
 
 I enjoy typed functional programming. I write F# at my day-job, and I co-organise [ZuriHac](http://zurihac.com/), a European Haskell Hackathon. I tend to reach for Elm for doing frontend work.
 
-When I'm not earning money, I also like to make furniture, go climbing, cooking, and all that other cliché stuff.
+Apart from that, I love working on infrastructure. Terraform, any of the big cloud providers, architecture work, you name it.
+
+A long time ago I wrote a Master's thesis on [Hyperelliptic Curves](/files/masterarbeit-hyperelliptic_curves-juri.pdf). It has illustrations! I proved new things (although without any obvious practical application). I'm still proud of it, even though I don't fully understand the proofs anymore.
+
+In my personal time I like to do woodworking, go climbing, and start too many projects.
 
 You can contact me via [email](mailto:juri@juricho.me), or by messaging me on [twitter](https://twitter.com/jurichome).
 
