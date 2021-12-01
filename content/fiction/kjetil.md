@@ -3,7 +3,7 @@ title = "Kjetil"
 template = "fiction.html"
 +++
 
-Kjetil looked down onto the fucked Hanacore weapons platform with a mix of resigned annoyance and the smug satisfaction of having been proven right. Again. The consultants had shipped the massive floating barge three days ago, and nothing about it had inspired confidence. After all, he had no idea how it worked, so anything he couldn't adjust in the setup wizard, he couldn't fix.
+Kjetil looked down onto the fucked Hanacore weapons platform with a mix of resigned annoyance and the smug satisfaction of having been proven right, again. The consultants had shipped the massive floating barge three days ago, and nothing about it had inspired confidence. After all, he had no idea how it worked, so anything he couldn't adjust in the setup wizard, he couldn't fix.
 
 He looked at the last entry of the development descriptions titled "bugfixes and improvements".
 
