@@ -5,4 +5,4 @@ template = "fiction.html"
 
 I sometimes write silly short stories. These are them.
 
-[Kjetil](kjetil)
+Jul 2021 · [Kjetil](kjetil)
