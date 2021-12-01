@@ -38,27 +38,6 @@ color:white;
 text-decoration: underline;
 }
 
-/* main website header */
-
-.slanted-header {
-  transform: skew(0deg, -2deg) translate(-1rem, 0);
-  text-decoration: none;
-}
-
-.slanted-header > a {
-  transform: skew(0deg, -2deg) translate(-1rem, 0);
-  color:rgb(17, 24, 39);
-  text-decoration: none;
-}
-
-/* code blocks, but mitigating colouring of multiline code */
-
-code {
-  background-color: #fff398;
-  color: #1f1f1f;
-  padding: 0.1rem 0.2rem;
-}
-
 pre {
   font-size: 90%;
   /* background-color: #fafafa; */
@@ -73,35 +52,9 @@ pre > code {
   padding: 0;
 }
 
-/* zola specific footnote style */
-
-.footnote-definition {
-  display: flex;
-  font-size: 90%;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-}
-
-.footnote-definition p {
-  margin: 0rem;
-}
-
-.footnote-definition-label {
-  background: black;
-  color: white;
-  margin-right: 0.75rem;
-  border-radius: 50%;
-  height: 1.5em;
-  width: 1.5em;
-  min-height: 1.5em;
-  min-width: 1.5em;
-  text-align: center;
-}
-
-.footnote-definition sup {
-  top: 0;
-  line-height: 1.5em;
-  font-size: 0.85em;
+code {
+  font-size: 85%;
+  color: #ccc;
 }
 
 /* markdown */
@@ -137,10 +90,10 @@ pre > code {
 .markdown h3 {
   font-size: 120%;
 }
-.markdown ul {
+/* .markdown ul {
   list-style-type: disc;
   margin-left: 1rem;
-}
+} */
 .markdown ol {
   list-style-type: decimal;
   margin-left: 1rem;
