@@ -5,7 +5,7 @@
     """
 
 [build.environment]
-    ZOLA_VERSION = "0.14.0"
+    ZOLA_VERSION = "0.14.1"
     NODE_VERSION = "17"
 
 [context.deploy-preview]
@@ -16,4 +16,3 @@
     command = """
     make build-draft
     """
-

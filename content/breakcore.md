@@ -14,7 +14,6 @@ If we're friends, then sooner or later you have the pleasure of finding out abou
 
 I'm unsure if it should be considered the jazz, the dadaism, or the tourette syndrome of electronic music. As far as genres go, it's immature, hyperactive, often weird, ugly, grating, much too fast, and absolutely one of my favourite things ever.
 
-
 ## showcase
 
 Now that you have been appropriately warned, here is a top selection of tracks that give me pure joy. Consider this my version of a mixtape:

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href=data:, rel=icon>
+  <link rel="stylesheet" href="/tailwind.css">
+  <link rel="stylesheet" href="/main.css">
+  <title>
+    {% block title %}{{ page.title }} - {{ config.extra.base_url_simple }}{% endblock title %}
+  </title>
+</head>
+
+<body class="text-gray-900 text-lg text-justify md:bg-yellow-200">
+  <div class="flex flex-col items-center min-h-screen">
+    <div class="max-w-2xl w-full">
+      <div class="bg-white px-4 md:px-12 py-4 md:py-8 my-4" style="box-shadow: rgba(173, 147, 0, 0.35) 0px 5px 15px;">
+        <div class="font-bold text-4xl text-center pb-4">
+          {{ page.title }}
+        </div>
+        <div class="markdown">
+          {% block content %}
+          {{ page.content | safe }}
+          {% endblock content %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <script data-goatcounter="https://juri.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+  </script>
+  <noscript>
+    <img src="https://juri.goatcounter.com/count?p=/test-img"></img>
+  </noscript>
+</body>
+
+</html>
