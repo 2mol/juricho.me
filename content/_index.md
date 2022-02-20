@@ -5,22 +5,22 @@ title = "Juri Chomé"
 
 Hi, I'm Juri 👋
 
-I'm a developer, currently employed as a full-stack engineer at [Valora Digital](https://valora.digital/). I work on autonomous stores and on making critical systems beautiful and reliable.
+I'm a software engineer, currently working on mobile payments in Africa at [Wave](https://www.wave.com/).
 
-I enjoy typed functional programming. I write F# at my day-job, and I co-organise [ZuriHac](http://zurihac.com/), a European Haskell Hackathon. I tend to reach for Elm for doing frontend work.
+<!-- I enjoy typed functional programming. I write F# at my day-job, and I co-organise [ZuriHac](http://zurihac.com/), a European Haskell Hackathon. I tend to reach for Elm for doing frontend work.
 
 Apart from coding, I love working on infrastructure. I've done almost anything on that spectrum: The 3 big cloud providers, CI/CD, containerised services, infrastructure-as-code, DevOps, architecting new systems, big data platforms, and even security.
 
 A long time ago I studied pure math and ended up writing a master's thesis on [hyperelliptic curves](/files/masterarbeit-hyperelliptic_curves-juri.pdf) under a [delightfully excellent supervisor](https://en.wikipedia.org/wiki/David_Masser). I managed to prove something new, and it even has illustrations! I'm still proud of it, although I can't claim to still understand my own proofs.
 
-In my personal time I like to do woodworking, go climbing, and start too many projects.
+In my personal time I like to do woodworking, go climbing, and start too many projects. -->
 
 You can contact me via [email](mailto:juri@juricho.me), or by messaging me on [twitter](https://twitter.com/jurichome).
 
 
 ## Projects
 
-I like to work on physical and digital projects. Here are some that have reached at least a minimum notion of finished or polished.
+I like to work on physical and digital things. Here are some that have reached at least a minimum notion of finished or polished.
 
 [**Laser-cut jigsaw puzzles**](/posts/puzzle-generator) - I wrote a puzzle generator so that I could generate SVGs to cut out with an industrial Laser.
 
