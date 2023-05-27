@@ -1,6 +1,6 @@
 {
   "name": "juricho.me",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "watch:css": "postcss styles/tailwind.css -o static/tailwind.css -w",
     "build:css": "postcss styles/tailwind.css -o static/tailwind.css"
