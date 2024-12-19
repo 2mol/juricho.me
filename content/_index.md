@@ -5,7 +5,7 @@ title = "Juri Chomé"
 
 👋 Hi, I'm Juri. I'm a software developer currently working on financial infrastructure in (parts of) Africa at [Wave Mobile Money](https://www.wave.com/).
 
-In my personal time I'm pretty into woodworking and my physical activity alternates between climbing, weightlifting, or running.
+In my personal time I'm pretty into woodworking and climbing.
 
 
 ## Projects
