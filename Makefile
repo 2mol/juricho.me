@@ -1,13 +1,9 @@
-.PHONY: help css build build-draft
-.DEFAULT_GOAL := help
+.PHONY: help css build
+.DEFAULT_GOAL := build
 
 ## build the page
 build: css
 	zola build
-
-## build the page
-build-draft: css
-	zola build --drafts --base-url ${DEPLOY_PRIME_URL}
 
 ## build tailwind css and minify
 css:

@@ -15,7 +15,7 @@ A long time ago I studied pure math and ended up writing a master's thesis on [h
 
 In my personal time I like to do woodworking, go climbing, and start too many projects. -->
 
-You can contact me via [email](mailto:juri@juricho.me), or by messaging me on [twitter](https://twitter.com/jurichome).
+You can contact me via [email](mailto:juri@juricho.me).
 
 
 ## Projects
