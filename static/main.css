@@ -1,9 +1,13 @@
 /* Custom styles that are not possible to do in tailwind */
 
-@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700);
+html {
+  background: linear-gradient(180deg, rgb(236, 237, 239) 0%, rgb(130, 135, 145) 100%);
+  overscroll-behavior-y: none;
+  min-height: 100%;
+}
 
 body {
-  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  font-family: sans-serif;
   font-size: .95rem;
 }
 
@@ -36,6 +40,11 @@ a:hover {
 .footer > a:visited {
 color:white;
 text-decoration: underline;
+}
+
+.gradient-bg {
+  background-color: rgb(236, 237, 239);
+  background: linear-gradient(180deg, rgb(236, 237, 239) 0%, rgb(156 163 175) 100%);
 }
 
 /* main website header */

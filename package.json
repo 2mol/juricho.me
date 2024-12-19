@@ -2,8 +2,8 @@
   "name": "juricho.me",
   "version": "1.0.1",
   "scripts": {
-    "watch:css": "postcss styles/tailwind.css -o static/tailwind.css -w",
-    "build:css": "postcss styles/tailwind.css -o static/tailwind.css"
+    "build": "NODE_ENV=production npx postcss -o static/tailwind.css styles/tailwind.css",
+    "watch": "npx tailwindcss -i styles/styles.css -o static/styles/styles.css; zola serve"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
