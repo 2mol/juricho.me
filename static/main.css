@@ -84,33 +84,43 @@ pre > code {
 
 /* zola specific footnote style */
 
-.footnote-definition {
-  display: flex;
+.footnotes {
   font-size: 90%;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+.footnotes-list {
+  list-style: none;
+  counter-reset: footnote-counter;
+  padding-left: 0;
+}
+
+.footnotes-list li {
+  display: flex;
   margin-bottom: 1rem;
-  margin-left: 1rem;
+  counter-increment: footnote-counter;
 }
 
-.footnote-definition p {
-  margin: 0rem;
-}
-
-.footnote-definition-label {
+.footnotes-list li::before {
+  content: counter(footnote-counter);
   background: black;
   color: white;
-  margin-right: 0.75rem;
   border-radius: 50%;
   height: 1.5em;
   width: 1.5em;
   min-height: 1.5em;
   min-width: 1.5em;
   text-align: center;
+  margin-right: 0.75rem;
+  font-size: 0.85em;
+  line-height: 1.5em;
+  flex-shrink: 0;
 }
 
-.footnote-definition sup {
-  top: 0;
-  line-height: 1.5em;
-  font-size: 0.85em;
+.footnotes-list li p {
+  margin: 0;
 }
 
 /* markdown */
@@ -128,13 +138,6 @@ pre > code {
 .markdown p {
   margin-top: 1em;
   margin-bottom: 1em;
-}
-.footnote-definition > p {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-}
-.footnote-definition-label {
-  margin-top: 0.2rem;
 }
 .markdown h1 {
   font-size: 200%;

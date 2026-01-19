@@ -73,13 +73,6 @@ code {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-.footnote-definition > p {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-}
-.footnote-definition-label {
-  margin-top: 0.2rem;
-}
 .markdown h1 {
   font-size: 200%;
 }
@@ -90,10 +83,6 @@ code {
 .markdown h3 {
   font-size: 120%;
 }
-/* .markdown ul {
-  list-style-type: disc;
-  margin-left: 1rem;
-} */
 .markdown ol {
   list-style-type: decimal;
   margin-left: 1rem;
