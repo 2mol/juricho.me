@@ -22,6 +22,6 @@ I like to work on physical and digital things. Here are some that have reached a
 
 [**Divorce rate calculator**](https://2mol.gitlab.io/urechner) - Prototype tool for calculating divorce outcomes under Swiss law. Built to expose complex rules via a simple UI, and to provide legal documentation to each of the inputs. I re-learned the lesson that [your biggest competitor is a spreadsheet](https://grid.is/blog/your-biggest-competitor-is-a-spreadsheet).
 
-A long time ago I studied math and wrote a Master's thesis in number theory on hyperelliptic curves ([pdf here](/files/masterarbeit-hyperelliptic_curves-juri.pdf)) under the great [David Masser](https://en.wikipedia.org/wiki/David_Masser). Check it out, it has imagesm and I even managed to prove something new! I'm still proud of it, although I can't claim to still understand my own proofs.
+A long time ago I studied math and wrote a Master's thesis in number theory on hyperelliptic curves ([pdf here](/files/masterarbeit-hyperelliptic_curves-juri.pdf)) under the great [David Masser](https://en.wikipedia.org/wiki/David_Masser). Check it out, it has images, and I even managed to prove something new! I'm still proud of it, although I can't claim to still understand my own proofs.
 
 ## Posts
